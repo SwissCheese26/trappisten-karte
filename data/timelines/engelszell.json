@@ -2,6 +2,7 @@
   "brewery": "Engelszell",
   "sources": [
     "https://en.wikipedia.org/wiki/Engelszell_Abbey",
+    "https://de.wikipedia.org/wiki/Stift_Engelszell",
     "https://en.wikipedia.org/wiki/Oelenberg_Abbey",
     "https://structurae.net/de/bauwerke/stift-engelszell"
   ],
@@ -19,6 +20,13 @@
       "coordinates": [13.7342, 48.4989],
       "zoom": 8,
       "text": "Kaiser Joseph II. löste das Kloster 1786 im Zuge seiner Klosterreformen auf. Die Gebäude dienten danach unter anderem als Fabrik und Wohnhaus."
+    },
+    {
+      "year": "1798",
+      "title": "Rastplatz auf der Flucht nach Russland",
+      "coordinates": [13.7342, 48.4989],
+      "zoom": 8,
+      "text": "Die leerstehenden Gebäude dienten 1798 ungeplant noch einmal klösterlichem Leben: 254 Trappistenmönche, -nonnen und -kinder rasteten hier auf ihrer „monastischen Odyssee” – vertrieben aus dem Schweizer Val-Sainte, auf der Flucht durch Deutschland, Österreich, Böhmen und Polen bis nach Russland, wohin sie Zar Paul I. eingeladen hatte. 1800 wurden sie auch von dort wieder ausgewiesen."
     },
     {
       "year": "1925",
