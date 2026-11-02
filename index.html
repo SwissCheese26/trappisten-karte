@@ -37,6 +37,23 @@
 
   <div id="book-overlay" class="book-overlay" hidden></div>
 
+  <div id="timeline-mode" class="timeline-mode" hidden>
+    <button type="button" class="timeline-mode__close" aria-label="Zeitstrahl verlassen">&times;</button>
+    <div class="timeline-axis">
+      <div class="timeline-axis__line"></div>
+      <ol class="timeline-axis__points"></ol>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-panel__year"></div>
+      <h2 class="timeline-panel__title"></h2>
+      <p class="timeline-panel__text"></p>
+      <div class="timeline-panel__controls">
+        <button type="button" class="timeline-panel__prev">&larr; Zurück</button>
+        <button type="button" class="timeline-panel__next">Weiter &rarr;</button>
+      </div>
+    </div>
+  </div>
+
   <script type="module" src="js/book.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>

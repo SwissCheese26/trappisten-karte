@@ -350,6 +350,10 @@ body {
   border: 2px solid var(--color-parchment);
   box-shadow: 0 0 0 1px var(--color-stone-900), 0 2px 6px rgba(0, 0, 0, 0.35);
   cursor: pointer;
+  /* Bei exakt überlappenden Markern (dichte Cluster, siehe Issue #3) soll
+     die aktive Brauerei immer vor der geschlossenen gewinnen, nicht die
+     zufällig zuletzt dem DOM hinzugefügte. */
+  z-index: 2;
 }
 
 /* Geschlossene/ehemalige Trappisten-Brauereien: dunkel statt Amber, damit auf
@@ -358,6 +362,7 @@ body {
   background: var(--color-stone-900);
   border: 2px solid #8a8577;
   box-shadow: 0 0 0 1px var(--color-stone-900), 0 2px 6px rgba(0, 0, 0, 0.35);
+  z-index: 1;
 }
 
 .popup-meta--closed {
@@ -490,6 +495,201 @@ body {
   color: var(--color-ink);
 }
 
+.popup-play {
+  display: block;
+  margin-top: 0.6rem;
+  width: 100%;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  background: var(--color-amber);
+  color: var(--color-parchment);
+  border: none;
+  border-radius: 2px;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+}
+
+/* Zeitstrahl-Modus: Karte bleibt sichtbar/animiert, Zahlenstrahl oben,
+   Erzähl-Panel unten — kein Vollbild-Overlay wie das Buch. */
+.timeline-mode {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+}
+
+.timeline-mode__close {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 95;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-stone-900);
+  color: var(--color-parchment);
+  border: 2px solid var(--color-parchment);
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  pointer-events: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.timeline-mode.is-open .timeline-mode__close {
+  opacity: 1;
+}
+
+.timeline-axis {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(90vw, 54rem);
+  pointer-events: auto;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.timeline-mode.is-open .timeline-axis {
+  opacity: 1;
+}
+
+.timeline-axis__line {
+  position: absolute;
+  top: 0.45rem;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-stone-700);
+  opacity: 0.4;
+}
+
+.timeline-axis__points {
+  position: relative;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-axis__point {
+  position: relative;
+  padding-top: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+}
+
+.timeline-axis__point::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-parchment);
+  border: 2px solid var(--color-stone-700);
+}
+
+.timeline-axis__point.is-visited::before {
+  background: var(--color-amber);
+  border-color: var(--color-amber);
+}
+
+.timeline-axis__point.is-active::before {
+  width: 14px;
+  height: 14px;
+  background: var(--color-stone-900);
+  border-color: var(--color-amber);
+}
+
+.timeline-axis__point span {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--color-parchment);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  white-space: nowrap;
+}
+
+.timeline-panel {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translate(-50%, 1rem);
+  width: min(92vw, 34rem);
+  background: var(--color-parchment);
+  border: 1px solid var(--color-stone-700);
+  border-radius: 2px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+  padding: 1.1rem 1.4rem 1.2rem;
+  pointer-events: auto;
+  opacity: 0;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.timeline-mode.is-open .timeline-panel {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.timeline-panel__year {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: var(--color-amber);
+}
+
+.timeline-panel__title {
+  margin: 0.2rem 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--color-stone-900);
+}
+
+.timeline-panel__text {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+
+.timeline-panel__controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.9rem;
+}
+
+.timeline-panel__prev,
+.timeline-panel__next {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  background: var(--color-stone-900);
+  color: var(--color-parchment);
+  border: none;
+  border-radius: 2px;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+}
+
+.timeline-panel__next {
+  background: var(--color-amber);
+}
+
+.timeline-panel__prev:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
 /* Mobile: Header nahm auf schmalen Bildschirmen fast die halbe Höhe ein und
    verdeckte Marker, das Kreuz kollidierte horizontal mit der Karte (gefunden
    per Playwright-Test auf iPhone-13-Viewport). Header wird zur schlanken
@@ -528,5 +728,26 @@ body {
 
   .book__body {
     font-size: 1.05rem;
+  }
+
+  .timeline-axis {
+    width: 92vw;
+  }
+
+  .timeline-axis__point span {
+    font-size: 0.65rem;
+  }
+
+  .timeline-panel {
+    bottom: 1rem;
+    padding: 0.9rem 1.1rem 1rem;
+  }
+
+  .timeline-panel__title {
+    font-size: 1.05rem;
+  }
+
+  .timeline-panel__text {
+    font-size: 1rem;
   }
 }

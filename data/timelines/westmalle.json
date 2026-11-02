@@ -1,0 +1,51 @@
+{
+  "brewery": "Westmalle",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Westmalle_Abbey",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange"
+  ],
+  "stations": [
+    {
+      "year": "vor 1791",
+      "title": "La Trappe, Normandie",
+      "coordinates": [0.57333, 48.63722],
+      "zoom": 6,
+      "text": "Die Geschichte beginnt nicht in Westmalle, sondern in der Abtei La Trappe in der Normandie. Dort war Augustin de Lestrange Novizenmeister – bis die Französische Revolution das klösterliche Leben in Frankreich unmöglich machte."
+    },
+    {
+      "year": "1791",
+      "title": "Flucht in die Schweiz: Val-Sainte",
+      "coordinates": [7.188653, 46.649278],
+      "zoom": 7,
+      "text": "1791 floh Lestrange mit einer Gruppe Mönche nach Val-Sainte bei Freiburg und gründete dort eine noch strengere Gemeinschaft. Doch der Freiburger Senat begrenzte die Zahl der Mönche auf 21 – während ständig neue Flüchtlinge aus Frankreich eintrafen. Lestrange schickte Gruppen weiter: nach Spanien, nach Italien, und eine dritte Richtung Kanada."
+    },
+    {
+      "year": "6. Juni 1794",
+      "title": "Gründung in Westmalle",
+      "coordinates": [4.65667, 51.28472],
+      "zoom": 7,
+      "text": "Die Kanada-Gruppe kam durch Flandern. Der Bischof von Antwerpen lud sie ein zu bleiben und bot an, stattdessen in seiner Diözese ein Trappistenkloster zu gründen. Acht Mönche blieben – zusammen mit zwei Novizen gründeten zehn Mönche am 6. Juni 1794 auf einem kleinen Hof namens „Nooit Rust” das Priorat Westmalle."
+    },
+    {
+      "year": "17. Juli 1794",
+      "title": "Erneute Vertreibung: Darfeld",
+      "coordinates": [7.23444, 52.02667],
+      "zoom": 7,
+      "text": "Schon sechs Wochen später mussten die Mönche erneut fliehen: Französische Truppen fielen in die Österreichischen Niederlande ein. Die Gemeinschaft floh nach Münster in Westfalen und gründete ein Kloster in Darfeld."
+    },
+    {
+      "year": "Februar 1802",
+      "title": "Rückkehr nach Westmalle",
+      "coordinates": [4.65667, 51.28472],
+      "zoom": 7,
+      "text": "Im Februar 1802 kehrten zwölf Mönche nach Westmalle zurück. Ganz zur Ruhe kam die Gemeinschaft noch nicht: 1811 ließ Napoleon alle Trappistenklöster in Frankreich schließen, erst nach seiner Niederlage konnten die Mönche am 21. August 1814 endgültig nach Westmalle zurückkehren."
+    },
+    {
+      "year": "1836",
+      "title": "Abtei und erstes Bier",
+      "coordinates": [4.65667, 51.28472],
+      "zoom": 9,
+      "text": "Am 22. April 1836 wurde Westmalle zur Abtei erhoben, Martinus Dom zum ersten Abt gewählt. Weil die Regeln Armand de Rancés den Mönchen Bier zu den Mahlzeiten erlaubten, begann Abt Dom im selben Jahr eine kleine Brauerei zu bauen. Am 10. Dezember 1836 wurde das erste Trappistenbier zum Mittagessen serviert."
+    }
+  ]
+}
