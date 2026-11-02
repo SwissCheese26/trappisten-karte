@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trappisten-Karte</title>
 
-  <!-- Leaflet per CDN, kein npm/Build-Schritt -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- MapLibre GL per CDN, kein npm/Build-Schritt. Eigener Vektorstil (data/map-style.json)
+       auf Basis der freien OpenFreeMap-Kacheln, statt fertigem Tile-Design. -->
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-gl.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +26,6 @@
     <p>Geschichte, Abteien und Biere der Trappisten-Brauereien</p>
   </header>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="js/app.js"></script>
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>

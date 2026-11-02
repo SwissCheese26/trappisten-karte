@@ -66,19 +66,28 @@ body {
   color: var(--color-stone-700);
 }
 
-/* Leaflet-Popup an die Palette anpassen */
-.leaflet-popup-content-wrapper {
+/* Eigener Brauerei-Marker statt Standard-Pin: ruhiger Punkt in Amber,
+   passend zur Stein/Moos-Palette. */
+.brewery-marker {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-amber);
+  border: 2px solid var(--color-parchment);
+  box-shadow: 0 0 0 1px var(--color-stone-900), 0 2px 6px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+/* MapLibre-Popup an die Palette anpassen */
+.maplibregl-popup-content {
   background: var(--color-parchment);
-  border-radius: 2px;
   color: var(--color-ink);
+  border-radius: 2px;
+  padding: 0.8rem 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 
-.leaflet-popup-content {
-  font-family: var(--font-body);
-  margin: 0.8rem 1rem;
-}
-
-.leaflet-popup-content h2 {
+.maplibregl-popup-content h2 {
   font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 600;
@@ -87,17 +96,33 @@ body {
   color: var(--color-stone-900);
 }
 
-.leaflet-popup-content p {
+.maplibregl-popup-content p {
+  font-family: var(--font-body);
   margin: 0.3rem 0;
   font-size: 1.05rem;
   line-height: 1.5;
 }
 
-.leaflet-popup-content .popup-meta {
+.maplibregl-popup-content .popup-meta {
   color: var(--color-amber);
   font-weight: 600;
 }
 
-.leaflet-popup-tip {
-  background: var(--color-parchment);
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: var(--color-parchment);
+}
+.maplibregl-popup-anchor-top .maplibregl-popup-tip {
+  border-bottom-color: var(--color-parchment);
+}
+.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--color-parchment);
+}
+.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--color-parchment);
+}
+
+.maplibregl-popup-close-button {
+  color: var(--color-stone-700);
+  font-size: 1.1rem;
+  padding: 0.2rem 0.5rem;
 }
