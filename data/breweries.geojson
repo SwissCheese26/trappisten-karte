@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.65667, 51.28472] },
+      "properties": {
+        "name": "Westmalle",
+        "abbey": "Abdij Onze-Lieve-Vrouw van het Heilig Hart (Westmalle)",
+        "country": "Belgien",
+        "founded_abbey": 1794,
+        "brewing_since": 1836,
+        "beers": [],
+        "history": "Die Abtei wurde 1794 als Priorat gegründet und 1836 zur Abtei erhoben. Im selben Jahr brauten die Mönche erstmals Trappistenbier für den Eigenbedarf.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Westmalle_Abbey"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.33611, 49.98222] },
+      "properties": {
+        "name": "Chimay",
+        "abbey": "Abbaye Notre-Dame de Scourmont",
+        "country": "Belgien",
+        "founded_abbey": 1850,
+        "brewing_since": 1862,
+        "beers": [],
+        "history": "1850 ließen sich Mönche aus Westvleteren auf dem Scourmont nieder, 1871 wurde die Gemeinschaft zur Abtei erhoben. Die Brauerei entstand 1862 innerhalb der Klostermauern.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Scourmont_Abbey",
+          "https://en.wikipedia.org/wiki/Chimay_Brewery"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [5.34889, 49.63972] },
+      "properties": {
+        "name": "Orval",
+        "abbey": "Abbaye Notre-Dame d'Orval",
+        "country": "Belgien",
+        "founded_abbey": 1132,
+        "brewing_since": 1931,
+        "beers": [],
+        "history": "Das Kloster wurde 1132 von Zisterziensermönchen gegründet, im Lauf der Jahrhunderte mehrfach zerstört und wieder aufgebaut. Die heutige Trappistengemeinschaft brennt seit 1931 Bier, um den Wiederaufbau der Abtei zu finanzieren.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Orval_Abbey"
+        ]
+      }
+    }
+  ]
+}
