@@ -9,8 +9,10 @@
   --color-moss: #5c6b4f;
   --color-ink: #2a2a24;
 
-  --font-display: "Fraunces", serif;
-  --font-body: "Inter", system-ui, sans-serif;
+  /* Cinzel: nach antiken römischen Steininschriften gezeichnet — "in Stein gemeißelt".
+     Cormorant Garamond: Buchsatz-Serife mit Manuskript-Charakter für Fließtext. */
+  --font-display: "Cinzel", serif;
+  --font-body: "Cormorant Garamond", serif;
 }
 
 * {
@@ -49,15 +51,18 @@ body {
   margin: 0;
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 1.4rem;
-  letter-spacing: 0.01em;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--color-stone-900);
 }
 
 .site-header p {
-  margin: 0.35rem 0 0;
-  font-size: 0.85rem;
-  line-height: 1.4;
+  margin: 0.5rem 0 0;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.5;
   color: var(--color-stone-700);
 }
 
@@ -75,20 +80,22 @@ body {
 
 .leaflet-popup-content h2 {
   font-family: var(--font-display);
-  font-size: 1.1rem;
-  margin: 0 0 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin: 0 0 0.35rem;
   color: var(--color-stone-900);
 }
 
 .leaflet-popup-content p {
-  margin: 0.25rem 0;
-  font-size: 0.85rem;
-  line-height: 1.4;
+  margin: 0.3rem 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
 }
 
 .leaflet-popup-content .popup-meta {
   color: var(--color-amber);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .leaflet-popup-tip {
