@@ -29,11 +29,16 @@ function breweryMarkerElement(name, closed) {
   return el;
 }
 
-// Pilot: nur Westmalle hat bisher einen recherchierten Stationen-Zeitstrahl
-// (siehe Issue #2 — pro Brauerei braucht das mehrere belegte Datums-Stationen,
-// nicht nur Gründung/Braubeginn). Weitere Abteien folgen, sobald recherchiert.
+// Siehe Issue #2 — jede Brauerei braucht mehrere belegte Datums-Stationen,
+// nicht nur Gründung/Braubeginn, deshalb nach und nach recherchiert statt
+// pauschal für alle. Bisher: alle aktuellen belgischen Abteien + Achel.
 const TIMELINE_BREWERIES = {
   Westmalle: "data/timelines/westmalle.json",
+  Chimay: "data/timelines/chimay.json",
+  Orval: "data/timelines/orval.json",
+  Rochefort: "data/timelines/rochefort.json",
+  Westvleteren: "data/timelines/westvleteren.json",
+  Achel: "data/timelines/achel.json",
 };
 
 function popupHtml(p, closed) {

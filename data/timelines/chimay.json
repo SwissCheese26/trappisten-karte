@@ -1,0 +1,47 @@
+{
+  "brewery": "Chimay",
+  "glossary": "data/timelines/chimay-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey",
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Chimay_Brewery",
+    "https://en.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_(1808%E2%80%931886)"
+  ],
+  "stations": [
+    {
+      "year": "1844",
+      "title": "Die Idee für ein Kloster auf Scourmont",
+      "coordinates": [4.33611, 49.98222],
+      "zoom": 8,
+      "text": "Der Dorfpfarrer von Virelles, Jean-Baptiste Jourdain, schlug das karge Plateau von Scourmont als Standort für ein Kloster vor – frühere Versuche, das Land zu bewirtschaften, waren gescheitert. Joseph de Riquet de Caraman, Fürst von Chimay, unterstützte die Gründung mit eigenem Land; auch die Äbte von Westmalle und Westvleteren befürworteten das Vorhaben."
+    },
+    {
+      "year": "25. Juli 1850",
+      "title": "Mönche aus Westvleteren",
+      "coordinates": [4.33611, 49.98222],
+      "zoom": 9,
+      "text": "Eine kleine Gruppe Mönche aus Westvleteren siedelte sich auf dem Plateau an und gründete ein Priorat. Der karge Boden zwang die Gemeinschaft von Anfang an, sich selbst zu versorgen."
+    },
+    {
+      "year": "1850er Jahre",
+      "title": "Schule und Mustergut",
+      "coordinates": [4.33611, 49.98222],
+      "zoom": 9,
+      "text": "Die Mönche legten rund um das Kloster einen landwirtschaftlichen Musterbetrieb an und gründeten eine Schule – unter anderem für Waisen und verlassene Kinder der Region."
+    },
+    {
+      "year": "1862",
+      "title": "Käserei und Brauerei",
+      "coordinates": [4.33611, 49.98222],
+      "zoom": 9,
+      "text": "Rund um den Bauernhof des Klosters entstanden eine Käserei und eine Brauerei – beide sollten der wirtschaftlichen Selbstversorgung dienen. Bis heute verkauft die Abtei ihr Bier und ihren Käse unter dem Namen Chimay."
+    },
+    {
+      "year": "24. Februar / 7. Juli 1871",
+      "title": "Abtei durch Papst Pius IX.",
+      "coordinates": [4.33611, 49.98222],
+      "zoom": 9,
+      "text": "Papst Pius IX. erhob das Priorat am 24. Februar 1871 zur Abtei; die feierliche Einweihung folgte am 7. Juli desselben Jahres."
+    }
+  ]
+}

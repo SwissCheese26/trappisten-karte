@@ -1,0 +1,59 @@
+{
+  "brewery": "Westvleteren",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Westvleteren_Brewery",
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "1814",
+      "title": "Der Einsiedler im Wald",
+      "coordinates": [2.721262, 50.895942],
+      "zoom": 9,
+      "text": "Lange bevor es eine Abtei gab, lebte hier nur ein Einsiedler: Jan-Baptist Victoor zog sich 1814 in die Wälder von Westvleteren zurück."
+    },
+    {
+      "year": "1831",
+      "title": "Eine Gemeinschaft entsteht",
+      "coordinates": [2.721262, 50.895942],
+      "zoom": 9,
+      "text": "1831 gesellten sich ein Prior und einige Mönche zu Victoor – der Beginn der späteren Trappistengemeinschaft. Keine Gründung mit großem Plan, sondern ein allmähliches Zusammenwachsen."
+    },
+    {
+      "year": "1838",
+      "title": "Die Brauerei entsteht",
+      "coordinates": [2.721262, 50.895942],
+      "zoom": 9,
+      "text": "1838 entstand innerhalb der Klostermauern die Brauerei – von Anfang an für den Eigenbedarf gedacht, nicht für den Handel."
+    },
+    {
+      "year": "25. Juli 1850",
+      "title": "Eine Tochter in Chimay",
+      "coordinates": [4.33611, 49.98222],
+      "zoom": 8,
+      "text": "Eine kleine Gruppe Mönche aus Westvleteren zog weiter auf das karge Plateau von Scourmont und gründete dort ein neues Priorat – die spätere Abtei Chimay."
+    },
+    {
+      "year": "24. Februar 1871",
+      "title": "Abtei durch Papst Pius IX.",
+      "coordinates": [2.721262, 50.895942],
+      "zoom": 9,
+      "text": "Erst 1871 erhob Papst Pius IX. das Priorat offiziell zur Abtei – vierzig Jahre nach den ersten Mönchen im Wald."
+    },
+    {
+      "year": "Erster Weltkrieg",
+      "title": "Zuflucht für Soldaten",
+      "coordinates": [2.721262, 50.895942],
+      "zoom": 9,
+      "text": "Während des Ersten Weltkriegs lag die Abtei nahe der Front in Flandern und bot zeitweise Zuflucht für Flüchtlinge und Soldaten – insgesamt sollen fast 400.000 alliierte Soldaten in und um das Kloster gelebt haben."
+    },
+    {
+      "year": "1945",
+      "title": "Bewusst klein bleiben",
+      "coordinates": [2.721262, 50.895942],
+      "zoom": 9,
+      "text": "1945 begrenzte der Abt die Jahresproduktion bewusst auf 4.800 Hektoliter. Dieselbe Haltung gilt bis heute: Westvleteren verkauft sein Bier nur in kleinen Mengen direkt an der Abtei, nie über den regulären Handel."
+    }
+  ]
+}

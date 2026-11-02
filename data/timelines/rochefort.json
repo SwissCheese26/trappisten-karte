@@ -1,0 +1,59 @@
+{
+  "brewery": "Rochefort",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rochefort_Abbey",
+    "https://en.wikipedia.org/wiki/Rochefort_Brewery",
+    "https://en.wikipedia.org/wiki/Achel_Brewery"
+  ],
+  "stations": [
+    {
+      "year": "um 1230",
+      "title": "Gegründet für Zisterzienserinnen",
+      "coordinates": [5.22036, 50.17803],
+      "zoom": 8,
+      "text": "Graf Gilles de Walcourt von Rochefort gründete um 1230 ein Kloster für Zisterzienserinnen mit dem Namen „Secours de Notre-Dame”."
+    },
+    {
+      "year": "1464",
+      "title": "Mönche statt Nonnen",
+      "coordinates": [5.22036, 50.17803],
+      "zoom": 8,
+      "text": "Das Kloster war inzwischen verfallen. 1464 ließ Louis de la Marck die Nonnen durch Mönche ersetzen – als jüngstes Tochterkloster der Mutterabtei Cîteaux."
+    },
+    {
+      "year": "1568 / 1577",
+      "title": "Verwüstet im Achtzigjährigen Krieg",
+      "coordinates": [5.22036, 50.17803],
+      "zoom": 8,
+      "text": "Zweimal wurde die Abtei im Achtzigjährigen Krieg verwüstet: 1568 durch protestantische Truppen, 1577 durch die Streitkräfte Johanns von Österreich."
+    },
+    {
+      "year": "um 1595",
+      "title": "Die erste Brauerei",
+      "coordinates": [5.22036, 50.17803],
+      "zoom": 9,
+      "text": "Um 1595 entstand innerhalb der Klostermauern die erste Brauerei – zunächst nur für den Eigenbedarf der Mönche."
+    },
+    {
+      "year": "1797",
+      "title": "Geschlossen und verkauft",
+      "coordinates": [5.22036, 50.17803],
+      "zoom": 8,
+      "text": "Während der Französischen Revolution wurde die Abtei 1797 geschlossen und verkauft. Um 1805 ließ der neue Eigentümer die Gebäude abreißen; die Steine wurden anderswo in Rochefort weiterverwendet."
+    },
+    {
+      "year": "11. Oktober 1887",
+      "title": "Rückkehr mit Hilfe aus Achel",
+      "coordinates": [5.488572, 51.298778],
+      "zoom": 7,
+      "text": "Pater Anselmus Judong von der Trappistenabtei Achel kam am 11. Oktober 1887 zu den Ruinen; im Dezember kauften Mönche aus Achel das Gelände und begannen mit dem Wiederaufbau."
+    },
+    {
+      "year": "1952",
+      "title": "Endlich genug zum Verkaufen",
+      "coordinates": [5.22036, 50.17803],
+      "zoom": 9,
+      "text": "Erst nach einer Erneuerung der Brauerei 1952 produzierte Rochefort genug Bier, um es auch zu verkaufen – mehr als 350 Jahre nach der ersten Brauerei auf dem Gelände."
+    }
+  ]
+}

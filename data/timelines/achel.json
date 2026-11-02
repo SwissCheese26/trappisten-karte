@@ -1,0 +1,59 @@
+{
+  "brewery": "Achel",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://brusselstimes.com/358914/belgium-loses-trappist-beer-following-brewery-purchase",
+    "https://www.vrt.be/vrtnws/en/2023/01/25/belgium-loses-trappist-beer/"
+  ],
+  "stations": [
+    {
+      "year": "1648",
+      "title": "Eine Kapelle im Grenzland",
+      "coordinates": [5.488572, 51.298778],
+      "zoom": 9,
+      "text": "Niederländische Mönche errichteten 1648 eine Kapelle in Achel, nahe der Grenze zu den Nördlichen Niederlanden – der Ursprung der späteren Achelse Kluis."
+    },
+    {
+      "year": "1686",
+      "title": "Abtei – und Zerstörung",
+      "coordinates": [5.488572, 51.298778],
+      "zoom": 9,
+      "text": "1686 wurde die Kapelle zur Abtei erhoben. Während der Französischen Revolution wurde sie zerstört und lag danach lange in Ruinen."
+    },
+    {
+      "year": "1844",
+      "title": "Wiederaufbau durch Westmalle",
+      "coordinates": [4.65667, 51.28472],
+      "zoom": 7,
+      "text": "Mönche aus Westmalle bauten die Ruinen 1844 wieder auf und begannen mit der Landwirtschaft – derselbe Westmalle, das selbst erst fünfzig Jahre zuvor von Flüchtlingen der Lestrange-Bewegung gegründet worden war."
+    },
+    {
+      "year": "1852",
+      "title": "Das erste Bier: Patersvaatje",
+      "coordinates": [5.488572, 51.298778],
+      "zoom": 9,
+      "text": "1852 brauten die Mönche ihr erstes eigenes Bier, das „Patersvaatje”. 1871 wurde Achel offiziell Trappistenkloster, das Brauen zur regelmäßigen Aufgabe."
+    },
+    {
+      "year": "1914–1917",
+      "title": "Krieg und Kupfer",
+      "coordinates": [5.488572, 51.298778],
+      "zoom": 9,
+      "text": "1914 mussten die Mönche die Abtei wegen der deutschen Besatzung verlassen. 1917 demontierten die Besatzer die Brauerei vollständig, um rund 700 Kilogramm Kupfer für die Kriegsindustrie zu gewinnen."
+    },
+    {
+      "year": "1998",
+      "title": "Neuanfang mit Hilfe von Westmalle und Rochefort",
+      "coordinates": [5.488572, 51.298778],
+      "zoom": 9,
+      "text": "1998 entschieden sich die wenigen verbliebenen Mönche, wieder zu brauen. Mönche aus Westmalle und Rochefort halfen beim Aufbau der neuen Brauerei; 2001 kam „Achel 8°” auf den Markt."
+    },
+    {
+      "year": "Januar 2021",
+      "title": "Das Ende als Trappistenbrauerei",
+      "coordinates": [5.488572, 51.298778],
+      "zoom": 9,
+      "text": "Als die letzten brauenden Mönche ausschieden, verlor Achel im Januar 2021 seinen Trappisten-Status – nach zuletzt der kleinsten Trappistenbrauerei Belgiens. Die beiden letzten Mönche zogen zurück nach Westmalle, wo 227 Jahre zuvor alles begonnen hatte. Ein Unternehmer kaufte die Gebäude; gebraut wird dort weiter, nur eben nicht mehr als Trappistenbier."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "brewery": "Orval",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Orval_Abbey",
+    "https://en.wikipedia.org/wiki/Trois-Fontaines_Abbey",
+    "https://en.wikipedia.org/wiki/Orval_Brewery"
+  ],
+  "stations": [
+    {
+      "year": "um 1070",
+      "title": "Die ersten Mönche",
+      "coordinates": [5.34889, 49.63972],
+      "zoom": 7,
+      "text": "Benediktinermönche aus Kalabrien in Süditalien ließen sich hier nieder und begannen, Kirche und Kloster zu bauen. Nach etwa vierzig Jahren verließen sie den Ort wieder, bevor Chorherren den Bau vollendeten."
+    },
+    {
+      "year": "1132",
+      "title": "Zisterzienser aus der Champagne",
+      "coordinates": [4.949186, 48.717496],
+      "zoom": 7,
+      "text": "Eine Gruppe Zisterziensermönche aus der Abtei Trois-Fontaines in der Champagne traf 1132 in Orval ein und verschmolz mit der bestehenden Gemeinschaft unter dem ersten Abt Constantin."
+    },
+    {
+      "year": "1637",
+      "title": "Verwüstet im Dreißigjährigen Krieg",
+      "coordinates": [5.34889, 49.63972],
+      "zoom": 8,
+      "text": "1637 plünderten und verbrannten französische Söldnertruppen die Abtei während des Dreißigjährigen Krieges."
+    },
+    {
+      "year": "1793",
+      "title": "Niedergebrannt in der Revolution",
+      "coordinates": [5.34889, 49.63972],
+      "zoom": 8,
+      "text": "1793 brannten französische Revolutionstruppen die Abtei vollständig nieder – als Vergeltung dafür, dass sie österreichischen Truppen Unterschlupf gewährt hatte. Die Gemeinschaft wurde gewaltsam zerstreut."
+    },
+    {
+      "year": "1926",
+      "title": "Die Ruinen werden zurückgegeben",
+      "coordinates": [5.34889, 49.63972],
+      "zoom": 8,
+      "text": "Über ein Jahrhundert blieb Orval Ruine, bis die Familie Harenne das Land 1926 dem Zisterzienserorden schenkte, damit dort wieder klösterliches Leben möglich würde."
+    },
+    {
+      "year": "1931",
+      "title": "Bier für den Wiederaufbau",
+      "coordinates": [5.34889, 49.63972],
+      "zoom": 9,
+      "text": "Unter dem Trappisten Marie-Albert van der Cruyssen entstand ab 1926 die neue Abtei. 1931 belebten die Mönche die mittelalterliche Braukunst wieder – nicht aus Tradition, sondern um den Wiederaufbau zu finanzieren."
+    },
+    {
+      "year": "8. September 1948",
+      "title": "Die neue Kirche",
+      "coordinates": [5.34889, 49.63972],
+      "zoom": 9,
+      "text": "Mit der Weihe der neuen Abteikirche am 8. September 1948 war der Wiederaufbau im Wesentlichen abgeschlossen. Bis heute braut Orval nur dieses eine Bier."
+    }
+  ]
+}
