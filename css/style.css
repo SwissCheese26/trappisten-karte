@@ -134,6 +134,109 @@ body {
   color: var(--color-amber);
 }
 
+.sensitive-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--color-stone-700);
+  cursor: pointer;
+}
+
+.sensitive-toggle input {
+  accent-color: var(--color-amber);
+  cursor: pointer;
+}
+
+/* Inhaltswarnung: zentrierter Dialog, bevor belastende Kapitel aktiviert
+   werden — keine stille Zensur, aber auch kein unvorbereitetes Stolpern. */
+.content-warning {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(28, 31, 26, 0.88);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.content-warning.is-open {
+  opacity: 1;
+}
+
+.content-warning[hidden] {
+  display: none;
+}
+
+.content-warning__card {
+  max-width: 26rem;
+  background: var(--color-parchment);
+  border: 1px solid var(--color-stone-700);
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  padding: 1.4rem 1.6rem;
+}
+
+.content-warning__card h3 {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--color-stone-900);
+}
+
+.content-warning__card p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+
+.content-warning__controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.content-warning__cancel,
+.content-warning__confirm {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 2px;
+  padding: 0.55rem 1rem;
+  cursor: pointer;
+}
+
+.content-warning__cancel {
+  background: none;
+  border: 1px solid var(--color-stone-700);
+  color: var(--color-stone-700);
+}
+
+.content-warning__confirm {
+  background: var(--color-stone-900);
+  color: var(--color-parchment);
+}
+
+.timeline-axis__hidden-note {
+  margin: 0.4rem 0 0;
+  text-align: center;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.75rem;
+  color: var(--color-parchment);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
 /* Buch-Intro: ruhige, buchartige Einführung in Geschichte & Philosophie der
    Trappisten, vor der ersten Kartenansicht und jederzeit über "Schule". */
 .book-overlay {
@@ -610,6 +713,10 @@ body {
   border-color: var(--color-amber);
 }
 
+.timeline-axis__point.is-sensitive::before {
+  border-color: #7a3b2e;
+}
+
 .timeline-axis__point span {
   font-family: var(--font-body);
   font-size: 0.85rem;
@@ -659,6 +766,17 @@ body {
   font-size: 1.05rem;
   line-height: 1.5;
   color: var(--color-ink);
+}
+
+.timeline-panel__warning {
+  margin: 0 0 0.6rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(122, 59, 46, 0.12);
+  border-left: 3px solid #7a3b2e;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #7a3b2e;
 }
 
 .timeline-panel__controls {

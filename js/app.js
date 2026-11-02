@@ -105,6 +105,7 @@ const timelineAxisPoints = timelineMode.querySelector(".timeline-axis__points");
 const timelinePanelYear = timelineMode.querySelector(".timeline-panel__year");
 const timelinePanelTitle = timelineMode.querySelector(".timeline-panel__title");
 const timelinePanelText = timelineMode.querySelector(".timeline-panel__text");
+const timelinePanelWarning = timelineMode.querySelector(".timeline-panel__warning");
 const timelinePrevBtn = timelineMode.querySelector(".timeline-panel__prev");
 const timelineNextBtn = timelineMode.querySelector(".timeline-panel__next");
 const timelineCloseBtn = timelineMode.querySelector(".timeline-mode__close");
@@ -185,7 +186,15 @@ function openTimeline(url) {
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
-      timelineStations = data.stations;
+      const sensitiveEnabled = window.isSensitiveContentEnabled && window.isSensitiveContentEnabled();
+      timelineStations = data.stations.filter((s) => !s.sensitive || sensitiveEnabled);
+      const hiddenCount = data.stations.length - timelineStations.length;
+      const hiddenNote = timelineMode.querySelector(".timeline-axis__hidden-note");
+      hiddenNote.hidden = hiddenCount === 0;
+      hiddenNote.textContent =
+        hiddenCount === 1
+          ? "+ 1 belastendes Kapitel ausgeblendet — Einstellung im Kopfbereich"
+          : `+ ${hiddenCount} belastende Kapitel ausgeblendet — Einstellung im Kopfbereich`;
       timelineIndex = 0;
       viewBeforeTimeline = { center: map.getCenter(), zoom: map.getZoom() };
       timelineGlossary = [];
@@ -211,7 +220,10 @@ function openTimeline(url) {
       });
 
       timelineAxisPoints.innerHTML = timelineStations
-        .map((s, i) => `<li class="timeline-axis__point" data-index="${i}"><span>${s.year}</span></li>`)
+        .map(
+          (s, i) =>
+            `<li class="timeline-axis__point${s.sensitive ? " is-sensitive" : ""}" data-index="${i}"><span>${s.year}</span></li>`
+        )
         .join("");
       timelineAxisPoints.querySelectorAll(".timeline-axis__point").forEach((el) => {
         el.addEventListener("click", () => goToStation(Number(el.dataset.index)));
@@ -231,6 +243,8 @@ function renderStation() {
   const s = timelineStations[timelineIndex];
   timelinePanelYear.textContent = s.year;
   timelinePanelTitle.textContent = s.title;
+  timelinePanelWarning.hidden = !s.sensitive;
+  timelinePanelWarning.textContent = s.sensitive ? `⚠ Inhaltswarnung: ${s.trigger_warning || "belastende Inhalte"}` : "";
   timelinePanelText.innerHTML = highlightGlossaryTerms(s.text);
   timelinePrevBtn.disabled = timelineIndex === 0;
   timelineNextBtn.textContent = timelineIndex === timelineStations.length - 1 ? "Beenden" : "Weiter →";

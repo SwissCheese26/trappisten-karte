@@ -33,7 +33,26 @@
       <button type="button" class="site-nav__link is-active" data-nav="map">Karte</button>
       <button type="button" class="site-nav__link" data-nav="school">Schule</button>
     </nav>
+    <label class="sensitive-toggle">
+      <input type="checkbox" id="sensitive-toggle-input" />
+      Auch belastende Kapitel zeigen
+    </label>
   </header>
+
+  <div id="content-warning" class="content-warning" hidden>
+    <div class="content-warning__card">
+      <h3>Inhaltswarnung</h3>
+      <p>
+        Diese Einstellung blendet auch belastende Kapitel der Geschichte ein — etwa Gewalt oder
+        sexuellen Missbrauch. Wir zensieren diese Geschichte nicht, aber sie steht standardmäßig
+        verborgen, damit niemand unvorbereitet darauf stößt.
+      </p>
+      <div class="content-warning__controls">
+        <button type="button" class="content-warning__cancel">Abbrechen</button>
+        <button type="button" class="content-warning__confirm">Trotzdem zeigen</button>
+      </div>
+    </div>
+  </div>
 
   <div id="book-overlay" class="book-overlay" hidden></div>
 
@@ -42,10 +61,12 @@
     <div class="timeline-axis">
       <div class="timeline-axis__line"></div>
       <ol class="timeline-axis__points"></ol>
+      <p class="timeline-axis__hidden-note" hidden></p>
     </div>
     <div class="timeline-panel">
       <div class="timeline-panel__year"></div>
       <h2 class="timeline-panel__title"></h2>
+      <p class="timeline-panel__warning" hidden></p>
       <p class="timeline-panel__text"></p>
       <div class="timeline-panel__controls">
         <button type="button" class="timeline-panel__prev">&larr; Zurück</button>

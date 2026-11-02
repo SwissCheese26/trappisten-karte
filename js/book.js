@@ -15,6 +15,43 @@ const topCross = document.querySelector(".top-cross");
 let storyPages = [];
 let storyIndex = 0;
 
+// --- Inhaltswarnung: belastende Kapitel (Gewalt, Missbrauch) sind nicht
+// zensiert, aber standardmäßig ausgeblendet. Export über window, damit
+// app.js (eigenes Modul) beim Rendern der Zeitstrahl-Stationen filtern kann.
+const SENSITIVE_KEY = "trappist-karte-show-sensitive";
+const sensitiveToggle = document.getElementById("sensitive-toggle-input");
+const contentWarning = document.getElementById("content-warning");
+
+window.isSensitiveContentEnabled = () => localStorage.getItem(SENSITIVE_KEY) === "1";
+
+sensitiveToggle.checked = window.isSensitiveContentEnabled();
+
+sensitiveToggle.addEventListener("change", () => {
+  if (sensitiveToggle.checked) {
+    contentWarning.hidden = false;
+    requestAnimationFrame(() => contentWarning.classList.add("is-open"));
+  } else {
+    localStorage.removeItem(SENSITIVE_KEY);
+  }
+});
+
+function closeContentWarning() {
+  contentWarning.classList.remove("is-open");
+  window.setTimeout(() => {
+    contentWarning.hidden = true;
+  }, 200);
+}
+
+contentWarning.querySelector(".content-warning__confirm").addEventListener("click", () => {
+  localStorage.setItem(SENSITIVE_KEY, "1");
+  closeContentWarning();
+});
+
+contentWarning.querySelector(".content-warning__cancel").addEventListener("click", () => {
+  sensitiveToggle.checked = false;
+  closeContentWarning();
+});
+
 function closeOverlay() {
   overlay.classList.remove("is-open");
   window.setTimeout(() => {
