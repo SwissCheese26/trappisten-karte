@@ -111,7 +111,16 @@ map.on("load", () => {
 
       if (features.length > 0) {
         const b = bounds(features.map((f) => f.geometry.coordinates));
-        map.fitBounds(b, { padding: 60, maxZoom: 8, duration: 0 });
+        // Header-Karte liegt als DOM-Overlay über der Karte und ist je nach
+        // Bildschirmgröße unterschiedlich hoch — oben entsprechend mehr Platz
+        // lassen, sonst verschwinden Marker ganz oben links darunter
+        // (gefunden per Playwright-Mobile-Test).
+        const headerBox = document.querySelector(".site-header").getBoundingClientRect();
+        map.fitBounds(b, {
+          padding: { top: headerBox.bottom + 20, bottom: 40, left: 30, right: 30 },
+          maxZoom: 8,
+          duration: 0,
+        });
       }
     })
     .catch((err) => console.error("Konnte breweries.geojson nicht laden:", err));
