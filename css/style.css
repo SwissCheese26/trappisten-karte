@@ -401,6 +401,81 @@ body {
   padding: 0.2rem 0.5rem;
 }
 
+.book__controls--end {
+  justify-content: flex-end;
+  border-top: 1px solid rgba(52, 58, 46, 0.2);
+}
+
+/* Quiz: gleiche Buch-Chrome, eigene Fragen-/Options-Liste. */
+.quiz__options {
+  list-style: none;
+  margin: 0;
+  padding: 0.4rem 1.8rem 0.8rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.quiz__option {
+  width: 100%;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(52, 58, 46, 0.35);
+  border-radius: 2px;
+  padding: 0.6rem 0.9rem;
+  cursor: pointer;
+  color: var(--color-ink);
+}
+
+.quiz__option:hover:not(:disabled) {
+  border-color: var(--color-amber);
+}
+
+.quiz__option.is-correct {
+  background: rgba(92, 107, 79, 0.25);
+  border-color: var(--color-moss);
+  font-weight: 600;
+}
+
+.quiz__option.is-wrong {
+  background: rgba(169, 113, 43, 0.18);
+  border-color: var(--color-amber);
+  text-decoration: line-through;
+}
+
+.quiz__option:disabled {
+  cursor: default;
+}
+
+.quiz__certificate-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem 1.8rem 0.4rem;
+}
+
+.quiz__certificate-form label {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--color-stone-700);
+  flex-basis: 100%;
+}
+
+.quiz__certificate-form input {
+  flex: 1;
+  min-width: 10rem;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--color-stone-700);
+  border-radius: 2px;
+  background: #fff;
+  color: var(--color-ink);
+}
+
 /* Mobile: Header nahm auf schmalen Bildschirmen fast die halbe Höhe ein und
    verdeckte Marker, das Kreuz kollidierte horizontal mit der Karte (gefunden
    per Playwright-Test auf iPhone-13-Viewport). Header wird zur schlanken

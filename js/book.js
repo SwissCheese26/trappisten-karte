@@ -128,10 +128,228 @@ function openRules(data) {
         <p class="rules-intro">${data.intro}</p>
       </div>
       <ol class="rules-list">${items}</ol>
+      <div class="book__controls book__controls--end">
+        <button type="button" class="book__next">Quiz starten &rarr;</button>
+      </div>
     </div>
   `;
   overlay.querySelector(".book__close").addEventListener("click", closeOverlay);
+  overlay.querySelector(".book__controls .book__next").addEventListener("click", openQuiz);
   openOverlay();
+}
+
+// --- Quiz + Zertifikat ---------------------------------------------------
+// Testet, was man aus Story/Regeln mitgenommen hat — keine neue Recherche
+// nötig, alle Fragen stammen aus bereits belegten Inhalten. Bewusst kein
+// Backend: Zertifikat wird clientseitig als PNG gezeichnet (Canvas) und
+// direkt heruntergeladen, passend zum statischen Hosting-Ansatz.
+const QUIZ_PASS_RATIO = 0.7;
+
+let quizQuestions = [];
+let quizIndex = 0;
+let quizScore = 0;
+let quizSelected = null;
+
+function openQuiz() {
+  fetch("data/quiz-content.json")
+    .then((res) => res.json())
+    .then((data) => {
+      quizQuestions = data;
+      quizIndex = 0;
+      quizScore = 0;
+      renderQuizShell();
+      renderQuizQuestion();
+      openOverlay();
+    })
+    .catch((err) => console.error("Konnte quiz-content.json nicht laden:", err));
+}
+
+function renderQuizShell() {
+  overlay.innerHTML = `
+    <div class="book book--quiz">
+      <button type="button" class="book__close" aria-label="Schließen">&times;</button>
+      <div class="book__text">
+        <div class="book__progress quiz__progress"></div>
+        <h2 class="book__heading quiz__question"></h2>
+      </div>
+      <ul class="quiz__options"></ul>
+      <div class="book__controls">
+        <div></div>
+        <button type="button" class="book__next quiz__next" disabled>Weiter &rarr;</button>
+      </div>
+    </div>
+  `;
+  overlay.querySelector(".book__close").addEventListener("click", closeOverlay);
+  overlay.querySelector(".quiz__next").addEventListener("click", () => {
+    quizIndex += 1;
+    if (quizIndex >= quizQuestions.length) {
+      renderQuizResult();
+    } else {
+      renderQuizQuestion();
+    }
+  });
+}
+
+function renderQuizQuestion() {
+  quizSelected = null;
+  const q = quizQuestions[quizIndex];
+  overlay.querySelector(".quiz__progress").textContent = `Frage ${quizIndex + 1} / ${quizQuestions.length}`;
+  overlay.querySelector(".quiz__question").textContent = q.question;
+
+  const list = overlay.querySelector(".quiz__options");
+  list.innerHTML = q.options
+    .map((opt, i) => `<li><button type="button" class="quiz__option" data-index="${i}">${opt}</button></li>`)
+    .join("");
+
+  overlay.querySelectorAll(".quiz__option").forEach((btn) => {
+    btn.addEventListener("click", () => selectQuizOption(Number(btn.dataset.index)));
+  });
+
+  overlay.querySelector(".quiz__next").disabled = true;
+  overlay.querySelector(".quiz__next").textContent =
+    quizIndex === quizQuestions.length - 1 ? "Ergebnis ansehen →" : "Weiter →";
+}
+
+function selectQuizOption(index) {
+  if (quizSelected !== null) return; // nur eine Antwort pro Frage
+  quizSelected = index;
+  const q = quizQuestions[quizIndex];
+  if (index === q.correct) quizScore += 1;
+
+  overlay.querySelectorAll(".quiz__option").forEach((btn) => {
+    const i = Number(btn.dataset.index);
+    btn.disabled = true;
+    if (i === q.correct) btn.classList.add("is-correct");
+    else if (i === index) btn.classList.add("is-wrong");
+  });
+
+  overlay.querySelector(".quiz__next").disabled = false;
+}
+
+function renderQuizResult() {
+  const passed = quizScore / quizQuestions.length >= QUIZ_PASS_RATIO;
+  overlay.innerHTML = `
+    <div class="book book--quiz">
+      <button type="button" class="book__close" aria-label="Schließen">&times;</button>
+      <div class="book__text">
+        <h2 class="book__heading">${quizScore} von ${quizQuestions.length} richtig</h2>
+        <p class="rules-intro">${
+          passed
+            ? "Die Grundlagen sitzen. Lade dir zur Erinnerung ein Zertifikat herunter."
+            : "Noch nicht ganz — ein Blick zurück in die Regeln oder die Geschichte lohnt sich."
+        }</p>
+      </div>
+      ${
+        passed
+          ? `<div class="quiz__certificate-form">
+               <label for="quiz-name">Name für das Zertifikat</label>
+               <input type="text" id="quiz-name" placeholder="Dein Name" maxlength="60" />
+               <button type="button" class="book__next quiz__download">Zertifikat herunterladen</button>
+             </div>`
+          : ""
+      }
+      <div class="book__controls">
+        <button type="button" class="book__prev quiz__retry">&larr; Nochmal versuchen</button>
+        <div></div>
+        <button type="button" class="book__next quiz__to-map">Zur Karte →</button>
+      </div>
+    </div>
+  `;
+  overlay.querySelector(".book__close").addEventListener("click", closeOverlay);
+  overlay.querySelector(".quiz__retry").addEventListener("click", openQuiz);
+  overlay.querySelector(".quiz__to-map").addEventListener("click", closeOverlay);
+  if (passed) {
+    overlay.querySelector(".quiz__download").addEventListener("click", () => {
+      const name = overlay.querySelector("#quiz-name").value.trim() || "Besucher der Trappisten-Karte";
+      downloadCertificate(name, quizScore, quizQuestions.length);
+    });
+  }
+}
+
+async function downloadCertificate(name, score, total) {
+  await document.fonts.load("700 54px Cinzel");
+  await document.fonts.load("italic 400 28px 'Cormorant Garamond'");
+  await document.fonts.load("400 28px 'Cormorant Garamond'");
+
+  const canvas = document.createElement("canvas");
+  canvas.width = 1200;
+  canvas.height = 850;
+  const ctx = canvas.getContext("2d");
+
+  // Pergament-Grund + doppelte Rahmenlinie, passend zur Palette.
+  ctx.fillStyle = "#e9e4d4";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.strokeStyle = "#343a2e";
+  ctx.lineWidth = 3;
+  ctx.strokeRect(40, 40, canvas.width - 80, canvas.height - 80);
+  ctx.strokeStyle = "#a9712b";
+  ctx.lineWidth = 1;
+  ctx.strokeRect(56, 56, canvas.width - 112, canvas.height - 112);
+
+  // Kleines Kreuz oben mittig, wie im Seitenkopf.
+  const cx = canvas.width / 2;
+  ctx.fillStyle = "#1c1f1a";
+  ctx.fillRect(cx - 5, 95, 10, 70);
+  ctx.fillRect(cx - 22, 118, 44, 10);
+
+  ctx.textAlign = "center";
+  ctx.fillStyle = "#1c1f1a";
+  ctx.font = "700 46px Cinzel";
+  ctx.fillText("ZERTIFIKAT", cx, 250);
+
+  ctx.font = "italic 400 26px 'Cormorant Garamond'";
+  ctx.fillStyle = "#343a2e";
+  ctx.fillText("hiermit wird bestätigt, dass", cx, 330);
+
+  ctx.font = "700 40px Cinzel";
+  ctx.fillStyle = "#1c1f1a";
+  ctx.fillText(name, cx, 400);
+
+  ctx.font = "400 28px 'Cormorant Garamond'";
+  ctx.fillStyle = "#343a2e";
+  wrapText(
+    ctx,
+    "sich mit der Geschichte, der Philosophie und den Regeln der Trappisten auseinandergesetzt hat.",
+    cx,
+    460,
+    760,
+    36
+  );
+
+  ctx.font = "400 24px 'Cormorant Garamond'";
+  ctx.fillStyle = "#a9712b";
+  ctx.fillText(`${score} von ${total} Fragen richtig beantwortet`, cx, 580);
+
+  const today = new Date().toLocaleDateString("de-DE", { year: "numeric", month: "long", day: "numeric" });
+  ctx.font = "italic 400 22px 'Cormorant Garamond'";
+  ctx.fillStyle = "#343a2e";
+  ctx.fillText(`Trappisten-Karte · ${today}`, cx, 760);
+
+  canvas.toBlob((blob) => {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "trappisten-karte-zertifikat.png";
+    a.click();
+    URL.revokeObjectURL(url);
+  }, "image/png");
+}
+
+function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+  const words = text.split(" ");
+  let line = "";
+  let lineY = y;
+  words.forEach((word) => {
+    const test = line ? `${line} ${word}` : word;
+    if (ctx.measureText(test).width > maxWidth && line) {
+      ctx.fillText(line, x, lineY);
+      line = word;
+      lineY += lineHeight;
+    } else {
+      line = test;
+    }
+  });
+  if (line) ctx.fillText(line, x, lineY);
 }
 
 // --- Navigation --------------------------------------------------------
