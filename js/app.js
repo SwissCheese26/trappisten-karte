@@ -42,11 +42,51 @@ function bounds(coordsList) {
   );
 }
 
+// Verbindungslinien: Klick auf eine Brauerei zeichnet gerade "Wege" zu den
+// anderen aktuell geladenen Brauereien. Das ist bewusst noch keine echte
+// Routing-Berechnung (Straßen/Fußwege) — das kommt erst in Roadmap-Schritt 5
+// über einen Routing-Dienst. Hier geht es nur darum, Beziehungen zwischen
+// den Abteien sichtbar zu machen.
+function connectionLines(fromFeature, allFeatures) {
+  const [fromLng, fromLat] = fromFeature.geometry.coordinates;
+  return {
+    type: "FeatureCollection",
+    features: allFeatures
+      .filter((f) => f !== fromFeature)
+      .map((f) => ({
+        type: "Feature",
+        geometry: {
+          type: "LineString",
+          coordinates: [[fromLng, fromLat], f.geometry.coordinates],
+        },
+        properties: {},
+      })),
+  };
+}
+
 map.on("load", () => {
+  map.addSource("connections", {
+    type: "geojson",
+    data: { type: "FeatureCollection", features: [] },
+  });
+  map.addLayer({
+    id: "connections",
+    type: "line",
+    source: "connections",
+    paint: {
+      "line-color": "#a9712b",
+      "line-width": 1.5,
+      "line-dasharray": [2, 2],
+      "line-opacity": 0.75,
+    },
+  });
+
   fetch("data/breweries.geojson")
     .then((res) => res.json())
     .then((geojson) => {
-      geojson.features.forEach((feature) => {
+      const features = geojson.features;
+
+      features.forEach((feature) => {
         const p = feature.properties;
         const [lng, lat] = feature.geometry.coordinates;
 
@@ -57,14 +97,20 @@ map.on("load", () => {
           <p>${p.history}</p>
         `);
 
-        new maplibregl.Marker({ element: breweryMarkerElement() })
-          .setLngLat([lng, lat])
-          .setPopup(popup)
-          .addTo(map);
+        const el = breweryMarkerElement();
+        el.addEventListener("click", () => {
+          map.getSource("connections").setData(connectionLines(feature, features));
+        });
+
+        new maplibregl.Marker({ element: el }).setLngLat([lng, lat]).setPopup(popup).addTo(map);
+
+        popup.on("close", () => {
+          map.getSource("connections").setData({ type: "FeatureCollection", features: [] });
+        });
       });
 
-      if (geojson.features.length > 0) {
-        const b = bounds(geojson.features.map((f) => f.geometry.coordinates));
+      if (features.length > 0) {
+        const b = bounds(features.map((f) => f.geometry.coordinates));
         map.fitBounds(b, { padding: 60, maxZoom: 8, duration: 0 });
       }
     })
