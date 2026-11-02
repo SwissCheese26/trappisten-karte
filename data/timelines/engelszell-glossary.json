@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Novizenmeister der Abtei La Trappe, floh 1791 vor der Französischen Revolution in die Schweiz und gründete dort eine noch strengere Trappisten-Gemeinschaft. Führte seine Gemeinschaft 1798–1802 quer durch Europa bis nach Russland und zurück.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Gedenktafel, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "paul1",
+    "term": "Zar Paul I.",
+    "description": "1754–1801. Kaiser von Russland ab 1796. Nahm 1798 die aus der Schweiz vertriebenen Trappisten in Wolhynien auf – wies sie aber schon 1800 per Dekret wieder aus, nachdem es zum Konflikt mit der orthodoxen Kirchenhierarchie gekommen war. Wurde 1801 ermordet.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Paul_I_of_Russia_by_Stepan_Shchukin_%281797%2C_Tretyakov_gallery%29.jpg",
+    "credit": "Porträt von Stepan Schtschukin, 1797, Tretjakow-Galerie · Wikimedia Commons, gemeinfrei"
+  }
+]

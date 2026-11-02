@@ -1,10 +1,13 @@
 {
   "brewery": "Engelszell",
+  "glossary": "data/timelines/engelszell-glossary.json",
   "sources": [
     "https://en.wikipedia.org/wiki/Engelszell_Abbey",
     "https://de.wikipedia.org/wiki/Stift_Engelszell",
     "https://en.wikipedia.org/wiki/Oelenberg_Abbey",
-    "https://structurae.net/de/bauwerke/stift-engelszell"
+    "https://structurae.net/de/bauwerke/stift-engelszell",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange",
+    "http://www.mediterranee-antique.fr/Auteurs/Fichiers/GHI/Gaillardin/Trappistes/T2/Trappe_2_180.htm"
   ],
   "stations": [
     {
@@ -22,11 +25,32 @@
       "text": "Kaiser Joseph II. löste das Kloster 1786 im Zuge seiner Klosterreformen auf. Die Gebäude dienten danach unter anderem als Fabrik und Wohnhaus."
     },
     {
+      "year": "Februar 1798",
+      "title": "Aufbruch aus der Schweiz",
+      "coordinates": [7.188653, 46.649278],
+      "zoom": 7,
+      "text": "Französische Truppen fielen in die Schweiz ein. Augustin de Lestrange brach mit über 200 Mönchen, Nonnen und Kindern aus dem Kartäuserkloster Val-Sainte bei Freiburg auf – der Beginn einer zweijährigen Flucht quer durch Europa."
+    },
+    {
       "year": "1798",
-      "title": "Rastplatz auf der Flucht nach Russland",
+      "title": "Rastplatz in Engelszell",
       "coordinates": [13.7342, 48.4989],
       "zoom": 8,
-      "text": "Die leerstehenden Gebäude dienten 1798 ungeplant noch einmal klösterlichem Leben: 254 Trappistenmönche, -nonnen und -kinder rasteten hier auf ihrer „monastischen Odyssee” – vertrieben aus dem Schweizer Val-Sainte, auf der Flucht durch Deutschland, Österreich, Böhmen und Polen bis nach Russland, wohin sie Zar Paul I. eingeladen hatte. 1800 wurden sie auch von dort wieder ausgewiesen."
+      "text": "Die leerstehenden Gebäude der 1786 aufgelösten Abtei dienten 1798 ungeplant noch einmal klösterlichem Leben: 254 Trappistenmönche, -nonnen und -kinder rasteten hier auf dem Weg durch Deutschland, Österreich, Böhmen und Polen weiter nach Osten."
+    },
+    {
+      "year": "1798–1800",
+      "title": "Ansiedlung in Wolhynien",
+      "coordinates": [25.32, 50.80472],
+      "zoom": 7,
+      "text": "Zar Paul I. erlaubte der Gemeinschaft, sich im Kloster von Zydyczyn (Wolhynien, heute Ukraine) niederzulassen. Der erste Winter bei rund −30 °C erwies sich als kaum erträglich. Im März 1800 ordnete der Zar die Ausweisung aller französischen Emigranten an; Ostern desselben Jahres, am 13. April, mussten die Trappisten auch Russland verlassen."
+    },
+    {
+      "year": "13. April 1800",
+      "title": "Über die Ostsee zurück",
+      "coordinates": [10.687, 53.869],
+      "zoom": 6,
+      "text": "Von Russland ausgewiesen, reiste die Gemeinschaft über die Ostsee nach Lübeck. 1801/1802 trafen sich die Rückkehrer aus Russland mit den übrigen verstreuten Trappisten wieder; 1814, nach Napoleons Niederlage, konnte schließlich La Trappe selbst neu besiedelt werden."
     },
     {
       "year": "1925",
