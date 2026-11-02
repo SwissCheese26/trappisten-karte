@@ -8,8 +8,9 @@
 const SEEN_KEY = "trappist-karte-book-seen";
 
 const overlay = document.getElementById("book-overlay");
-const mapLink = document.querySelector('[data-nav="map"]');
-const schoolLink = document.querySelector('[data-nav="school"]');
+const mapLink = document.querySelector('.site-nav__link[data-nav="map"]');
+const schoolLink = document.querySelector('.site-nav__link[data-nav="school"]');
+const topCross = document.querySelector(".top-cross");
 
 let storyPages = [];
 let storyIndex = 0;
@@ -136,6 +137,7 @@ function openRules(data) {
 // --- Navigation --------------------------------------------------------
 
 mapLink.addEventListener("click", closeOverlay);
+topCross.addEventListener("click", closeOverlay);
 
 schoolLink.addEventListener("click", () => {
   mapLink.classList.remove("is-active");

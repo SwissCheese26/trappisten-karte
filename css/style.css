@@ -34,6 +34,50 @@ body {
   background: var(--color-stone-900);
 }
 
+/* Kreuz oben mittig: schlichter steinerner Giebelschmuck, zugleich Link
+   zurück zur Kartenansicht. Bleibt auch über dem Buch-Overlay klickbar
+   (eigener, höherer z-index), ein weiterer Ausweg aus dem Overlay. */
+.top-cross {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 150;
+  width: 2.2rem;
+  height: 2.6rem;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.top-cross__bar {
+  position: absolute;
+  background: var(--color-stone-900);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 1px;
+}
+
+.top-cross__bar--v {
+  top: 0;
+  left: 50%;
+  width: 0.3rem;
+  height: 100%;
+  transform: translateX(-50%);
+}
+
+.top-cross__bar--h {
+  top: 0.7rem;
+  left: 50%;
+  width: 1.3rem;
+  height: 0.3rem;
+  transform: translateX(-50%);
+}
+
+.top-cross:hover .top-cross__bar {
+  background: var(--color-amber);
+}
+
 .site-header {
   position: absolute;
   top: 1.25rem;
