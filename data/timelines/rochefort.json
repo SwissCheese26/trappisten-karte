@@ -3,7 +3,8 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Rochefort_Abbey",
     "https://en.wikipedia.org/wiki/Rochefort_Brewery",
-    "https://en.wikipedia.org/wiki/Achel_Brewery"
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://en.wikipedia.org/wiki/C%C3%AEteaux_Abbey"
   ],
   "stations": [
     {
@@ -16,9 +17,9 @@
     {
       "year": "1464",
       "title": "Mönche statt Nonnen",
-      "coordinates": [5.22036, 50.17803],
-      "zoom": 8,
-      "text": "Das Kloster war inzwischen verfallen. 1464 ließ Louis de la Marck die Nonnen durch Mönche ersetzen – als jüngstes Tochterkloster der Mutterabtei Cîteaux."
+      "coordinates": [5.09333, 47.12806],
+      "zoom": 7,
+      "text": "Das Kloster war inzwischen verfallen. 1464 ließ Louis de la Marck die Nonnen durch Mönche ersetzen – als jüngstes Tochterkloster der Mutterabtei Cîteaux in Burgund, von wo die neue Gemeinschaft kam."
     },
     {
       "year": "1568 / 1577",
