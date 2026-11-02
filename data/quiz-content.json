@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Wofür steht die Abkürzung „OCSO“, der offizielle Ordensname der Trappisten?",
+    "options": [
+      "Orden der Cluniazenser strengerer Sitte",
+      "Orden der Zisterzienser der strengeren Observanz",
+      "Orden der Kartäuser strengerer Stille",
+      "Orden der Benediktiner vom heiligen Kreuz"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In welchem Jahr reformierte Armand de Rancé die Abtei La Trappe grundlegend?",
+    "options": ["1598", "1664", "1789", "1892"],
+    "correct": 1
+  },
+  {
+    "question": "Welcher Mönchsregel folgen die Trappisten?",
+    "options": [
+      "Regel des heiligen Franziskus",
+      "Regel des heiligen Benedikt",
+      "Regel des heiligen Augustinus",
+      "Regel des heiligen Dominikus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Was bedeutet das benediktinische Versprechen „Stabilitas“?",
+    "options": [
+      "Lebenslange Bindung an eine einzige Klostergemeinschaft",
+      "Ein Gelübde völligen Schweigens",
+      "Tägliches vollständiges Fasten",
+      "Verzicht auf jeden persönlichen Besitz"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Wohin floh ein Teil der Trappisten während der Französischen Revolution, eingeladen von Zar Paul I.?",
+    "options": ["Nach Spanien", "Nach Russland", "Nach Portugal", "Nach Ägypten"],
+    "correct": 1
+  },
+  {
+    "question": "Welches Fleisch ist Trappisten laut der Reform von 1664 erlaubt?",
+    "options": ["Rind", "Schwein", "Fisch und Geflügel", "Lamm"],
+    "correct": 2
+  },
+  {
+    "question": "Was besagt Kapitel 48 der Benediktsregel über Handarbeit?",
+    "options": [
+      "Handarbeit ist nur für Novizen vorgeschrieben",
+      "Müßiggang ist der Seele Feind",
+      "Handarbeit ersetzt das Gebet",
+      "Handarbeit ist nur im Sommer erlaubt"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ab welchem Jahr braute die Abtei Orval Bier, um den Wiederaufbau zu finanzieren?",
+    "options": ["1836", "1931", "1664", "1892"],
+    "correct": 1
+  }
+]

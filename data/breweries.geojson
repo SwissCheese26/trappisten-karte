@@ -3,33 +3,83 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [4.65667, 51.28472] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.65667,
+          51.28472
+        ]
+      },
       "properties": {
         "name": "Westmalle",
         "abbey": "Abdij Onze-Lieve-Vrouw van het Heilig Hart (Westmalle)",
         "country": "Belgien",
         "founded_abbey": 1794,
         "brewing_since": 1836,
-        "beers": [],
+        "beers": [
+          {
+            "name": "Westmalle Dubbel",
+            "style": "Dubbel",
+            "abv": 7.0
+          },
+          {
+            "name": "Westmalle Tripel",
+            "style": "Tripel",
+            "abv": 9.5
+          },
+          {
+            "name": "Westmalle Extra",
+            "style": "Patersbier",
+            "abv": 5.0
+          }
+        ],
         "history": "Die Abtei wurde 1794 als Priorat gegründet und 1836 zur Abtei erhoben. Im selben Jahr brauten die Mönche erstmals Trappistenbier für den Eigenbedarf.",
         "visit": null,
         "ita_status": true,
         "sources": [
           "https://trappist.be/en/abbeys/",
-          "https://en.wikipedia.org/wiki/Westmalle_Abbey"
+          "https://en.wikipedia.org/wiki/Westmalle_Abbey",
+          "https://en.wikipedia.org/wiki/Westmalle_Brewery"
         ]
       }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [4.33611, 49.98222] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.33611,
+          49.98222
+        ]
+      },
       "properties": {
         "name": "Chimay",
         "abbey": "Abbaye Notre-Dame de Scourmont",
         "country": "Belgien",
         "founded_abbey": 1850,
         "brewing_since": 1862,
-        "beers": [],
+        "beers": [
+          {
+            "name": "Chimay Rouge (Première)",
+            "style": "Dubbel",
+            "abv": 7.0
+          },
+          {
+            "name": "Chimay Triple (Cinq Cents)",
+            "style": "Tripel",
+            "abv": 8.0
+          },
+          {
+            "name": "Chimay Bleue (Grande Réserve)",
+            "style": "Dunkles Starkbier",
+            "abv": 9.0
+          },
+          {
+            "name": "Chimay Dorée",
+            "style": "Patersbier",
+            "abv": 4.8
+          }
+        ],
         "history": "1850 ließen sich Mönche aus Westvleteren auf dem Scourmont nieder, 1871 wurde die Gemeinschaft zur Abtei erhoben. Die Brauerei entstand 1862 innerhalb der Klostermauern.",
         "visit": null,
         "ita_status": true,
@@ -42,20 +92,325 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [5.34889, 49.63972] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.34889,
+          49.63972
+        ]
+      },
       "properties": {
         "name": "Orval",
         "abbey": "Abbaye Notre-Dame d'Orval",
         "country": "Belgien",
         "founded_abbey": 1132,
         "brewing_since": 1931,
-        "beers": [],
-        "history": "Das Kloster wurde 1132 von Zisterziensermönchen gegründet, im Lauf der Jahrhunderte mehrfach zerstört und wieder aufgebaut. Die heutige Trappistengemeinschaft brennt seit 1931 Bier, um den Wiederaufbau der Abtei zu finanzieren.",
+        "beers": [
+          {
+            "name": "Orval",
+            "style": "Belgian Pale Ale (Brettanomyces-vergoren)",
+            "abv": 6.2
+          }
+        ],
+        "history": "Das Kloster wurde 1132 von Zisterziensermönchen gegründet, im Lauf der Jahrhunderte mehrfach zerstört und wieder aufgebaut. Die heutige Trappistengemeinschaft braut seit 1931 nur dieses eine Bier, um den Wiederaufbau der Abtei zu finanzieren – bewusst kein erweitertes Sortiment.",
         "visit": null,
         "ita_status": true,
         "sources": [
           "https://trappist.be/en/abbeys/",
-          "https://en.wikipedia.org/wiki/Orval_Abbey"
+          "https://en.wikipedia.org/wiki/Orval_Abbey",
+          "https://en.wikipedia.org/wiki/Orval_Brewery"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.12972,
+          51.54361
+        ]
+      },
+      "properties": {
+        "name": "La Trappe",
+        "abbey": "Abdij Onze Lieve Vrouw van Koningshoeven",
+        "country": "Niederlande",
+        "founded_abbey": 1881,
+        "brewing_since": 1884,
+        "beers": [
+          {
+            "name": "La Trappe Blond",
+            "style": "Blond",
+            "abv": 6.5
+          },
+          {
+            "name": "La Trappe Dubbel",
+            "style": "Dubbel",
+            "abv": 7.0
+          },
+          {
+            "name": "La Trappe Tripel",
+            "style": "Tripel",
+            "abv": 8.0
+          },
+          {
+            "name": "La Trappe Quadrupel",
+            "style": "Quadrupel",
+            "abv": 10.0
+          },
+          {
+            "name": "La Trappe Witte Trappist",
+            "style": "Weizen-Trappistenbier",
+            "abv": 5.5
+          },
+          {
+            "name": "La Trappe Puur",
+            "style": "Bio, ungefiltert",
+            "abv": 4.7
+          }
+        ],
+        "history": "Die Gemeinschaft ließ sich 1881 nur zögerlich in Berkel-Enschot nieder; die ersten Jahre waren wirtschaftlich hart. Ab 1884 baute Dom Nivardus Schweykart, Sohn eines Münchner Brauers, eine Brauerei auf, die die Finanzen der Abtei stabilisierte. 1891 wurde die Gemeinschaft zur Abtei erhoben.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+          "https://de.latrappetrappist.com/en"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.22036,
+          50.17803
+        ]
+      },
+      "properties": {
+        "name": "Rochefort",
+        "abbey": "Abbaye Notre-Dame de Saint-Rémy",
+        "country": "Belgien",
+        "founded_abbey": 1230,
+        "brewing_since": 1595,
+        "beers": [
+          {
+            "name": "Rochefort 6",
+            "style": "Dubbel",
+            "abv": 7.5
+          },
+          {
+            "name": "Rochefort 8",
+            "style": "Dunkles Starkbier",
+            "abv": 9.2
+          },
+          {
+            "name": "Rochefort 10",
+            "style": "Quadrupel",
+            "abv": 11.3
+          },
+          {
+            "name": "Triple Extra",
+            "style": "Blondes Starkbier",
+            "abv": 8.1
+          }
+        ],
+        "history": "1230 als Frauenkloster „Secours de Notre-Dame“ gegründet, seit 1464 von Mönchen bewohnt. Eine erste Brauerei entstand um 1595, blieb aber lange auf den Eigenbedarf beschränkt – erst ab 1952 wurde in nennenswerter Menge für den Verkauf gebraut.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Rochefort_Abbey",
+          "https://en.wikipedia.org/wiki/Rochefort_Brewery",
+          "https://www.trappistes-rochefort.com/en/",
+          "https://www.jamesclay.co.uk/core/trappistes-rochefort"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.721262,
+          50.895942
+        ]
+      },
+      "properties": {
+        "name": "Westvleteren",
+        "abbey": "Sint-Sixtusabdij",
+        "country": "Belgien",
+        "founded_abbey": 1831,
+        "brewing_since": 1838,
+        "beers": [
+          {
+            "name": "Westvleteren Blond",
+            "style": "Blond",
+            "abv": 5.8
+          },
+          {
+            "name": "Westvleteren 8",
+            "style": "Dubbel",
+            "abv": 8.0
+          },
+          {
+            "name": "Westvleteren 12",
+            "style": "Quadrupel",
+            "abv": 10.2
+          }
+        ],
+        "history": "1831 ließ sich der Einsiedler Jan-Baptist Victoor mit Gefährten hier nieder, 1871 wurde die Gemeinschaft zur Abtei erhoben. Die Brauerei entstand 1838 innerhalb der Klostermauern. Die Abtei verkauft ihr Bier bewusst nur in kleinen Mengen direkt am Kloster, nicht über den regulären Handel.",
+        "visit": "Verkauf nur direkt an der Abtei (telefonische Voranmeldung nötig) sowie im abteinahen Café In de Vrede.",
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+          "https://en.wikipedia.org/wiki/Westvleteren_Brewery",
+          "https://www.trappistwestvleteren.be/en/our-beers"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.667,
+          50.783
+        ]
+      },
+      "properties": {
+        "name": "Mont des Cats",
+        "abbey": "Abbaye Notre-Dame du Mont-des-Cats",
+        "country": "Frankreich",
+        "founded_abbey": 1826,
+        "brewing_since": 2011,
+        "beers": [
+          {
+            "name": "Mont des Cats",
+            "style": "Bernsteinfarbenes Trappistenbier",
+            "abv": 7.6
+          }
+        ],
+        "history": "1826 gründeten acht Trappisten die Abtei neu, nachdem eine frühere Klostergemeinschaft während der Französischen Revolution aufgelöst worden war. Die Abtei verfügt über keine eigene Brauerei; das 2011 vorgestellte Bier wird nach einem Rezept der Mönche in der Abtei Scourmont (Chimay) gebraut – deshalb trägt es offiziell nicht das „Authentic Trappist Product“-Siegel, das Brauen innerhalb der eigenen Klostermauern voraussetzt.",
+        "visit": null,
+        "ita_status": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mont_des_Cats",
+          "https://www.beercollector.com.au/beers/mont-des-cats",
+          "https://belgianbeerheaven.com/de/en/breweries/mont-des-cats"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48333,
+          41.83444
+        ]
+      },
+      "properties": {
+        "name": "Tre Fontane",
+        "abbey": "Abbazia delle Tre Fontane",
+        "country": "Italien",
+        "founded_abbey": 626,
+        "brewing_since": 2015,
+        "beers": [
+          {
+            "name": "Tre Fontane Tripel",
+            "style": "Tripel",
+            "abv": 8.5
+          },
+          {
+            "name": "Scala Coeli",
+            "style": "Hell",
+            "abv": 6.7
+          }
+        ],
+        "history": "Die Abtei bei Rom geht auf eine Gründung Papst Honorius’ I. im Jahr 626 zurück, seit 1140 von Zisterziensern bewohnt. Seit 2015 brauen die Mönche Bier unter Zugabe von Eukalyptusblättern aus dem abteieigenen Wald – eine Zutat, die vorher in keinem anderen Trappistenbier verwendet wurde. Bis zur Anerkennung mit dem „Authentic Trappist Product“-Siegel 2015 hieß das Bier „Birra dei Monaci“.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tre_Fontane_Abbey",
+          "https://cronachedibirra.it/birrifici/12594/a-look-into-tre-fontane-abbey-the-first-italian-trappist-brewery-in-the-world/",
+          "https://brookstonbeerbulletin.com/italys-tre-fontane-approved-as-newest-trappist-brewery/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6073016,
+          42.304312
+        ]
+      },
+      "properties": {
+        "name": "Cardeña",
+        "abbey": "Monasterio de San Pedro de Cardeña",
+        "country": "Spanien",
+        "founded_abbey": 1942,
+        "brewing_since": 2016,
+        "beers": [
+          {
+            "name": "Cardeña Tripel",
+            "style": "Tripel",
+            "abv": null
+          },
+          {
+            "name": "Cardeña Doble",
+            "style": "Dubbel",
+            "abv": null
+          },
+          {
+            "name": "Cardeña Quadrupel",
+            "style": "Quadrupel",
+            "abv": 10.0
+          }
+        ],
+        "history": "Das über tausend Jahre alte Kloster bei Burgos war größtenteils benediktinisch und fiel im 19. Jahrhundert in weltliche Hände; erst 1942 kehrten Mönche zurück. 2016 entstand mit der Cardeña Tripel das erste spanische Trappistenbier, gebraut nicht innerhalb der Klostermauern, sondern unter Aufsicht der Mönche an anderer Stelle – weshalb das Bier offiziell nicht als „Authentic Trappist Product“ zertifiziert ist, auch wenn es als Marke „Trappist“ im Namen führt.",
+        "visit": null,
+        "ita_status": false,
+        "sources": [
+          "https://www.beervanablog.com/beervana/2019/12/9/all-the-new-monastery-breweries",
+          "https://en.wikipedia.org/wiki/Trappist_beer",
+          "https://birrapedia.com/en/cardena-tripel/p-ca/f-56f00fe0f70fb57f24c22e21"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.323072,
+          52.741352
+        ]
+      },
+      "properties": {
+        "name": "Mount Saint Bernard",
+        "abbey": "Mount Saint Bernard Abbey",
+        "country": "Vereinigtes Königreich",
+        "founded_abbey": 1835,
+        "brewing_since": 2018,
+        "beers": [
+          {
+            "name": "Tynt Meadow",
+            "style": "English Trappist Ale (Starkbier)",
+            "abv": 7.4
+          }
+        ],
+        "history": "Gegründet 1835 bei Coalville in Leicestershire. Nachdem die klostereigene Milchviehwirtschaft 2014 aufgegeben wurde, bauten die Mönche eine Brauerei auf. 2018 erschien mit Tynt Meadow das erste je in Großbritannien gebraute Trappistenbier – benannt nach dem Flurstück, auf dem die Abtei steht.",
+        "visit": "Klosterladen und Gästehaus vorhanden; Übernachtungen für Gäste und Retreat-Teilnehmer möglich.",
+        "ita_status": true,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mount_Saint_Bernard_Abbey",
+          "https://en.wikipedia.org/wiki/Tynt_Meadow",
+          "https://www.joh.cam.ac.uk/node/6431"
         ]
       }
     }
