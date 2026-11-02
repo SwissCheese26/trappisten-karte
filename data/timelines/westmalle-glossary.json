@@ -1,0 +1,33 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Novizenmeister der Abtei La Trappe, floh 1791 vor der Französischen Revolution in die Schweiz und gründete dort eine noch strengere Trappisten-Gemeinschaft. Schickte später Mönche in alle Richtungen Europas – eine dieser Gruppen gründete Westmalle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Gedenktafel, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "rance",
+    "term": "Armand de Rancé",
+    "description": "1626–1700. Reformierte 1664 die Abtei La Trappe in der Normandie: Schweigen, Handarbeit, strenge Buße. Seine Regeln begründeten die Trappisten-Bewegung und erlaubten den Mönchen ausdrücklich Bier zu den Mahlzeiten.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Portrait_d%27Armand-Jean_Le_Bouthillier_de_Ranc%C3%A9%2C_abb%C3%A9_de_la_Trappe_-_Mus%C3%A9e_Cond%C3%A9.jpg",
+    "credit": "Porträt, Musée Condé · Wikimedia Commons, gemeinfrei"
+  },
+  {
+    "id": "dom",
+    "term": "Martinus Dom",
+    "description": "1791–1873. Geboren als Frans Daniël Dom in Kontich. Trat 1817 in Westmalle ein, wurde 1826 erster Prior und 1836 erster Abt. Schlug vor, statt Bier zuzukaufen selbst zu brauen – am 1. August 1836 wurde zum ersten Mal gebraut.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Martinus-dom.jpg",
+    "credit": "Porträt Martinus Dom · Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "id": "novizenmeister",
+    "term": "Novizenmeister",
+    "description": "Der Mönch, der die Novizen betreut und ausbildet – angehende Mönche in der mehrjährigen Probezeit vor dem endgültigen Gelübde."
+  },
+  {
+    "id": "priorat",
+    "term": "Priorat",
+    "description": "Eine Klostergemeinschaft, die noch keine eigenständige Abtei ist. Geleitet von einem Prior statt einem Abt, meist kleiner oder jünger als eine Abtei."
+  }
+]

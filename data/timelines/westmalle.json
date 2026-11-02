@@ -1,5 +1,6 @@
 {
   "brewery": "Westmalle",
+  "glossary": "data/timelines/westmalle-glossary.json",
   "sources": [
     "https://en.wikipedia.org/wiki/Westmalle_Abbey",
     "https://en.wikipedia.org/wiki/Augustin_de_Lestrange"

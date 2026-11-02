@@ -104,9 +104,77 @@ const timelinePrevBtn = timelineMode.querySelector(".timeline-panel__prev");
 const timelineNextBtn = timelineMode.querySelector(".timeline-panel__next");
 const timelineCloseBtn = timelineMode.querySelector(".timeline-mode__close");
 
+const glossaryPopover = document.getElementById("glossary-popover");
+const glossaryImage = glossaryPopover.querySelector(".glossary-popover__image");
+const glossaryCredit = glossaryPopover.querySelector(".glossary-popover__credit");
+const glossaryTerm = glossaryPopover.querySelector(".glossary-popover__term");
+const glossaryDescription = glossaryPopover.querySelector(".glossary-popover__description");
+
+function openGlossaryPopover(entry, anchorEl) {
+  glossaryTerm.textContent = entry.term;
+  glossaryDescription.textContent = entry.description;
+  if (entry.image) {
+    glossaryImage.src = entry.image;
+    glossaryImage.alt = entry.term;
+    glossaryImage.hidden = false;
+    glossaryCredit.textContent = entry.credit || "";
+  } else {
+    glossaryImage.hidden = true;
+    glossaryCredit.textContent = "";
+  }
+
+  glossaryPopover.hidden = false;
+  const box = anchorEl.getBoundingClientRect();
+  const popoverWidth = 280;
+  let left = box.left + box.width / 2 - popoverWidth / 2;
+  left = Math.max(12, Math.min(left, window.innerWidth - popoverWidth - 12));
+  let top = box.top - 12;
+  // Unter statt über dem Begriff zeigen, wenn oben nicht genug Platz ist.
+  const showBelow = top < 220;
+  glossaryPopover.style.left = `${left}px`;
+  glossaryPopover.style.top = showBelow ? `${box.bottom + 12}px` : "";
+  glossaryPopover.style.bottom = showBelow ? "" : `${window.innerHeight - box.top + 12}px`;
+  requestAnimationFrame(() => glossaryPopover.classList.add("is-open"));
+}
+
+function closeGlossaryPopover() {
+  glossaryPopover.classList.remove("is-open");
+  window.setTimeout(() => {
+    glossaryPopover.hidden = true;
+  }, 150);
+}
+
+glossaryPopover.querySelector(".glossary-popover__close").addEventListener("click", closeGlossaryPopover);
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("glossary-term")) {
+    const entry = timelineGlossary.find((g) => g.id === e.target.dataset.termId);
+    if (entry) openGlossaryPopover(entry, e.target);
+  } else if (!glossaryPopover.contains(e.target)) {
+    closeGlossaryPopover();
+  }
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeGlossaryPopover();
+});
+
 let timelineStations = [];
 let timelineIndex = 0;
 let viewBeforeTimeline = null;
+let timelineGlossary = [];
+
+// Glossar: weniger bekannte Namen/Begriffe im Erzähltext anklickbar machen.
+// Längere Begriffe zuerst ersetzen, sonst würde z. B. "Rancé" in einem
+// bereits ersetzten "Armand de Rancé"-Treffer nochmal anschlagen.
+function highlightGlossaryTerms(text) {
+  let html = text;
+  const sorted = [...timelineGlossary].sort((a, b) => b.term.length - a.term.length);
+  sorted.forEach((entry) => {
+    html = html.split(entry.term).join(
+      `<button type="button" class="glossary-term" data-term-id="${entry.id}">${entry.term}</button>`
+    );
+  });
+  return html;
+}
 
 function openTimeline(url) {
   fetch(url)
@@ -115,9 +183,21 @@ function openTimeline(url) {
       timelineStations = data.stations;
       timelineIndex = 0;
       viewBeforeTimeline = { center: map.getCenter(), zoom: map.getZoom() };
+      timelineGlossary = [];
+      closeGlossaryPopover();
 
       document.querySelectorAll(".maplibregl-popup").forEach((p) => p.remove());
       map.getSource("connections").setData({ type: "FeatureCollection", features: [] });
+
+      if (data.glossary) {
+        fetch(data.glossary)
+          .then((res) => res.json())
+          .then((glossary) => {
+            timelineGlossary = glossary;
+            renderStation(); // Begriffe im bereits sichtbaren Text nachträglich markieren
+          })
+          .catch((err) => console.error("Konnte Glossar nicht laden:", err));
+      }
 
       map.getSource("timeline-route").setData({
         type: "Feature",
@@ -146,7 +226,7 @@ function renderStation() {
   const s = timelineStations[timelineIndex];
   timelinePanelYear.textContent = s.year;
   timelinePanelTitle.textContent = s.title;
-  timelinePanelText.textContent = s.text;
+  timelinePanelText.innerHTML = highlightGlossaryTerms(s.text);
   timelinePrevBtn.disabled = timelineIndex === 0;
   timelineNextBtn.textContent = timelineIndex === timelineStations.length - 1 ? "Beenden" : "Weiter →";
 

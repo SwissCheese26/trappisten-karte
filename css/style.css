@@ -690,6 +690,84 @@ body {
   cursor: default;
 }
 
+/* Glossar: weniger bekannte Namen/Begriffe im Zeitstrahl-Text sind
+   anklickbar (unterstrichen, Amber) statt per Hover — funktioniert so auch
+   auf Touch-Geräten. */
+.glossary-term {
+  font: inherit;
+  color: var(--color-amber);
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.glossary-popover {
+  position: fixed;
+  z-index: 110;
+  width: 280px;
+  background: var(--color-parchment);
+  border: 1px solid var(--color-stone-700);
+  border-radius: 2px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  padding: 0.8rem 0.9rem 0.9rem;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.glossary-popover.is-open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.glossary-popover__close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: var(--color-stone-700);
+  cursor: pointer;
+}
+
+.glossary-popover__image {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center 15%;
+  border: 1px solid var(--color-stone-700);
+  margin-bottom: 0.3rem;
+}
+
+.glossary-popover__credit {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.7rem;
+  color: var(--color-stone-700);
+}
+
+.glossary-popover__term {
+  margin: 0 0 0.3rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--color-stone-900);
+}
+
+.glossary-popover__description {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--color-ink);
+}
+
 /* Mobile: Header nahm auf schmalen Bildschirmen fast die halbe Höhe ein und
    verdeckte Marker, das Kreuz kollidierte horizontal mit der Karte (gefunden
    per Playwright-Test auf iPhone-13-Viewport). Header wird zur schlanken
