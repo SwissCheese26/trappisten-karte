@@ -3,12 +3,12 @@ import * as maplibregl from "https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-
 // Grundgerüst: eigene Vektorkarte (MapLibre GL + eigener Stil) initialisieren,
 // GeoJSON laden, Marker mit Popup anzeigen.
 //
-// Kartenausschnitt bewusst auf Westeuropa + europäisches Russland begrenzt:
-// das deckt sowohl die heutigen Abteien als auch die Fluchtroute der
-// Trappisten während der Französischen Revolution ab (Exil bis nach
-// Russland), ohne den Rest der Welt anzeigen zu müssen.
+// Kartenausschnitt auf Europa + europäisches Russland + Neuengland (USA)
+// begrenzt: deckt heutige Abteien, die Exilroute während der Französischen
+// Revolution UND Spencer/Massachusetts (ehemalige US-Trappistenbrauerei) ab,
+// ohne den Rest der Welt (v.a. Asien) anzeigen zu müssen.
 const EUROPE_BOUNDS = [
-  [-15, 32], // Südwesten
+  [-80, 32], // Südwesten (reicht bis Neuengland)
   [65, 72], // Nordosten
 ];
 
@@ -23,10 +23,24 @@ const map = new maplibregl.Map({
 
 map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
 
-function breweryMarkerElement() {
+function breweryMarkerElement(closed) {
   const el = document.createElement("div");
-  el.className = "brewery-marker";
+  el.className = closed ? "brewery-marker brewery-marker--closed" : "brewery-marker";
   return el;
+}
+
+function popupHtml(p, closed) {
+  const dates = closed
+    ? `Abtei gegründet ${p.founded_abbey} &middot; Bier ${p.brewing_since}–${p.closed_since}`
+    : `Abtei gegründet ${p.founded_abbey} &middot; Bier seit ${p.brewing_since}`;
+  const badge = closed ? `<p class="popup-meta popup-meta--closed">Nicht mehr aktiv seit ${p.closed_since}</p>` : "";
+  return `
+    <h2>${p.name}</h2>
+    <p class="popup-meta">${p.abbey} &middot; ${p.country}</p>
+    ${badge}
+    <p>${dates}</p>
+    <p>${p.history}</p>
+  `;
 }
 
 function bounds(coordsList) {
@@ -81,23 +95,20 @@ map.on("load", () => {
     },
   });
 
-  fetch("data/breweries.geojson")
-    .then((res) => res.json())
-    .then((geojson) => {
-      const features = geojson.features;
+  Promise.all([
+    fetch("data/breweries.geojson").then((res) => res.json()),
+    fetch("data/breweries-closed.json").then((res) => res.json()),
+  ])
+    .then(([activeGeojson, closedFeatures]) => {
+      const features = activeGeojson.features;
 
       features.forEach((feature) => {
         const p = feature.properties;
         const [lng, lat] = feature.geometry.coordinates;
 
-        const popup = new maplibregl.Popup({ offset: 18 }).setHTML(`
-          <h2>${p.name}</h2>
-          <p class="popup-meta">${p.abbey} &middot; ${p.country}</p>
-          <p>Abtei gegründet ${p.founded_abbey} &middot; Bier seit ${p.brewing_since}</p>
-          <p>${p.history}</p>
-        `);
+        const popup = new maplibregl.Popup({ offset: 18 }).setHTML(popupHtml(p, false));
 
-        const el = breweryMarkerElement();
+        const el = breweryMarkerElement(false);
         el.addEventListener("click", () => {
           map.getSource("connections").setData(connectionLines(feature, features));
         });
@@ -109,8 +120,22 @@ map.on("load", () => {
         });
       });
 
-      if (features.length > 0) {
-        const b = bounds(features.map((f) => f.geometry.coordinates));
+      // Geschlossene/ehemalige Trappisten-Brauereien: eigene dunkle Marker,
+      // bewusst ohne Verbindungslinien (die zeigen nur Beziehungen zwischen
+      // aktuell brauenden Abteien).
+      closedFeatures.forEach((feature) => {
+        const p = feature.properties;
+        const [lng, lat] = feature.geometry.coordinates;
+        const popup = new maplibregl.Popup({ offset: 18 }).setHTML(popupHtml(p, true));
+        new maplibregl.Marker({ element: breweryMarkerElement(true) })
+          .setLngLat([lng, lat])
+          .setPopup(popup)
+          .addTo(map);
+      });
+
+      const allCoords = features.concat(closedFeatures).map((f) => f.geometry.coordinates);
+      if (allCoords.length > 0) {
+        const b = bounds(allCoords);
         // Header-Karte liegt als DOM-Overlay über der Karte und ist je nach
         // Bildschirmgröße unterschiedlich hoch — oben entsprechend mehr Platz
         // lassen, sonst verschwinden Marker ganz oben links darunter
@@ -123,5 +148,5 @@ map.on("load", () => {
         });
       }
     })
-    .catch((err) => console.error("Konnte breweries.geojson nicht laden:", err));
+    .catch((err) => console.error("Konnte Brauerei-Daten nicht laden:", err));
 });

@@ -352,6 +352,20 @@ body {
   cursor: pointer;
 }
 
+/* Geschlossene/ehemalige Trappisten-Brauereien: dunkel statt Amber, damit auf
+   einen Blick klar ist, dass hier nicht mehr gebraut wird. */
+.brewery-marker--closed {
+  background: var(--color-stone-900);
+  border: 2px solid #8a8577;
+  box-shadow: 0 0 0 1px var(--color-stone-900), 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+.popup-meta--closed {
+  color: var(--color-stone-700);
+  font-style: italic;
+  font-weight: 400;
+}
+
 /* MapLibre-Popup an die Palette anpassen */
 .maplibregl-popup-content {
   background: var(--color-parchment);
