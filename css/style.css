@@ -66,6 +66,170 @@ body {
   color: var(--color-stone-700);
 }
 
+.site-nav {
+  display: flex;
+  gap: 1.1rem;
+  margin-top: 0.7rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid rgba(52, 58, 46, 0.25);
+}
+
+.site-nav__link {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--color-stone-700);
+  cursor: pointer;
+}
+
+.site-nav__link.is-active {
+  color: var(--color-amber);
+}
+
+/* Buch-Intro: ruhige, buchartige Einführung in Geschichte & Philosophie der
+   Trappisten, vor der ersten Kartenansicht und jederzeit über "Schule". */
+.book-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(28, 31, 26, 0.88);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.book-overlay.is-open {
+  opacity: 1;
+}
+
+.book-overlay[hidden] {
+  display: none;
+}
+
+.book {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto auto;
+  max-width: 640px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: auto;
+  background: var(--color-parchment);
+  border: 1px solid var(--color-stone-700);
+  border-radius: 2px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  transition: transform 0.22s ease, opacity 0.22s ease;
+  transform-origin: center;
+}
+
+.book.is-turning-next {
+  transform: rotateY(-8deg) translateX(-16px);
+  opacity: 0.4;
+}
+
+.book.is-turning-prev {
+  transform: rotateY(8deg) translateX(16px);
+  opacity: 0.4;
+}
+
+.book__close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.8rem;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--color-stone-700);
+  cursor: pointer;
+}
+
+.book__page {
+  margin: 0;
+}
+
+.book__image {
+  display: block;
+  width: 100%;
+  max-height: 42vh;
+  object-fit: cover;
+  object-position: center 20%;
+  filter: sepia(15%) saturate(85%);
+}
+
+.book__credit {
+  padding: 0.4rem 1.6rem 0;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--color-stone-700);
+}
+
+.book__text {
+  padding: 0.8rem 1.6rem 0.4rem;
+}
+
+.book__heading {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  letter-spacing: 0.04em;
+  color: var(--color-stone-900);
+}
+
+.book__body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--color-ink);
+}
+
+.book__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.6rem 1.4rem;
+}
+
+.book__prev,
+.book__next {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--color-stone-900);
+  color: var(--color-parchment);
+  border: none;
+  border-radius: 2px;
+  padding: 0.55rem 1rem;
+  cursor: pointer;
+}
+
+.book__next {
+  background: var(--color-amber);
+}
+
+.book__prev:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.book__progress {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-stone-700);
+}
+
 /* Eigener Brauerei-Marker statt Standard-Pin: ruhiger Punkt in Amber,
    passend zur Stein/Moos-Palette. */
 .brewery-marker {
