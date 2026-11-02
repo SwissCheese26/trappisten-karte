@@ -3,22 +3,19 @@ import * as maplibregl from "https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-
 // Grundgerüst: eigene Vektorkarte (MapLibre GL + eigener Stil) initialisieren,
 // GeoJSON laden, Marker mit Popup anzeigen.
 //
-// Kartenausschnitt auf Europa + europäisches Russland + Neuengland (USA)
-// begrenzt: deckt heutige Abteien, die Exilroute während der Französischen
-// Revolution UND Spencer/Massachusetts (ehemalige US-Trappistenbrauerei) ab,
-// ohne den Rest der Welt (v.a. Asien) anzeigen zu müssen.
-const EUROPE_BOUNDS = [
-  [-80, 32], // Südwesten (reicht bis Neuengland)
-  [65, 72], // Nordosten
-];
-
+// Kein hartes maxBounds mehr: fitBounds() unten zoomt beim Laden automatisch
+// auf Europa + Neuengland (USA), das reicht als Standardausschnitt. Ein
+// festes maxBounds kollidierte auf schmalen/Hochformat-Bildschirmen
+// unzuverlässig mit fitBounds (Punkte am Rand, z. B. Spencer/USA, fielen
+// aus dem sichtbaren Bereich — per Playwright-Mobile-Test gefunden).
+// Freies Scrollen ist ein kleines Zugeständnis gegenüber "kein Asien
+// zeigen"; die Standardansicht bleibt davon unberührt.
 const map = new maplibregl.Map({
   container: "map",
   style: "data/map-style.json",
   center: [10, 49],
   zoom: 4,
-  maxBounds: EUROPE_BOUNDS,
-  minZoom: 3,
+  minZoom: 0.5,
 });
 
 map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
