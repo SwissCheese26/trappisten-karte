@@ -142,13 +142,21 @@ body {
 
 .book__close {
   position: absolute;
-  top: 0.6rem;
-  right: 0.8rem;
-  background: none;
-  border: none;
-  font-size: 1.4rem;
+  top: 0.7rem;
+  right: 0.7rem;
+  z-index: 2;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-stone-900);
+  border: 2px solid var(--color-parchment);
+  border-radius: 50%;
+  font-size: 1.2rem;
   line-height: 1;
-  color: var(--color-stone-700);
+  color: var(--color-parchment);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 
@@ -228,6 +236,64 @@ body {
   font-family: var(--font-body);
   font-size: 0.9rem;
   color: var(--color-stone-700);
+}
+
+/* "Schule": eigenständige Regel-Übersicht statt Wiederholung der Story. */
+.book--rules {
+  grid-template-rows: auto auto;
+}
+
+.book--rules .book__text {
+  padding: 1.6rem 1.8rem 0.4rem;
+}
+
+.rules-intro {
+  margin: 0;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--color-stone-700);
+}
+
+.rules-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.4rem 1.8rem 1.8rem;
+}
+
+.rules-list__item {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 0.8rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid rgba(52, 58, 46, 0.2);
+}
+
+.rules-list__item:first-child {
+  border-top: none;
+}
+
+.rules-list__number {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--color-amber);
+}
+
+.rules-list__item h3 {
+  margin: 0 0 0.3rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  color: var(--color-stone-900);
+}
+
+.rules-list__item p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--color-ink);
 }
 
 /* Eigener Brauerei-Marker statt Standard-Pin: ruhiger Punkt in Amber,

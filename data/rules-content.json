@@ -1,0 +1,40 @@
+{
+  "heading": "Regeln der Trappisten",
+  "intro": "Trappisten folgen der Regel des heiligen Benedikt (6. Jh.), verschärft durch die Reform Armand de Rancés von 1664. Diese sieben Punkte prägen das Leben in der Abtei bis heute.",
+  "rules": [
+    {
+      "title": "Stabilitas – Ortsbeständigkeit",
+      "text": "Ein Mönch verpflichtet sich auf Lebenszeit einer einzigen Klostergemeinschaft, nicht nur einem Ort. Benedikt von Nursia, Regel Kap. 58."
+    },
+    {
+      "title": "Conversatio morum – Umkehr des Lebens",
+      "text": "Das Versprechen einer fortwährenden, täglichen Hinwendung zu einem einfacheren, auf Gott ausgerichteten Leben – kein einmaliger Akt, sondern ein andauernder Prozess."
+    },
+    {
+      "title": "Oboedientia – Gehorsam",
+      "text": "Wörtlich „Hören“: Gehorsam gegenüber dem Abt und der Gemeinschaft als Übung im Zuhören, nicht als bloße Unterordnung."
+    },
+    {
+      "title": "Schweigen",
+      "text": "Kein striktes Schweigegelübde, aber gelebte Zurückhaltung: Gespräche nur, wenn nötig. Mahlzeiten werden gemeinsam und still eingenommen, begleitet von einer Lesung."
+    },
+    {
+      "title": "Handarbeit",
+      "text": "„Müßiggang ist der Seele Feind“ (Regel, Kap. 48). Körperliche Arbeit sichert den Lebensunterhalt der Gemeinschaft und ist zugleich geistliche Übung – daraus erwuchsen Handwerke wie das Brauen."
+    },
+    {
+      "title": "Einfachheit und Buße",
+      "text": "De Rancés Reform von 1664 schärfte die Regel: einfache Kost, Verzicht auf Fleisch vierfüßiger Tiere (Fisch und Geflügel sind erlaubt), Zurückgezogenheit von der Welt."
+    },
+    {
+      "title": "Chorgebet",
+      "text": "Die Liturgie der Stunden – mehrmals täglich gemeinsames Gebet – bildet das Rückgrat des Tagesablaufs, um das herum Arbeit und Ruhe organisiert sind."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict",
+    "https://en.wikipedia.org/wiki/Trappists",
+    "https://westminsterabbey.ca/benedictine-monasticism/our-vowed-life/",
+    "https://mirfield.org.uk/?p=92"
+  ]
+}
