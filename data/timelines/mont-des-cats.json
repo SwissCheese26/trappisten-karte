@@ -1,0 +1,51 @@
+{
+  "brewery": "Mont des Cats",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mont_des_Cats",
+    "https://ocso.org/monastery/mont-des-cats"
+  ],
+  "stations": [
+    {
+      "year": "1650",
+      "title": "Eine Einsiedelei auf dem Hügel",
+      "coordinates": [2.667, 50.783],
+      "zoom": 8,
+      "text": "Antoniter-Hospitalbrüder ließen sich 1650 auf dem Hügel „Mont des Cats” nieder. Die Französische Revolution löste diese Gemeinschaft 1792 auf, die Gebäude verfielen."
+    },
+    {
+      "year": "1819–1821",
+      "title": "Ein Maler kauft die Ruinen",
+      "coordinates": [2.667, 50.783],
+      "zoom": 8,
+      "text": "Der Maler Nicolas Ruyssen aus Hazebrouck kaufte 1819 die Ruinen, um dort eine Schule zu gründen; 1821 eröffnete er ein Internat mit den Brüdern der Christlichen Schulen aus Saint-Omer."
+    },
+    {
+      "year": "26. Januar 1826",
+      "title": "Acht Mönche aus der Abtei du Gard",
+      "coordinates": [2.2958, 49.8941],
+      "zoom": 7,
+      "text": "1825 wandte sich Ruyssen an die Trappistenabtei Notre-Dame du Gard bei Amiens. Am 26. Januar 1826 trafen acht Trappisten dort ein und gründeten die Abtei Mont des Cats – bis heute von dieser Gemeinschaft weitergeführt."
+    },
+    {
+      "year": "1847",
+      "title": "Abtei-Status",
+      "coordinates": [2.667, 50.783],
+      "zoom": 8,
+      "text": "1847 wurde das Priorat zur eigenständigen Abtei erhoben."
+    },
+    {
+      "year": "12. Oktober 1914",
+      "title": "Schlachtfeld im Ersten Weltkrieg",
+      "coordinates": [2.667, 50.783],
+      "zoom": 9,
+      "text": "Die britische 3. Kavalleriebrigade griff am 12. Oktober 1914 deutsche Stellungen auf dem Hügel an. Das Kloster wurde eingenommen; der deutsche Prinz Maximilian Friedrich Wilhelm Georg von Hessen wurde dabei tödlich verwundet und starb noch in derselben Nacht in der Abtei."
+    },
+    {
+      "year": "2011",
+      "title": "Bier nach Chimays Rezept",
+      "coordinates": [4.33611, 49.98222],
+      "zoom": 7,
+      "text": "Die Abtei besitzt keine eigene Brauerei. 2011 stellten die Mönche ein eigenes Bier vor, gebraut nach ihrem Rezept in der Abtei Scourmont (Chimay) – deshalb ohne „Authentic Trappist Product”-Siegel, das Brauen innerhalb der eigenen Klostermauern voraussetzt."
+    }
+  ]
+}

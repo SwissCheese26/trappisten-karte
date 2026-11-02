@@ -39,6 +39,8 @@ const TIMELINE_BREWERIES = {
   Rochefort: "data/timelines/rochefort.json",
   Westvleteren: "data/timelines/westvleteren.json",
   Achel: "data/timelines/achel.json",
+  "Mont des Cats": "data/timelines/mont-des-cats.json",
+  Engelszell: "data/timelines/engelszell.json",
 };
 
 function popupHtml(p, closed) {
@@ -362,6 +364,11 @@ map.on("load", () => {
           .setLngLat([lng, lat])
           .setPopup(popup)
           .addTo(map);
+
+        popup.on("open", () => {
+          const btn = popup.getElement().querySelector(".popup-play");
+          if (btn) btn.addEventListener("click", () => openTimeline(btn.dataset.timeline));
+        });
       });
 
       const allCoords = features.concat(closedFeatures).map((f) => f.geometry.coordinates);

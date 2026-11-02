@@ -1,0 +1,59 @@
+{
+  "brewery": "Engelszell",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Engelszell_Abbey",
+    "https://en.wikipedia.org/wiki/Oelenberg_Abbey",
+    "https://structurae.net/de/bauwerke/stift-engelszell"
+  ],
+  "stations": [
+    {
+      "year": "1293",
+      "title": "Gegründet von Bischof Bernhard",
+      "coordinates": [13.7342, 48.4989],
+      "zoom": 8,
+      "text": "Bischof Bernhard von Prambach gründete 1293 ein Zisterzienserkloster; 1295 wurde es von Mönchen aus dem Mutterkloster Wilhering besiedelt."
+    },
+    {
+      "year": "1786",
+      "title": "Aufgelöst durch Kaiser Joseph II.",
+      "coordinates": [13.7342, 48.4989],
+      "zoom": 8,
+      "text": "Kaiser Joseph II. löste das Kloster 1786 im Zuge seiner Klosterreformen auf. Die Gebäude dienten danach unter anderem als Fabrik und Wohnhaus."
+    },
+    {
+      "year": "1925",
+      "title": "Neugründung durch vertriebene Mönche",
+      "coordinates": [7.21337, 47.74603],
+      "zoom": 7,
+      "text": "Deutsche Mönche, nach dem Ersten Weltkrieg aus der Abtei Oelenberg im Elsass vertrieben, fanden zunächst Zuflucht in Kloster Banz und gründeten 1925 in Engelszell neu – diesmal als Trappistenkloster. 1931 wurde das Priorat zur Abtei erhoben, Gregorius Eisvogel ihr erster Abt."
+    },
+    {
+      "year": "2. Dezember 1939",
+      "title": "Von der Gestapo vertrieben",
+      "coordinates": [13.7342, 48.4989],
+      "zoom": 8,
+      "text": "Die Gestapo beschlagnahmte die Abtei am 2. Dezember 1939 und vertrieb die 73-köpfige Gemeinschaft. Vier Mönche kamen ins Konzentrationslager Dachau, andere wurden inhaftiert oder zur Wehrmacht eingezogen."
+    },
+    {
+      "year": "1945",
+      "title": "Rückkehr nach dem Krieg",
+      "coordinates": [13.7342, 48.4989],
+      "zoom": 8,
+      "text": "Etwa ein Drittel der Gemeinschaft kehrte 1945 zurück, verstärkt durch deutsche Trappisten, die aus der Abtei Mariastern in Banja Luka (heute Bosnien) vertrieben worden waren."
+    },
+    {
+      "year": "Mai 2012",
+      "title": "Neunte Trappisten-Brauerei",
+      "coordinates": [13.7342, 48.4989],
+      "zoom": 9,
+      "text": "Mit nur noch sieben Mönchen in der Gemeinschaft erkannte die Internationale Trappistenvereinigung Engelszell im Mai 2012 als neunte Trappisten-Brauerei an – erst die zweite außerhalb Belgiens."
+    },
+    {
+      "year": "15. Mai 2023",
+      "title": "Das Ende der Gemeinschaft",
+      "coordinates": [13.7342, 48.4989],
+      "zoom": 8,
+      "text": "Der Orden löste die Gemeinschaft am 15. Mai 2023 auf. Die letzten vier verbliebenen Mönche erklärten, ein Trappistenleben im Kloster nicht mehr aufrechterhalten zu können. Die Brauerei besteht unter neuer, weltlicher Führung weiter – ohne Trappisten-Siegel."
+    }
+  ]
+}
