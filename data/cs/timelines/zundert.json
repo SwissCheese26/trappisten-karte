@@ -1,0 +1,83 @@
+{
+  "brewery": "Zundert",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zundert_Trappist",
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://abdijmariatoevlucht.nl/geschiedenis/",
+    "https://zunderttrappist.nl/en/",
+    "https://nltimes.nl/2025/05/14/trappist-brewery-zundert-set-close-citing-lack-occupancy",
+    "https://www.omroepbrabant.nl/nieuws/4742362/na-125-jaar-sluit-trappistenabdij-laatste-monniken-vertrokken"
+  ],
+  "stations": [
+    {
+      "year": "1881",
+      "title": "Trapisté ze severní Francie",
+      "coordinates": [
+        2.6431,
+        50.785
+      ],
+      "zoom": 6,
+      "text": "Kořeny sahají k francouzskému trapistickému opatství Mont des Cats. Odtud se v roce 1881 usadili mniši u Tilburgu v Nizozemsku a založili Koningshoeven."
+    },
+    {
+      "year": "1899",
+      "title": "Dva mniši odcházejí do Zundertu",
+      "coordinates": [
+        5.1195,
+        51.56
+      ],
+      "zoom": 8,
+      "text": "Společenství v Koningshoevenu tak vzrostlo, že mohlo odvážit založení dceřiného kláštera. Na podzim 1899 odešli otec Nivardus Muis a bratr Dorotheüs de Vries z Tilburgu do Zundertu."
+    },
+    {
+      "year": "24. května 1900",
+      "title": "Vysvěcení Maria Toevlucht",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Dne 24. května 1900 vysvětil tilburský opat kostel a klášter. Se dvanácti mnichy začalo společenství jako převorství Koningshoevenu; jméno „Maria Toevlucht“ (Maria Útočiště) připomíná útočiště pro řeholníky v době francouzské klášterní politiky."
+    },
+    {
+      "year": "1938",
+      "title": "Povýšeno na opatství",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Dne 14. září 1938 bylo převorství povýšeno na samostatné opatství. Dne 19. října téhož roku bratři zvolili otce Nivarda Muise prvním opatem."
+    },
+    {
+      "year": "prosinec 2013",
+      "title": "Vlastní trapistické pivo",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Protože zemědělství bylo příliš pracné, mniši vybudovali pivovar De Kievit (postaven 2011). V prosinci 2013 přišlo na trh „Zundert Trappist“ jako druhé nizozemské pivo s označením „Authentic Trappist Product“."
+    },
+    {
+      "year": "13. května 2025",
+      "title": "Oznámeno uzavření",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Pro nedostatek mnichů požádali bratři 13. května 2025 generální kapitulu svého řádu o svolení opatství zavřít. Tím bylo ohroženo i trapistické pivo, protože se smí vařit jen uvnitř živého klášterního společenství."
+    },
+    {
+      "year": "2025",
+      "title": "Konec po 125 letech",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Poslední mniši opustili klášter koncem srpna 2025; v září 2025 generální kapitula souhlasila, klášterní život skončil. Pivovar zastavil výrobu Zundert Trappist a označení „Authentic Trappist Product“ zaniklo."
+    }
+  ]
+}

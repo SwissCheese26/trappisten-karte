@@ -1,0 +1,92 @@
+{
+  "brewery": "Tre Fontane",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tre_Fontane_Abbey",
+    "https://it.wikipedia.org/wiki/Abbazia_delle_Tre_Fontane",
+    "https://it.wikipedia.org/wiki/Tre_Fontane_(birra)",
+    "https://en.wikipedia.org/wiki/Trappist_beer",
+    "https://www.trappist.be/en/products/beers/tre-fontane/"
+  ],
+  "stations": [
+    {
+      "year": "626",
+      "title": "Klooster op de plaats van het martelaarschap van Paulus",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 8,
+      "text": "Paus Honorius I liet in 626 de kerk en het klooster van de heiligen Vincentius en Anastasius bouwen en vertrouwde ze toe aan benedictijnen. Zij moesten ook de twee oudere heiligdommen ter plaatse verzorgen, waaronder de kerk op de plek waar Paulus volgens de overlevering werd onthoofd en waarvan de drie bronnen („tre fontane”) de plaats haar naam geven."
+    },
+    {
+      "year": "1140",
+      "title": "Cisterciënzers uit Clairvaux",
+      "coordinates": [
+        4.7869,
+        48.1522
+      ],
+      "zoom": 6,
+      "text": "Paus Innocentius II nam de abdij in 1140 af van de cluniacenzers en vertrouwde ze toe aan Bernardus van Clairvaux. Die stuurde cisterciënzers uit Clairvaux onder abt Pietro Bernardo Paganelli, die vijf jaar later als Eugenius III zelf paus werd."
+    },
+    {
+      "year": "1221",
+      "title": "Wijding van de abdijkerk",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Paus Honorius III liet de kerk van de heiligen Vincentius en Anastasius herstellen en wijdde ze in 1221 persoonlijk in; zeven kardinalen wijdden tegelijk de zeven altaren. De abdij was in die tijd rijkelijk begiftigd en oefende over uitgestrekte gebieden van de Toscaanse kust de rechten van een territoriale abdij uit."
+    },
+    {
+      "year": "1812",
+      "title": "Opheffing onder Napoleon",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Met de Napoleontische bezetting werd de abdij opgeheven, volgens de Engelse weergave in 1812 (de Italiaanse Wikipedia noemt 1808). Het klooster raakte in verval en de omgeving werd door malaria geteisterd."
+    },
+    {
+      "year": "1826",
+      "title": "Franciscanen en malaria",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Paus Leo XII nam de heiligdommen in 1826 af van de cisterciënzers en droeg ze over aan de minderbroeders van de strikte observantie. Zijn plan mislukte omdat de streek zo door malaria geteisterd werd dat er geen gemeenschap duurzaam kon leven."
+    },
+    {
+      "year": "1868",
+      "title": "Trappisten uit La Grande Trappe",
+      "coordinates": [
+        0.5478,
+        48.6258
+      ],
+      "zoom": 6,
+      "text": "Pius IX droeg de abdij in het kader van haar herleving over aan de cisterciënzers; in 1868 kwam een gemeenschap uit La Grande Trappe naar Rome. De monniken moesten het kloosterleven heropbouwen en het land droogleggen; daartoe plantten ze later eucalyptusbomen."
+    },
+    {
+      "year": "2014",
+      "title": "De monniken beginnen te brouwen",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Volgens de Italiaanse Wikipedia begon de abdij in 2014 met de productie van haar bier. De tripel (8,5 %) krijgt haar balsamieke geur door toevoeging van eucalyptus."
+    },
+    {
+      "year": "Mei 2015",
+      "title": "Erkende trappistenbrouwerij",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "In mei 2015 werd Tre Fontane de elfde trappistenbrouwerij en kreeg ze het label „Authentic Trappist Product”. Vandaag vermeldt de Internationale Trappistenvereniging drie bieren: Tripel (8,5 %), Scala Coeli (6,7 %) en Tertia (5 %)."
+    }
+  ]
+}

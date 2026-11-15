@@ -1,0 +1,82 @@
+{
+  "brewery": "Spencer",
+  "sources": [
+    "https://en.wikipedia.org/wiki/St._Joseph%27s_Abbey_(Massachusetts)",
+    "https://fr.wikipedia.org/wiki/Abbaye_Saint-Joseph_de_Spencer",
+    "https://en.wikipedia.org/wiki/Our_Lady_of_the_Valley_(Cumberland,_Rhode_Island)",
+    "https://en.wikipedia.org/wiki/Tracadie,_Nova_Scotia",
+    "https://en.wikipedia.org/wiki/Trappist_beer"
+  ],
+  "stations": [
+    {
+      "year": "1825",
+      "title": "Monks in Nova Scotia",
+      "coordinates": [
+        -61.6702,
+        45.6221
+      ],
+      "zoom": 6,
+      "text": "The community was founded in Nova Scotia in 1825 (Vincent de Paul Merle); its monastery, Petit Clairvaux, was in Tracadie. In 1892 a severe fire destroyed the abbey, and the move to Rhode Island followed from this."
+    },
+    {
+      "year": "1900",
+      "title": "A new start in Rhode Island",
+      "coordinates": [
+        -71.4034,
+        41.9343
+      ],
+      "zoom": 8,
+      "text": "On 1 March 1900 the monks from Petit Clairvaux arrived in Cumberland, Rhode Island, where they built a granite monastery, “Our Lady of the Valley”. The estate grew to 525 acres."
+    },
+    {
+      "year": "21 March 1950",
+      "title": "The monastery burns",
+      "coordinates": [
+        -71.4034,
+        41.9343
+      ],
+      "zoom": 9,
+      "text": "On 21 March 1950 a fire destroyed the main wing and made the monastery church unusable; around 140 monks, novices and brothers were left without shelter. The fire accelerated a move to a more remote site that had already been planned."
+    },
+    {
+      "year": "1950",
+      "title": "St Joseph's Abbey in Spencer",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "In 1950 the community moved to Spencer, Massachusetts, and built St Joseph's Abbey on the grounds of the former Alta Crest Farms; its first abbot was Edmund Futterer. About eighty monks moved into the new abbey."
+    },
+    {
+      "year": "2010–2013",
+      "title": "The road to a Trappist brewery",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "In 2010 the abbey considered brewing and sought advice from brewers in Boston and from European Trappist breweries. In December 2013 it received the right to use the “Authentic Trappist Product” logo (together with Zundert); Spencer was thus the first certified Trappist beer in the USA."
+    },
+    {
+      "year": "2013",
+      "title": "Spencer Trappist Ale",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "Spencer Brewery brewed from 2013 to 2022. The first beer was Spencer Trappist Ale, a blonde ale of 6.5% alcohol."
+    },
+    {
+      "year": "May 2022",
+      "title": "The end of the brewery",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "In May 2022 the abbey ceased beer production and closed Spencer Brewery. Wikipedia gives the economic effects of the Covid pandemic and over 600 craft breweries in New England as reasons; French Wikipedia cites excessive competition. The monks continue to live in the abbey."
+    }
+  ]
+}

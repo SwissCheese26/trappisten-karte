@@ -1,0 +1,68 @@
+{
+  "brewery": "Tre Fontane",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tre_Fontane_Abbey",
+    "https://it.wikipedia.org/wiki/Abbazia_delle_Tre_Fontane",
+    "https://it.wikipedia.org/wiki/Tre_Fontane_(birra)",
+    "https://en.wikipedia.org/wiki/Trappist_beer",
+    "https://www.trappist.be/en/products/beers/tre-fontane/"
+  ],
+  "stations": [
+    {
+      "year": "626",
+      "title": "Kloster an der Stätte des Paulus-Martyriums",
+      "coordinates": [12.48333, 41.83444],
+      "zoom": 8,
+      "text": "Papst Honorius I. ließ 626 die Kirche und das Kloster der Heiligen Vinzenz und Anastasius errichten und übergab sie Benediktinern. Sie sollten auch die beiden älteren Heiligtümer vor Ort betreuen, darunter die Kirche an der Stelle, an der der Legende nach Paulus enthauptet wurde und deren drei Quellen („tre fontane“) dem Ort den Namen geben."
+    },
+    {
+      "year": "1140",
+      "title": "Zisterzienser aus Clairvaux",
+      "coordinates": [4.7869, 48.1522],
+      "zoom": 6,
+      "text": "Papst Innozenz II. entzog die Abtei 1140 den Cluniazensern und vertraute sie Bernhard von Clairvaux an. Dieser schickte Zisterzienser aus Clairvaux unter Abt Peter Bernhard von Paganelli, der fünf Jahre später als Eugen III. selbst Papst wurde."
+    },
+    {
+      "year": "1221",
+      "title": "Weihe der Abteikirche",
+      "coordinates": [12.48333, 41.83444],
+      "zoom": 9,
+      "text": "Papst Honorius III. ließ die Kirche der Heiligen Vinzenz und Anastasius wiederherstellen und weihte sie 1221 persönlich; sieben Kardinäle weihten zugleich die sieben Altäre. Die Abtei war zu dieser Zeit reich ausgestattet und übte über weite Gebiete der toskanischen Küste die Rechte einer Territorialabtei aus."
+    },
+    {
+      "year": "1812",
+      "title": "Aufhebung unter Napoleon",
+      "coordinates": [12.48333, 41.83444],
+      "zoom": 9,
+      "text": "Mit der napoleonischen Besetzung wurde die Abtei aufgehoben, nach englischer Darstellung 1812 (die italienische Wikipedia nennt 1808). Das Kloster verfiel, und die Umgebung war von Malaria verseucht."
+    },
+    {
+      "year": "1826",
+      "title": "Franziskaner und Malaria",
+      "coordinates": [12.48333, 41.83444],
+      "zoom": 9,
+      "text": "Papst Leo XII. nahm die Heiligtümer 1826 den Zisterziensern ab und übergab sie den Minderbrüdern der strengen Observanz. Sein Plan scheiterte, weil die Gegend so malariaverseucht war, dass dort keine Gemeinschaft dauerhaft leben konnte."
+    },
+    {
+      "year": "1868",
+      "title": "Trappisten aus La Grande Trappe",
+      "coordinates": [0.5478, 48.6258],
+      "zoom": 6,
+      "text": "Pius IX. übergab die Abtei im Zuge ihrer Wiederbelebung den Zisterziensern; 1868 kam eine Gemeinschaft aus La Grande Trappe nach Rom. Die Mönche sollten das klösterliche Leben neu aufbauen und das Land entwässern; später pflanzten sie dazu Eukalyptusbäume."
+    },
+    {
+      "year": "2014",
+      "title": "Die Mönche beginnen zu brauen",
+      "coordinates": [12.48333, 41.83444],
+      "zoom": 9,
+      "text": "Nach der italienischen Wikipedia begann die Abtei 2014 mit der Produktion ihres Bieres. Die Tripel (8,5 %) erhält ihren balsamischen Duft durch Zugabe von Eukalyptus."
+    },
+    {
+      "year": "Mai 2015",
+      "title": "Anerkannte Trappistenbrauerei",
+      "coordinates": [12.48333, 41.83444],
+      "zoom": 9,
+      "text": "Im Mai 2015 wurde Tre Fontane die elfte Trappistenbrauerei und erhielt das Siegel „Authentic Trappist Product“. Heute führt die Internationale Trappistenvereinigung drei Biere auf: Tripel (8,5 %), Scala Coeli (6,7 %) und Tertia (5 %)."
+    }
+  ]
+}

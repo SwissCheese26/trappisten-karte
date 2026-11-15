@@ -1,0 +1,105 @@
+{
+  "brewery": "Cardeña",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Monasterio_de_San_Pedro_de_Carde%C3%B1a",
+    "https://en.wikipedia.org/wiki/San_Pedro_de_Carde%C3%B1a",
+    "https://nl.wikipedia.org/wiki/Trappistenbier",
+    "https://es.wikipedia.org/wiki/Cerveza_trapense"
+  ],
+  "stations": [
+    {
+      "year": "c. 900",
+      "title": "Benedictines near Burgos",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 7,
+      "text": "San Pedro de Cardeña arose as a Benedictine abbey near Burgos. Its foundation predates 902: on September 24, 902, Count Gonzalo Téllez and his wife Flámula gave the monastery land and salt pans as its first documented endowment. The start of building work is also given as 899."
+    },
+    {
+      "year": "9th or 10th century",
+      "title": "The Martyrs of Cardeña",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Mentions the killing of monks.",
+      "text": "According to tradition, the monks were killed by Muslims in the 9th or 10th century; they were canonized in 1603 and venerated as the “Martyrs of Cardeña”. There is no documentary evidence for this."
+    },
+    {
+      "year": "1102",
+      "title": "The Cid's monastery",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "The Cid died in 1099 and was at first buried in Valencia. In 1102 his widow Jimena Díaz had the city evacuated, and his remains came to Cardeña. They stayed there for some years; the monastery remains closely associated with the Cid to this day."
+    },
+    {
+      "year": "19th century",
+      "title": "Suppression of the monasteries",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "With the Desamortización under Mendizábal, Cardeña was suppressed and monastic life came to an end. The source consulted gives no exact year."
+    },
+    {
+      "year": "1936 to 1939",
+      "title": "A camp in the Civil War",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Mentions the imprisonment and ill-treatment of prisoners of war.",
+      "text": "In the Spanish Civil War the empty monastery served as a concentration camp of the Francoist side for Republican prisoners of war, above all International Brigaders. It held more than 4,000 prisoners, including Basque soldiers and chaplains, and was closed in November 1939."
+    },
+    {
+      "year": "May 1, 1942",
+      "title": "Trappists return",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "On May 1, 1942, monastic life was restored by Trappists from the monastery of San Isidro de Dueñas in the province of Palencia."
+    },
+    {
+      "year": "1945 and 1948",
+      "title": "Raised to an abbey",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "In 1945 the community was raised to a priory and in 1948 to an abbey; its first abbot was Jesús Álvarez Álvarez. The monastery is near Castrillo del Val, east of Burgos."
+    },
+    {
+      "year": "March 16, 2016",
+      "title": "The first Spanish Trappist beer",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "On March 16, 2016, Cardeña Tripel (7%) came onto the market, the first Spanish Trappist beer. It is brewed not in the monastery but at MarPal in Madrid and therefore does not bear the “Authentic Trappist Product” logo."
+    },
+    {
+      "year": "2021 and 2022",
+      "title": "Further beers",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "According to Dutch Wikipedia, Cardeña Doble (6%) followed in 2021 and Cardeña Quadrupel (10%) in 2022. They too do not carry the ATP logo."
+    }
+  ]
+}

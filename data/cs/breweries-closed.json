@@ -1,0 +1,159 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ]
+    },
+    "properties": {
+      "name": "Achel",
+      "abbey": "Abdij Sint-Benedictus (Achelse Kluis)",
+      "country": "Belgie",
+      "founded_abbey": 1686,
+      "brewing_since": 1852,
+      "status": "closed",
+      "closed_since": 2021,
+      "beers": [
+        {
+          "name": "Achel 8° Blond",
+          "style": "Tripel",
+          "abv": 8.0
+        },
+        {
+          "name": "Achel 8° Bruin",
+          "style": "Dubbel",
+          "abv": 8.0
+        }
+      ],
+      "history": "V roce 1686 povýšeno na opatství, za Velké francouzské revoluce zničeno, roku 1844 znovu vystavěno z Westmalle. V roce 1852 první pivo, roku 1917 němečtí okupanti pivovar kvůli mědi rozebrali. V roce 1998 s pomocí Westmalle a Rochefortu znovu vybudován, roku 2001 přišlo na trh „Achel 8°“ – naposledy nejmenší trapistický pivovar Belgie. V lednu 2021 pivovar odchodem posledních vařících mnichů ztratil trapistický status, poslední dva mniši se přesunuli do Westmalle. Podnikatel budovy koupil; pivo se tam vaří dál, ale už se nesmí nazývat „trapistické“.",
+      "visit": null,
+      "ita_status": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Achel_Brewery",
+        "https://brusselstimes.com/358914/belgium-loses-trappist-beer-following-brewery-purchase",
+        "https://www.vrt.be/vrtnws/en/2023/01/25/belgium-loses-trappist-beer/"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ]
+    },
+    "properties": {
+      "name": "Engelszell",
+      "abbey": "Stift Engelszell",
+      "country": "Rakousko",
+      "founded_abbey": 1293,
+      "brewing_since": 2012,
+      "status": "closed",
+      "closed_since": 2023,
+      "beers": [
+        {
+          "name": "Gregorius",
+          "style": "Tmavé silné pivo",
+          "abv": 9.7
+        },
+        {
+          "name": "Benno",
+          "style": "Jantarové",
+          "abv": 6.9
+        },
+        {
+          "name": "Nivard",
+          "style": "Blond",
+          "abv": 5.5
+        }
+      ],
+      "history": "Původně založeno roku 1293 jako cisterciácké opatství, po několika zrušeních roku 1925 znovu osídleno trapisty ze Švýcarska. Od roku 2012 malé společenství vařilo vlastní pivo. Dne 10. května 2023 generální opat oznámil zrušení – příliš málo a příliš starých mnichů. Pivovar, výroba likérů a dům pro hosty přešly v roce 2025 do společnosti s ručením omezeným, od července 2025 je vede soukromý manželský pár. Pivo se vaří dál, ale už nenese trapistickou značku. Dne 30. listopadu 2025 bylo opatství po 100 letech trapistické přítomnosti oficiálně zrušeno a předáno diecézi Linec.",
+      "visit": null,
+      "ita_status": false,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Stift_Engelszell",
+        "https://structurae.net/de/bauwerke/stift-engelszell",
+        "https://brusselstimes.com/502017/austrian-trappist-abbey-closes-leading-to-uncertainty-over-brewery"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ]
+    },
+    "properties": {
+      "name": "Spencer",
+      "abbey": "St. Joseph's Abbey",
+      "country": "USA",
+      "founded_abbey": 1950,
+      "brewing_since": 2013,
+      "status": "closed",
+      "closed_since": 2022,
+      "beers": [
+        {
+          "name": "Spencer Trappist Ale",
+          "style": "Světlý ale",
+          "abv": 6.5
+        }
+      ],
+      "history": "Společenství vzešlo ze založení z roku 1825 v kanadském Tracadie (Nova Scotia), roku 1900 se přestěhovalo do Rhode Islandu a roku 1950 se – po tamním požáru – za opata Doma Edmunda Futterera usadilo ve Spenceru v Massachusetts. Od roku 2010 se mniši s pomocí evropských trapistických pivovarů a sládků z Bostonu připravovali na vlastní pivovar; od roku 2013 vařili se Spencer Trappist Ale první certifikované trapistické pivo v USA. V květnu 2022 opatství vaření ukončilo v důsledku hospodářských dopadů pandemie covidu a rostoucí konkurence více než 600 craftových pivovarů v Nové Anglii. Mniši v opatství žijí dál a vyrábějí mimo jiné marmelády a liturgická roucha.",
+      "visit": "Dům pro hosty s možností duchovních cvičení (exercicií).",
+      "ita_status": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/St._Joseph%27s_Abbey_(Spencer,_Massachusetts)",
+        "https://www.bostonglobe.com/2022/05/24/lifestyle/monks-st-josephs-abbey-are-getting-out-beer-business-closing-spencer-brewery",
+        "https://www.trappists.org/st-joseph-abbey/"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.607,
+        51.496
+      ]
+    },
+    "properties": {
+      "name": "Zundert",
+      "abbey": "Abdij Maria Toevlucht",
+      "country": "Nizozemsko",
+      "founded_abbey": 1900,
+      "brewing_since": 2013,
+      "status": "closed",
+      "closed_since": 2025,
+      "beers": [
+        {
+          "name": "Zundert 8",
+          "style": "Dubbel",
+          "abv": 8.0
+        },
+        {
+          "name": "Zundert 10",
+          "style": "Quadrupel",
+          "abv": 10.0
+        }
+      ],
+      "history": "V roce 1900 založeno jako převorství, roku 1938 povýšeno na opatství. V roce 2013 společenství uvedlo do provozu vlastní pivovar. Dne 13. května 2025 bylo oznámeno uzavření opatství pro nedostatek mnichů; v létě 2025 opatství opustili poslední mniši – tím skončila i výroba piva.",
+      "visit": null,
+      "ita_status": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zundert_Trappist",
+        "https://www.dutchnews.nl/2025/05/too-few-monks-spoil-the-brew-the-dutch-lose-a-trappist-beer",
+        "https://www.omroepbrabant.nl/nieuws/4742362/na-125-jaar-sluit-trappistenabdij-laatste-monniken-vertrokken",
+        "https://nl.wikipedia.org/wiki/Maria_Toevlucht"
+      ]
+    }
+  }
+]

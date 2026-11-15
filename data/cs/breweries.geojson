@@ -1,0 +1,418 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.65667,
+          51.28472
+        ]
+      },
+      "properties": {
+        "name": "Westmalle",
+        "abbey": "Abdij Onze-Lieve-Vrouw van het Heilig Hart (Westmalle)",
+        "country": "Belgie",
+        "founded_abbey": 1794,
+        "brewing_since": 1836,
+        "beers": [
+          {
+            "name": "Westmalle Dubbel",
+            "style": "Dubbel",
+            "abv": 7.0
+          },
+          {
+            "name": "Westmalle Tripel",
+            "style": "Tripel",
+            "abv": 9.5
+          },
+          {
+            "name": "Westmalle Extra",
+            "style": "Patersbier",
+            "abv": 5.0
+          }
+        ],
+        "history": "Opatství bylo založeno roku 1794 jako převorství a roku 1836 povýšeno na opatství. Téhož roku mniši poprvé uvařili trapistické pivo pro vlastní potřebu.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Westmalle_Abbey",
+          "https://en.wikipedia.org/wiki/Westmalle_Brewery"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.33611,
+          49.98222
+        ]
+      },
+      "properties": {
+        "name": "Chimay",
+        "abbey": "Abbaye Notre-Dame de Scourmont",
+        "country": "Belgie",
+        "founded_abbey": 1850,
+        "brewing_since": 1862,
+        "beers": [
+          {
+            "name": "Chimay Rouge (Première)",
+            "style": "Dubbel",
+            "abv": 7.0
+          },
+          {
+            "name": "Chimay Triple (Cinq Cents)",
+            "style": "Tripel",
+            "abv": 8.0
+          },
+          {
+            "name": "Chimay Bleue (Grande Réserve)",
+            "style": "Tmavé silné pivo",
+            "abv": 9.0
+          },
+          {
+            "name": "Chimay Dorée",
+            "style": "Patersbier",
+            "abv": 4.8
+          }
+        ],
+        "history": "V roce 1850 se na Scourmontu usadili mniši z Westvleteren, roku 1871 bylo společenství povýšeno na opatství. Pivovar vznikl roku 1862 uvnitř klášterních zdí.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Scourmont_Abbey",
+          "https://en.wikipedia.org/wiki/Chimay_Brewery"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.34889,
+          49.63972
+        ]
+      },
+      "properties": {
+        "name": "Orval",
+        "abbey": "Abbaye Notre-Dame d'Orval",
+        "country": "Belgie",
+        "founded_abbey": 1132,
+        "brewing_since": 1931,
+        "beers": [
+          {
+            "name": "Orval",
+            "style": "Belgian Pale Ale (kvašené s Brettanomyces)",
+            "abv": 6.2
+          }
+        ],
+        "history": "Klášter založili roku 1132 cisterciáčtí mniši, během staletí byl několikrát zničen a znovu vystavěn. Dnešní trapistické společenství vaří od roku 1931 pouze toto jediné pivo, aby financovalo obnovu opatství – záměrně bez širšího sortimentu.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Orval_Abbey",
+          "https://en.wikipedia.org/wiki/Orval_Brewery"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.12972,
+          51.54361
+        ]
+      },
+      "properties": {
+        "name": "La Trappe",
+        "abbey": "Abdij Onze Lieve Vrouw van Koningshoeven",
+        "country": "Nizozemsko",
+        "founded_abbey": 1881,
+        "brewing_since": 1884,
+        "beers": [
+          {
+            "name": "La Trappe Blond",
+            "style": "Blond",
+            "abv": 6.5
+          },
+          {
+            "name": "La Trappe Dubbel",
+            "style": "Dubbel",
+            "abv": 7.0
+          },
+          {
+            "name": "La Trappe Tripel",
+            "style": "Tripel",
+            "abv": 8.0
+          },
+          {
+            "name": "La Trappe Quadrupel",
+            "style": "Quadrupel",
+            "abv": 10.0
+          },
+          {
+            "name": "La Trappe Witte Trappist",
+            "style": "Pšeničné trapistické pivo",
+            "abv": 5.5
+          },
+          {
+            "name": "La Trappe Puur",
+            "style": "Bio, nefiltrované",
+            "abv": 4.7
+          }
+        ],
+        "history": "Společenství se roku 1881 v Berkel-Enschot usadilo jen váhavě; první roky byly hospodářsky těžké. Od roku 1884 vybudoval Dom Nivardus Schweykart, syn mnichovského sládka, pivovar, který finance opatství stabilizoval. V roce 1891 bylo společenství povýšeno na opatství.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+          "https://de.latrappetrappist.com/en"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.22036,
+          50.17803
+        ]
+      },
+      "properties": {
+        "name": "Rochefort",
+        "abbey": "Abbaye Notre-Dame de Saint-Rémy",
+        "country": "Belgie",
+        "founded_abbey": 1230,
+        "brewing_since": 1595,
+        "beers": [
+          {
+            "name": "Rochefort 6",
+            "style": "Dubbel",
+            "abv": 7.5
+          },
+          {
+            "name": "Rochefort 8",
+            "style": "Tmavé silné pivo",
+            "abv": 9.2
+          },
+          {
+            "name": "Rochefort 10",
+            "style": "Quadrupel",
+            "abv": 11.3
+          },
+          {
+            "name": "Triple Extra",
+            "style": "Světlé silné pivo",
+            "abv": 8.1
+          }
+        ],
+        "history": "Roku 1230 založeno jako ženský klášter „Secours de Notre-Dame“, od roku 1464 obývané mnichy. První pivovar vznikl kolem roku 1595, ale dlouho zůstával omezen na vlastní potřebu – ve větším množství se pro prodej vaří až od roku 1952.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Rochefort_Abbey",
+          "https://en.wikipedia.org/wiki/Rochefort_Brewery",
+          "https://www.trappistes-rochefort.com/en/",
+          "https://www.jamesclay.co.uk/core/trappistes-rochefort"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.721262,
+          50.895942
+        ]
+      },
+      "properties": {
+        "name": "Westvleteren",
+        "abbey": "Sint-Sixtusabdij",
+        "country": "Belgie",
+        "founded_abbey": 1831,
+        "brewing_since": 1838,
+        "beers": [
+          {
+            "name": "Westvleteren Blond",
+            "style": "Blond",
+            "abv": 5.8
+          },
+          {
+            "name": "Westvleteren 8",
+            "style": "Dubbel",
+            "abv": 8.0
+          },
+          {
+            "name": "Westvleteren 12",
+            "style": "Quadrupel",
+            "abv": 10.2
+          }
+        ],
+        "history": "V roce 1831 se zde usadil poustevník Jan-Baptist Victoor s druhy, roku 1871 bylo společenství povýšeno na opatství. Pivovar vznikl roku 1838 uvnitř klášterních zdí. Opatství prodává pivo záměrně jen v malých množstvích přímo v klášteře, nikoli běžným obchodem.",
+        "visit": "Prodej pouze přímo v opatství (nutná telefonická předchozí objednávka) a v kavárně In de Vrede poblíž opatství.",
+        "ita_status": true,
+        "sources": [
+          "https://trappist.be/en/abbeys/",
+          "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+          "https://en.wikipedia.org/wiki/Westvleteren_Brewery",
+          "https://www.trappistwestvleteren.be/en/our-beers"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.667,
+          50.783
+        ]
+      },
+      "properties": {
+        "name": "Mont des Cats",
+        "abbey": "Abbaye Notre-Dame du Mont-des-Cats",
+        "country": "Francie",
+        "founded_abbey": 1826,
+        "brewing_since": 2011,
+        "beers": [
+          {
+            "name": "Mont des Cats",
+            "style": "Jantarové trapistické pivo",
+            "abv": 7.6
+          }
+        ],
+        "history": "V roce 1826 opatství znovu založilo osm trapistů poté, co byla dřívější klášterní komunita za Velké francouzské revoluce rozpuštěna. Opatství nemá vlastní pivovar; pivo představené roku 2011 se vaří podle receptu mnichů v opatství Scourmont (Chimay) – proto oficiálně nenese značku „Authentic Trappist Product“, která předpokládá vaření uvnitř vlastních klášterních zdí.",
+        "visit": null,
+        "ita_status": false,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mont_des_Cats",
+          "https://www.beercollector.com.au/beers/mont-des-cats",
+          "https://belgianbeerheaven.com/de/en/breweries/mont-des-cats"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.48333,
+          41.83444
+        ]
+      },
+      "properties": {
+        "name": "Tre Fontane",
+        "abbey": "Abbazia delle Tre Fontane",
+        "country": "Itálie",
+        "founded_abbey": 626,
+        "brewing_since": 2015,
+        "beers": [
+          {
+            "name": "Tre Fontane Tripel",
+            "style": "Tripel",
+            "abv": 8.5
+          },
+          {
+            "name": "Scala Coeli",
+            "style": "Světlé",
+            "abv": 6.7
+          }
+        ],
+        "history": "Opatství u Říma založil roku 626 papež Honorius I. Od roku 1140 zde žili cisterciáci, od roku 1868 jsou to trapisté. Tripel mnichů se vaří s eukalyptem; v květnu 2015 pivo získalo značku „Authentic Trappist Product“.",
+        "visit": null,
+        "ita_status": true,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tre_Fontane_Abbey",
+          "https://cronachedibirra.it/birrifici/12594/a-look-into-tre-fontane-abbey-the-first-italian-trappist-brewery-in-the-world/",
+          "https://brookstonbeerbulletin.com/italys-tre-fontane-approved-as-newest-trappist-brewery/"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6073016,
+          42.304312
+        ]
+      },
+      "properties": {
+        "name": "Cardeña",
+        "abbey": "Monasterio de San Pedro de Cardeña",
+        "country": "Španělsko",
+        "founded_abbey": 1948,
+        "brewing_since": 2016,
+        "beers": [
+          {
+            "name": "Cardeña Tripel",
+            "style": "Tripel",
+            "abv": 7.0
+          },
+          {
+            "name": "Cardeña Doble",
+            "style": "Dubbel",
+            "abv": 6.0
+          },
+          {
+            "name": "Cardeña Quadrupel",
+            "style": "Quadrupel",
+            "abv": 10.0
+          }
+        ],
+        "history": "Klášter u Burgosu byl založen před rokem 902, byl převážně benediktinský a v 19. století přešel desamortizací do světských rukou. V roce 1942 se mniši vrátili, roku 1948 se opět stal opatstvím. V roce 2016 vzniklo s Cardeña Tripel první španělské trapistické pivo – vařené ne v klášteře, ale u MarPal v Madridu, a proto nenese logo „Authentic Trappist Product“.",
+        "visit": null,
+        "ita_status": false,
+        "sources": [
+          "https://www.beervanablog.com/beervana/2019/12/9/all-the-new-monastery-breweries",
+          "https://en.wikipedia.org/wiki/Trappist_beer",
+          "https://birrapedia.com/en/cardena-tripel/p-ca/f-56f00fe0f70fb57f24c22e21"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.323072,
+          52.741352
+        ]
+      },
+      "properties": {
+        "name": "Mount Saint Bernard",
+        "abbey": "Mount Saint Bernard Abbey",
+        "country": "Spojené království",
+        "founded_abbey": 1835,
+        "brewing_since": 2018,
+        "beers": [
+          {
+            "name": "Tynt Meadow",
+            "style": "English Trappist Ale (silné pivo)",
+            "abv": 7.4
+          }
+        ],
+        "history": "Založeno roku 1835 u Coalville v Leicestershire. Poté, co bylo roku 2014 upuštěno od klášterního mlékárenského hospodářství, mniši vybudovali pivovar. V roce 2018 vyšlo s Tynt Meadow první trapistické pivo, jaké se kdy v Británii uvařilo – pojmenované po pozemku, na němž opatství stojí.",
+        "visit": "Klášterní obchod a dům pro hosty; možnost ubytování pro hosty a účastníky duchovních cvičení.",
+        "ita_status": true,
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mount_Saint_Bernard_Abbey",
+          "https://en.wikipedia.org/wiki/Tynt_Meadow",
+          "https://www.joh.cam.ac.uk/node/6431"
+        ]
+      }
+    }
+  ]
+}

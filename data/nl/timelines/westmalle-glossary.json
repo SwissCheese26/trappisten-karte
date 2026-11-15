@@ -1,0 +1,33 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Novicemeester van de abdij van La Trappe, vluchtte in 1791 voor de Franse Revolutie naar Zwitserland en stichtte daar een nog strengere trappistengemeenschap. Stuurde later monniken in alle richtingen van Europa – een van die groepen stichtte Westmalle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Gedenkplaat, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "rance",
+    "term": "Armand de Rancé",
+    "description": "1626–1700. Hervormde in 1664 de abdij van La Trappe in Normandië: stilte, handenarbeid, strenge boetedoening. Zijn regels vormden de basis van de trappistenbeweging en stonden de monniken uitdrukkelijk bier bij de maaltijden toe.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Portrait_d%27Armand-Jean_Le_Bouthillier_de_Ranc%C3%A9%2C_abb%C3%A9_de_la_Trappe_-_Mus%C3%A9e_Cond%C3%A9.jpg",
+    "credit": "Portret, Musée Condé · Wikimedia Commons, publiek domein"
+  },
+  {
+    "id": "dom",
+    "term": "Martinus Dom",
+    "description": "1791–1873. Geboren als Frans Daniël Dom in Kontich. Trad in 1817 binnen in Westmalle, werd in 1826 eerste prior en in 1836 eerste abt. Stelde voor om zelf te brouwen in plaats van bier aan te kopen – op 1 augustus 1836 werd voor het eerst gebrouwen.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Martinus-dom.jpg",
+    "credit": "Portret van Martinus Dom · Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "id": "novizenmeister",
+    "term": "novicemeester",
+    "description": "De monnik die de novicen begeleidt en opleidt – toekomstige monniken tijdens de proeftijd van meerdere jaren vóór de definitieve geloften."
+  },
+  {
+    "id": "priorat",
+    "term": "priorij",
+    "description": "Een kloostergemeenschap die nog geen zelfstandige abdij is. Geleid door een prior in plaats van een abt, meestal kleiner of jonger dan een abdij."
+  }
+]

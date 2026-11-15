@@ -1,7 +1,13 @@
 [
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [5.488572, 51.298778] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ]
+    },
     "properties": {
       "name": "Achel",
       "abbey": "Abdij Sint-Benedictus (Achelse Kluis)",
@@ -11,8 +17,16 @@
       "status": "closed",
       "closed_since": 2021,
       "beers": [
-        { "name": "Achel 8° Blond", "style": "Tripel", "abv": 8.0 },
-        { "name": "Achel 8° Bruin", "style": "Dubbel", "abv": 8.0 }
+        {
+          "name": "Achel 8° Blond",
+          "style": "Tripel",
+          "abv": 8.0
+        },
+        {
+          "name": "Achel 8° Bruin",
+          "style": "Dubbel",
+          "abv": 8.0
+        }
       ],
       "history": "1686 zur Abtei erhoben, während der Französischen Revolution zerstört, 1844 von Westmalle aus wiederaufgebaut. 1852 erstes Bier, 1917 demontierten deutsche Besatzer die Brauerei zur Kupfergewinnung. 1998 mit Hilfe von Westmalle und Rochefort neu aufgebaut, 2001 kam „Achel 8°“ auf den Markt – zuletzt die kleinste Trappisten-Brauerei Belgiens. Im Januar 2021 verlor die Brauerei mit dem Ausscheiden der letzten brauenden Mönche den Trappisten-Status, die beiden letzten Mönche zogen nach Westmalle. Ein Unternehmer kaufte die Gebäude; Bier wird dort weiter gebraut, darf sich aber nicht mehr „Trappist“ nennen.",
       "visit": null,
@@ -26,7 +40,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [13.7342, 48.4989] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ]
+    },
     "properties": {
       "name": "Engelszell",
       "abbey": "Stift Engelszell",
@@ -36,9 +56,21 @@
       "status": "closed",
       "closed_since": 2023,
       "beers": [
-        { "name": "Gregorius", "style": "Dunkles Starkbier", "abv": 9.7 },
-        { "name": "Benno", "style": "Bernsteinfarben", "abv": 6.9 },
-        { "name": "Nivard", "style": "Blond", "abv": 5.5 }
+        {
+          "name": "Gregorius",
+          "style": "Dunkles Starkbier",
+          "abv": 9.7
+        },
+        {
+          "name": "Benno",
+          "style": "Bernsteinfarben",
+          "abv": 6.9
+        },
+        {
+          "name": "Nivard",
+          "style": "Blond",
+          "abv": 5.5
+        }
       ],
       "history": "Ursprünglich 1293 als Zisterzienserabtei gegründet, nach mehreren Auflösungen 1925 von Trappisten aus der Schweiz neu besiedelt. Ab 2012 braute die kleine Gemeinschaft eigenes Bier. Am 10. Mai 2023 kündigte der Generalabt die Auflösung an – zu wenige und zu alte Mönche. Die Brauerei, Likörproduktion und das Gästehaus gingen 2025 in eine GmbH über, seit Juli 2025 von einem privaten Ehepaar weitergeführt. Das Bier wird weiterhin gebraut, trägt aber kein Trappisten-Siegel mehr. Am 30. November 2025 wurde die Abtei nach 100 Jahren Trappisten-Präsenz offiziell aufgelöst und an die Diözese Linz übergeben.",
       "visit": null,
@@ -52,7 +84,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [-72.014475, 42.297664] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ]
+    },
     "properties": {
       "name": "Spencer",
       "abbey": "St. Joseph's Abbey",
@@ -62,9 +100,13 @@
       "status": "closed",
       "closed_since": 2022,
       "beers": [
-        { "name": "Spencer Trappist Ale", "style": "Blondes Ale", "abv": 6.5 }
+        {
+          "name": "Spencer Trappist Ale",
+          "style": "Blondes Ale",
+          "abv": 6.5
+        }
       ],
-      "history": "Die Gemeinschaft geht auf eine Gründung von 1825 im kanadischen Tracadie (Nova Scotia) zurück, zog 1900 nach Rhode Island und ließ sich 1950 – nach einem Brand dort – unter Abt Dom Edmund Futterer in Spencer, Massachusetts nieder. Ab 2010 bereiteten sich die Mönche mit Hilfe europäischer Trappisten-Brauereien und Brauern aus Boston auf eine eigene Brauerei vor; 2013 erschien mit Spencer Trappist Ale das erste – und bislang einzige – in den USA gebraute, zertifizierte Trappistenbier. Im Mai 2022 stellte die Abtei den Braubetrieb ein, als Folge der wirtschaftlichen Auswirkungen der Corona-Pandemie und der gewachsenen Konkurrenz durch über 600 Craft-Brauereien in Neuengland. Die Mönche leben weiter in der Abtei und stellen u.a. Konfitüren und liturgische Gewänder her.",
+      "history": "Die Gemeinschaft geht auf eine Gründung von 1825 im kanadischen Tracadie (Nova Scotia) zurück, zog 1900 nach Rhode Island und ließ sich 1950 – nach einem Brand dort – unter Abt Dom Edmund Futterer in Spencer, Massachusetts nieder. Ab 2010 bereiteten sich die Mönche mit Hilfe europäischer Trappisten-Brauereien und Brauern aus Boston auf eine eigene Brauerei vor; ab 2013 brauten sie mit Spencer Trappist Ale das erste zertifizierte Trappistenbier der USA. Im Mai 2022 stellte die Abtei den Braubetrieb ein, als Folge der wirtschaftlichen Auswirkungen der Corona-Pandemie und der gewachsenen Konkurrenz durch über 600 Craft-Brauereien in Neuengland. Die Mönche leben weiter in der Abtei und stellen u.a. Konfitüren und liturgische Gewänder her.",
       "visit": "Gästehaus mit Einkehrtagen (Retreats) vorhanden.",
       "ita_status": false,
       "sources": [
@@ -76,7 +118,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [4.607, 51.496] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.607,
+        51.496
+      ]
+    },
     "properties": {
       "name": "Zundert",
       "abbey": "Abdij Maria Toevlucht",
@@ -86,10 +134,18 @@
       "status": "closed",
       "closed_since": 2025,
       "beers": [
-        { "name": "Zundert 8", "style": "Dubbel", "abv": 8.0 },
-        { "name": "Zundert 10", "style": "Quadrupel", "abv": 10.0 }
+        {
+          "name": "Zundert 8",
+          "style": "Dubbel",
+          "abv": 8.0
+        },
+        {
+          "name": "Zundert 10",
+          "style": "Quadrupel",
+          "abv": 10.0
+        }
       ],
-      "history": "1900 als Kapellengemeinschaft begonnen, 1934 zur Abtei erhoben. 2013 nahm die Gemeinschaft eine eigene Brauerei in Betrieb. Die Zahl der Mönche sank von rund 20 bei der Brauereigründung auf zuletzt sechs; am 13. Mai 2025 wurde die Schließung der Abtei wegen Mönchsmangels angekündigt. Die letzten Mönche verließen die Abtei am 31. August 2025, nach 125 Jahren – mit ihnen endete auch die Bierproduktion.",
+      "history": "1900 als Priorat begonnen, 1938 zur Abtei erhoben. 2013 nahm die Gemeinschaft eine eigene Brauerei in Betrieb. Am 13. Mai 2025 wurde die Schließung der Abtei wegen Mönchsmangels angekündigt; im Sommer 2025 verließen die letzten Mönche die Abtei – mit ihnen endete auch die Bierproduktion.",
       "visit": null,
       "ita_status": false,
       "sources": [

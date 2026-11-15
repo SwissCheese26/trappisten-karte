@@ -1,0 +1,33 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Novice master of La Trappe Abbey; in 1791 he fled the French Revolution to Switzerland and founded an even stricter Trappist community there. He later sent monks in every direction across Europe—one of these groups founded Westmalle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Memorial plaque, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "rance",
+    "term": "Armand de Rancé",
+    "description": "1626–1700. In 1664 he reformed La Trappe Abbey in Normandy: silence, manual labor, strict penance. His rules founded the Trappist movement and expressly allowed the monks beer with their meals.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Portrait_d%27Armand-Jean_Le_Bouthillier_de_Ranc%C3%A9%2C_abb%C3%A9_de_la_Trappe_-_Mus%C3%A9e_Cond%C3%A9.jpg",
+    "credit": "Portrait, Musée Condé · Wikimedia Commons, public domain"
+  },
+  {
+    "id": "dom",
+    "term": "Martinus Dom",
+    "description": "1791–1873. Born Frans Daniël Dom in Kontich. He entered Westmalle in 1817, became its first prior in 1826 and its first abbot in 1836. He proposed brewing beer themselves instead of buying it in—the first brew took place on August 1, 1836.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Martinus-dom.jpg",
+    "credit": "Portrait of Martinus Dom · Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "id": "novizenmeister",
+    "term": "novice master",
+    "description": "The monk who looks after and trains the novices—prospective monks in the probationary period of several years before their final vows."
+  },
+  {
+    "id": "priorat",
+    "term": "priory",
+    "description": "A monastic community that is not yet an independent abbey. Led by a prior rather than an abbot, and usually smaller or younger than an abbey."
+  }
+]

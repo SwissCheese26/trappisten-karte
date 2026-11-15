@@ -1,0 +1,40 @@
+{
+  "heading": "Pravidla trapistů",
+  "intro": "Trapisté se řídí řeholí svatého Benedikta (6. století), zpřísněnou reformou Armanda de Rancé z roku 1664. Těchto sedm bodů formuje život v opatství dodnes.",
+  "rules": [
+    {
+      "title": "Stabilitas – stálost místa",
+      "text": "Mnich se zavazuje na celý život k jedinému klášternímu společenství, nikoli jen k jednomu místu. Benedikt z Nursie, Řehole, kap. 58."
+    },
+    {
+      "title": "Conversatio morum – obrácení života",
+      "text": "Slib trvalého každodenního směřování k prostšímu životu zaměřenému na Boha – ne jednorázový akt, ale nikdy nekončící proces."
+    },
+    {
+      "title": "Oboedientia – poslušnost",
+      "text": "Doslova „naslouchání“: poslušnost vůči opatovi a společenství jako cvičení v naslouchání, nikoli pouhé podřízení."
+    },
+    {
+      "title": "Mlčení",
+      "text": "Žádný přísný slib mlčení, ale prožívaná zdrženlivost: mluví se jen tehdy, když je to nutné. Jídlo se přijímá společně a mlčky za doprovodu četby."
+    },
+    {
+      "title": "Ruční práce",
+      "text": "„Zahálka je nepřítelem duše“ (Řehole, kap. 48). Tělesná práce zajišťuje obživu společenství a je zároveň duchovním cvičením – vyrostla z ní řemesla jako pivovarnictví."
+    },
+    {
+      "title": "Prostota a pokání",
+      "text": "De Rancéova reforma z roku 1664 řeholi zpřísnila: prostá strava, zřeknutí se masa čtyřnohých zvířat (ryby a drůbež jsou dovoleny), odloučení od světa."
+    },
+    {
+      "title": "Chórová modlitba",
+      "text": "Liturgie hodin – několikrát denně společná modlitba – tvoří páteř denního řádu, kolem níž se uspořádává práce i odpočinek."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict",
+    "https://en.wikipedia.org/wiki/Trappists",
+    "https://westminsterabbey.ca/benedictine-monasticism/our-vowed-life/",
+    "https://mirfield.org.uk/?p=92"
+  ]
+}

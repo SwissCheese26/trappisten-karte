@@ -1,0 +1,69 @@
+{
+  "brewery": "Mont des Cats",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mont_des_Cats",
+    "https://ocso.org/monastery/mont-des-cats"
+  ],
+  "stations": [
+    {
+      "year": "1650",
+      "title": "Poustevna na kopci",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "Antonitští špitální bratři se v roce 1650 usadili na kopci „Mont des Cats“. Francouzská revoluce toto společenství roku 1792 rozpustila a budovy zchátraly."
+    },
+    {
+      "year": "1819–1821",
+      "title": "Malíř kupuje zříceniny",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "Malíř Nicolas Ruyssen z Hazebrouck koupil v roce 1819 zříceniny, aby tam založil školu; v roce 1821 otevřel internát s Bratry křesťanských škol ze Saint-Omer."
+    },
+    {
+      "year": "26. ledna 1826",
+      "title": "Osm mnichů z opatství du Gard",
+      "coordinates": [
+        2.2958,
+        49.8941
+      ],
+      "zoom": 7,
+      "text": "V roce 1825 se Ruyssen obrátil na trapistické opatství Notre-Dame du Gard u Amiens. Dne 26. ledna 1826 tam dorazilo osm trapistů a založili opatství Mont des Cats – dodnes vedené tímto společenstvím."
+    },
+    {
+      "year": "1847",
+      "title": "Status opatství",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "V roce 1847 bylo převorství povýšeno na samostatné opatství."
+    },
+    {
+      "year": "12. října 1914",
+      "title": "Bojiště první světové války",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 9,
+      "text": "Britská 3. jízdní brigáda zaútočila 12. října 1914 na německé pozice na kopci. Klášter byl dobyt; německý princ Maximilián Fridrich Vilém Jiří Hesenský byl při tom smrtelně raněn a téže noci zemřel v opatství."
+    },
+    {
+      "year": "2011",
+      "title": "Pivo podle receptu Chimay",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 7,
+      "text": "Opatství nemá vlastní pivovar. V roce 2011 mniši představili vlastní pivo, uvařené podle jejich receptu v opatství Scourmont (Chimay) – proto bez pečeti „Authentic Trappist Product“, která předpokládá vaření uvnitř vlastních klášterních zdí."
+    }
+  ]
+}

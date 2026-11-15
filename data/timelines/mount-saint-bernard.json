@@ -1,0 +1,61 @@
+{
+  "brewery": "Mount Saint Bernard",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mount_St_Bernard_Abbey",
+    "https://www.british-history.ac.uk/vch/leics/vol2/pp53-54",
+    "https://en.wikipedia.org/wiki/Tynt_Meadow",
+    "https://msbtrappist.co.uk/the-story/",
+    "https://protzonbeer.co.uk/news/2018/06/27/monks-restore-historic-brewing-tradition"
+  ],
+  "stations": [
+    {
+      "year": "1833",
+      "title": "Mount Melleray in Irland",
+      "coordinates": [-7.87, 52.15],
+      "zoom": 6,
+      "text": "Nach der Julirevolution von 1830 wurden die Mönche von Melleray erneut bedrängt und gründeten 1833 die Abtei Mount Melleray in Irland. Von dort sollte wenig später die Gründung in England ausgehen."
+    },
+    {
+      "year": "1835",
+      "title": "Sechs Mönche in Leicestershire",
+      "coordinates": [-1.323072, 52.741352],
+      "zoom": 8,
+      "text": "Auf Land des katholischen Konvertiten Ambrose Phillipps de Lisle ließen sich noch 1835 sechs Mönche aus Mount Melleray unter Pater Odilo Woolfrey nieder. Es war die erste dauerhafte Klostergründung in England seit der Reformation."
+    },
+    {
+      "year": "Michaelmas 1835",
+      "title": "Das Cottage auf Tynt Meadow",
+      "coordinates": [-1.323072, 52.741352],
+      "zoom": 9,
+      "text": "Die Gemeinschaft bezog zunächst ein halb verfallenes Cottage auf dem Flurstück Tynt Meadow. Später zog sie an den heutigen Standort der Abtei, etwa 400 Meter entfernt."
+    },
+    {
+      "year": "1844",
+      "title": "Das neue Kloster nach Pugin",
+      "coordinates": [-1.323072, 52.741352],
+      "zoom": 9,
+      "text": "1844 wurde das neue Klostergebäude am heutigen Standort eröffnet. Der Architekt Augustus Welby Pugin hatte seine Dienste dafür unentgeltlich angeboten."
+    },
+    {
+      "year": "1848",
+      "title": "Erhebung zur Abtei",
+      "coordinates": [-1.323072, 52.741352],
+      "zoom": 9,
+      "text": "1848 erhob Papst Pius IX. das Kloster zur Abtei. Bernard Palmer wurde als erster englischer Abt seit der Reformation geweiht, am 18. Februar 1849."
+    },
+    {
+      "year": "2017–2018",
+      "title": "Eine Brauerei im Kloster",
+      "coordinates": [-1.323072, 52.741352],
+      "zoom": 9,
+      "text": "Als die Landwirtschaft die Abtei nicht mehr tragen konnte, entschieden sich die Mönche fürs Brauen. Zwischen 2017 und 2018 entstand die Brauerei innerhalb der Klostermauern."
+    },
+    {
+      "year": "2018",
+      "title": "Tynt Meadow, das erste britische Trappistenbier",
+      "coordinates": [-1.323072, 52.741352],
+      "zoom": 9,
+      "text": "Im Sommer 2018 kam Tynt Meadow auf den Markt, ein dunkles Starkbier mit 7,4 % Alkohol. Es wurde das zwölfte Trappistenbier mit dem Label „Authentic Trappist Product“ und das erste aus Großbritannien. Der Name erinnert an das Flurstück, auf dem das Klosterleben in den Midlands begann."
+    }
+  ]
+}

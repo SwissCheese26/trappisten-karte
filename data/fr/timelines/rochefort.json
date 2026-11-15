@@ -1,0 +1,81 @@
+{
+  "brewery": "Rochefort",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rochefort_Abbey",
+    "https://en.wikipedia.org/wiki/Rochefort_Brewery",
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://en.wikipedia.org/wiki/C%C3%AEteaux_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "vers 1230",
+      "title": "Fondée pour des cisterciennes",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Le comte Gilles de Walcourt, seigneur de Rochefort, fonda vers 1230 un monastère de cisterciennes sous le nom de « Secours de Notre-Dame »."
+    },
+    {
+      "year": "1464",
+      "title": "Des moines à la place des moniales",
+      "coordinates": [
+        5.09333,
+        47.12806
+      ],
+      "zoom": 7,
+      "text": "Le monastère était alors tombé en décadence. En 1464, Louis de la Marck fit remplacer les moniales par des moines – en tant que plus jeune fille de l’abbaye mère de Cîteaux, en Bourgogne, d’où venait la nouvelle communauté."
+    },
+    {
+      "year": "1568 / 1577",
+      "title": "Dévastée pendant la guerre de Quatre-Vingts Ans",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "L’abbaye fut dévastée à deux reprises pendant la guerre de Quatre-Vingts Ans : en 1568 par des troupes protestantes, en 1577 par les forces de Jean d’Autriche."
+    },
+    {
+      "year": "vers 1595",
+      "title": "La première brasserie",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Vers 1595 fut construite, à l’intérieur des murs du monastère, la première brasserie – d’abord uniquement pour les besoins des moines."
+    },
+    {
+      "year": "1797",
+      "title": "Fermée et vendue",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Pendant la Révolution française, l’abbaye fut fermée et vendue en 1797. Vers 1805, le nouveau propriétaire fit démolir les bâtiments ; les pierres furent réutilisées ailleurs à Rochefort."
+    },
+    {
+      "year": "11 octobre 1887",
+      "title": "Retour avec l’aide d’Achel",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 7,
+      "text": "Le père Anselmus Judong, de l’abbaye trappiste d’Achel, arriva sur les ruines le 11 octobre 1887 ; en décembre, des moines d’Achel achetèrent le site et commencèrent la reconstruction."
+    },
+    {
+      "year": "1952",
+      "title": "Enfin assez pour vendre",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Ce n’est qu’après une rénovation de la brasserie en 1952 que Rochefort produisit assez de bière pour la vendre – plus de 350 ans après la première brasserie du site."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "heading": "Règles des trappistes",
+  "intro": "Les trappistes suivent la Règle de saint Benoît (VIe s.), durcie par la réforme d’Armand de Rancé en 1664. Ces sept points marquent encore aujourd’hui la vie de l’abbaye.",
+  "rules": [
+    {
+      "title": "Stabilitas – stabilité",
+      "text": "Un moine s’engage à vie envers une seule communauté monastique, et pas seulement envers un lieu. Benoît de Nursie, Règle, chap. 58."
+    },
+    {
+      "title": "Conversatio morum – conversion de vie",
+      "text": "La promesse d’un tournant continu et quotidien vers une vie plus simple, tournée vers Dieu : non pas un acte unique, mais un processus durable."
+    },
+    {
+      "title": "Oboedientia – obéissance",
+      "text": "Littéralement « écoute » : obéissance à l’abbé et à la communauté, comprise comme un exercice d’écoute et non comme une simple soumission."
+    },
+    {
+      "title": "Silence",
+      "text": "Pas de vœu de silence strict, mais une retenue vécue : on ne parle que si c’est nécessaire. Les repas sont pris en commun et en silence, accompagnés d’une lecture."
+    },
+    {
+      "title": "Travail manuel",
+      "text": "« L’oisiveté est l’ennemie de l’âme » (Règle, chap. 48). Le travail physique assure la subsistance de la communauté et constitue aussi un exercice spirituel : c’est de là que sont nés des métiers comme le brassage."
+    },
+    {
+      "title": "Simplicité et pénitence",
+      "text": "La réforme de de Rancé en 1664 a durci la Règle : nourriture simple, renoncement à la viande des quadrupèdes (poisson et volaille sont permis), retrait du monde."
+    },
+    {
+      "title": "Office choral",
+      "text": "La liturgie des Heures, prière commune plusieurs fois par jour, forme l’ossature de la journée, autour de laquelle s’organisent le travail et le repos."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict",
+    "https://en.wikipedia.org/wiki/Trappists",
+    "https://westminsterabbey.ca/benedictine-monasticism/our-vowed-life/",
+    "https://mirfield.org.uk/?p=92"
+  ]
+}

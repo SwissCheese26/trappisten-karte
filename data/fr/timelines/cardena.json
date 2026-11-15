@@ -1,0 +1,105 @@
+{
+  "brewery": "Cardeña",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Monasterio_de_San_Pedro_de_Carde%C3%B1a",
+    "https://en.wikipedia.org/wiki/San_Pedro_de_Carde%C3%B1a",
+    "https://nl.wikipedia.org/wiki/Trappistenbier",
+    "https://es.wikipedia.org/wiki/Cerveza_trapense"
+  ],
+  "stations": [
+    {
+      "year": "Vers 900",
+      "title": "Bénédictins près de Burgos",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 7,
+      "text": "San Pedro de Cardeña naquit comme abbaye bénédictine près de Burgos. La fondation est antérieure à 902 : le 24 septembre 902, le comte Gonzalo Téllez et son épouse Flámula donnèrent au monastère des terres et des salines, première donation documentée. Le début de la construction est parfois aussi situé en 899."
+    },
+    {
+      "year": "IXe ou Xe siècle",
+      "title": "Les martyrs de Cardeña",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Mentionne le meurtre de moines.",
+      "text": "D’après la tradition, les moines furent tués par des musulmans au IXe ou au Xe siècle ; ils furent canonisés en 1603 et vénérés comme les « martyrs de Cardeña ». Il n’en existe aucune preuve documentaire."
+    },
+    {
+      "year": "1102",
+      "title": "Le monastère du Cid",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "Le Cid mourut en 1099 et fut d’abord inhumé à Valence. En 1102, sa veuve Chimène Díaz fit évacuer la ville et ses restes furent transportés à Cardeña. Ils y demeurèrent quelques années ; le monastère reste aujourd’hui étroitement lié au Cid."
+    },
+    {
+      "year": "XIXe siècle",
+      "title": "Suppression des monastères",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "Avec la désamortisation de Mendizábal, Cardeña fut supprimée et la vie monastique s’éteignit. La source consultée n’indique pas d’année précise."
+    },
+    {
+      "year": "1936 à 1939",
+      "title": "Un camp pendant la guerre civile",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Mentionne la captivité et les mauvais traitements infligés à des prisonniers de guerre.",
+      "text": "Pendant la guerre civile espagnole, le monastère vide servit de camp de concentration du côté franquiste pour des prisonniers de guerre républicains, surtout des membres des Brigades internationales. Il retint plus de 4000 prisonniers, dont des soldats et des aumôniers basques, et fut fermé en novembre 1939."
+    },
+    {
+      "year": "1er mai 1942",
+      "title": "Retour des trappistes",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Le 1er mai 1942, la vie monastique fut rétablie par des trappistes du monastère de San Isidro de Dueñas, dans la province de Palencia."
+    },
+    {
+      "year": "1945 et 1948",
+      "title": "Élevé au rang d’abbaye",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "En 1945, la communauté fut élevée au rang de prieuré, en 1948 à celui d’abbaye ; le premier abbé fut Jesús Álvarez Álvarez. Le monastère se trouve près de Castrillo del Val, à l’est de Burgos."
+    },
+    {
+      "year": "16 mars 2016",
+      "title": "La première bière trappiste espagnole",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Le 16 mars 2016, la Cardeña Tripel (7 %), première bière trappiste espagnole, fut mise en vente. Elle n’est pas brassée au monastère mais chez MarPal, à Madrid, et ne porte donc pas le logo « Authentic Trappist Product »."
+    },
+    {
+      "year": "2021 et 2022",
+      "title": "D’autres bières",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Selon Wikipédia en néerlandais, la Cardeña Doble (6 %) suivit en 2021 et la Cardeña Quadrupel (10 %) en 2022. Elles ne portent pas non plus le logo ATP."
+    }
+  ]
+}

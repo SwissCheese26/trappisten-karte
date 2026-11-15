@@ -1,0 +1,82 @@
+{
+  "brewery": "Mount Saint Bernard",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mount_St_Bernard_Abbey",
+    "https://www.british-history.ac.uk/vch/leics/vol2/pp53-54",
+    "https://en.wikipedia.org/wiki/Tynt_Meadow",
+    "https://msbtrappist.co.uk/the-story/",
+    "https://protzonbeer.co.uk/news/2018/06/27/monks-restore-historic-brewing-tradition"
+  ],
+  "stations": [
+    {
+      "year": "1833",
+      "title": "Mount Melleray en Irlande",
+      "coordinates": [
+        -7.87,
+        52.15
+      ],
+      "zoom": 6,
+      "text": "Après la révolution de Juillet de 1830, les moines de Melleray furent de nouveau inquiétés et fondèrent en 1833 l’abbaye de Mount Melleray en Irlande. C’est de là que devait partir peu après la fondation en Angleterre."
+    },
+    {
+      "year": "1835",
+      "title": "Six moines dans le Leicestershire",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 8,
+      "text": "Sur des terres du converti catholique Ambrose Phillipps de Lisle, six moines de Mount Melleray, sous la conduite du père Odilo Woolfrey, s’installèrent encore en 1835. Ce fut la première fondation monastique durable en Angleterre depuis la Réforme."
+    },
+    {
+      "year": "Michaelmas 1835",
+      "title": "Le cottage de Tynt Meadow",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "La communauté occupa d’abord un cottage à moitié en ruine sur la parcelle de Tynt Meadow. Elle s’installa plus tard sur le site actuel de l’abbaye, à environ 400 mètres de là."
+    },
+    {
+      "year": "1844",
+      "title": "Le nouveau monastère selon Pugin",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "En 1844, le nouveau bâtiment monastique fut ouvert sur le site actuel. L’architecte Augustus Welby Pugin avait offert ses services gratuitement."
+    },
+    {
+      "year": "1848",
+      "title": "Élévation au rang d’abbaye",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "En 1848, le pape Pie IX éleva le monastère au rang d’abbaye. Bernard Palmer fut consacré, le 18 février 1849, premier abbé anglais depuis la Réforme."
+    },
+    {
+      "year": "2017–2018",
+      "title": "Une brasserie au monastère",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "Lorsque l’agriculture ne put plus faire vivre l’abbaye, les moines choisirent de brasser. Entre 2017 et 2018, la brasserie fut aménagée à l’intérieur des murs du monastère."
+    },
+    {
+      "year": "2018",
+      "title": "Tynt Meadow, la première bière trappiste britannique",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "À l’été 2018, Tynt Meadow fut mise en vente : une bière brune forte à 7,4 % d’alcool. Elle devint la douzième bière trappiste portant le label « Authentic Trappist Product » et la première du Royaume-Uni. Son nom rappelle la parcelle où la vie monastique commença dans les Midlands."
+    }
+  ]
+}

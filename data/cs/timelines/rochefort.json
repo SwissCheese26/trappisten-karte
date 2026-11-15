@@ -1,0 +1,81 @@
+{
+  "brewery": "Rochefort",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rochefort_Abbey",
+    "https://en.wikipedia.org/wiki/Rochefort_Brewery",
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://en.wikipedia.org/wiki/C%C3%AEteaux_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "kolem 1230",
+      "title": "Založeno pro cisterciačky",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Hrabě Gilles de Walcourt z Rochefortu založil kolem roku 1230 klášter pro cisterciačky s názvem „Secours de Notre-Dame”."
+    },
+    {
+      "year": "1464",
+      "title": "Mniši místo jeptišek",
+      "coordinates": [
+        5.09333,
+        47.12806
+      ],
+      "zoom": 7,
+      "text": "Klášter mezitím zchátral. V roce 1464 nechal Louis de la Marck jeptišky nahradit mnichy – jako nejmladší dceřiný klášter mateřského opatství Cîteaux v Burgundsku, odkud nová komunita přišla."
+    },
+    {
+      "year": "1568 / 1577",
+      "title": "Zpustošeno za osmdesátileté války",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Opatství bylo za osmdesátileté války zpustošeno dvakrát: roku 1568 protestantskými vojsky, roku 1577 vojsky Jana Rakouského."
+    },
+    {
+      "year": "kolem 1595",
+      "title": "První pivovar",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Kolem roku 1595 vznikl uvnitř klášterních zdí první pivovar – zpočátku jen pro vlastní potřebu mnichů."
+    },
+    {
+      "year": "1797",
+      "title": "Zavřeno a prodáno",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Za Velké francouzské revoluce bylo opatství roku 1797 zavřeno a prodáno. Kolem roku 1805 nechal nový majitel budovy zbořit; kameny se použily jinde v Rochefortu."
+    },
+    {
+      "year": "11. října 1887",
+      "title": "Návrat s pomocí z Achelu",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 7,
+      "text": "Páter Anselmus Judong z trapistického opatství Achel přišel 11. října 1887 ke zříceninám; v prosinci mniši z Achelu pozemek koupili a začali s obnovou."
+    },
+    {
+      "year": "1952",
+      "title": "Konečně dost na prodej",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Teprve po obnově pivovaru v roce 1952 vyráběl Rochefort dost piva, aby ho mohl i prodávat – více než 350 let po prvním pivovaru na tomto místě."
+    }
+  ]
+}

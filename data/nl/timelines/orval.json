@@ -1,0 +1,80 @@
+{
+  "brewery": "Orval",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Orval_Abbey",
+    "https://en.wikipedia.org/wiki/Trois-Fontaines_Abbey",
+    "https://en.wikipedia.org/wiki/Orval_Brewery"
+  ],
+  "stations": [
+    {
+      "year": "omstreeks 1070",
+      "title": "De eerste monniken",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 7,
+      "text": "Benedictijnse monniken uit Calabrië in Zuid-Italië vestigden zich hier en begonnen kerk en klooster te bouwen. Na ongeveer veertig jaar verlieten ze de plaats weer, waarna kanunniken de bouw voltooiden."
+    },
+    {
+      "year": "1132",
+      "title": "Cisterciënzers uit de Champagne",
+      "coordinates": [
+        4.949186,
+        48.717496
+      ],
+      "zoom": 7,
+      "text": "Een groep cisterciënzermonniken uit de abdij van Trois-Fontaines in de Champagne kwam in 1132 in Orval aan en ging op in de bestaande gemeenschap onder de eerste abt Constantin."
+    },
+    {
+      "year": "1637",
+      "title": "Verwoest in de Dertigjarige Oorlog",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "In 1637 plunderden en verbrandden Franse huurlingen de abdij tijdens de Dertigjarige Oorlog."
+    },
+    {
+      "year": "1793",
+      "title": "Platgebrand in de Revolutie",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "In 1793 brandden Franse revolutionaire troepen de abdij volledig af – als vergelding omdat ze Oostenrijkse troepen onderdak had geboden. De gemeenschap werd met geweld verspreid."
+    },
+    {
+      "year": "1926",
+      "title": "De ruïnes worden teruggegeven",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "Meer dan een eeuw bleef Orval een ruïne, tot de familie Harenne de grond in 1926 schonk aan de cisterciënzerorde, zodat er weer kloosterleven mogelijk zou worden."
+    },
+    {
+      "year": "1931",
+      "title": "Bier voor de heropbouw",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "Onder de trappist Marie-Albert van der Cruyssen ontstond vanaf 1926 de nieuwe abdij. In 1931 deden de monniken de middeleeuwse brouwkunst herleven – niet uit traditie, maar om de heropbouw te financieren."
+    },
+    {
+      "year": "8 september 1948",
+      "title": "De nieuwe kerk",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "Met de wijding van de nieuwe abdijkerk op 8 september 1948 was de heropbouw in grote lijnen voltooid. Tot vandaag brouwt Orval slechts dit ene bier."
+    }
+  ]
+}

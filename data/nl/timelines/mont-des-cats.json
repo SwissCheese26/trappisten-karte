@@ -1,0 +1,69 @@
+{
+  "brewery": "Mont des Cats",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mont_des_Cats",
+    "https://ocso.org/monastery/mont-des-cats"
+  ],
+  "stations": [
+    {
+      "year": "1650",
+      "title": "Een kluizenarij op de heuvel",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "Antonieten-hospitaalbroeders vestigden zich in 1650 op de heuvel „Mont des Cats”. De Franse Revolutie hief deze gemeenschap in 1792 op, waarna de gebouwen vervielen."
+    },
+    {
+      "year": "1819–1821",
+      "title": "Een schilder koopt de ruïnes",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "De schilder Nicolas Ruyssen uit Hazebrouck kocht in 1819 de ruïnes om er een school te stichten; in 1821 opende hij een internaat met de Broeders van de Christelijke Scholen uit Saint-Omer."
+    },
+    {
+      "year": "26 januari 1826",
+      "title": "Acht monniken uit de abdij van Gard",
+      "coordinates": [
+        2.2958,
+        49.8941
+      ],
+      "zoom": 7,
+      "text": "In 1825 wendde Ruyssen zich tot de trappistenabdij Notre-Dame du Gard bij Amiens. Op 26 januari 1826 kwamen er acht trappisten aan, die de abdij Mont des Cats stichtten – tot vandaag voortgezet door deze gemeenschap."
+    },
+    {
+      "year": "1847",
+      "title": "Abdijstatus",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "In 1847 werd de priorij tot zelfstandige abdij verheven."
+    },
+    {
+      "year": "12 oktober 1914",
+      "title": "Slagveld in de Eerste Wereldoorlog",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 9,
+      "text": "De Britse 3e Cavaleriebrigade viel op 12 oktober 1914 Duitse stellingen op de heuvel aan. Het klooster werd ingenomen; de Duitse prins Maximilian Friedrich Wilhelm Georg van Hessen werd daarbij dodelijk gewond en stierf nog diezelfde nacht in de abdij."
+    },
+    {
+      "year": "2011",
+      "title": "Bier naar het recept van Chimay",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 7,
+      "text": "De abdij heeft geen eigen brouwerij. In 2011 stelden de monniken een eigen bier voor, gebrouwen naar hun recept in de abdij van Scourmont (Chimay) – en daarom zonder het label „Authentic Trappist Product”, dat brouwen binnen de eigen kloostermuren veronderstelt."
+    }
+  ]
+}

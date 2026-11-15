@@ -1,0 +1,92 @@
+{
+  "brewery": "Tre Fontane",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tre_Fontane_Abbey",
+    "https://it.wikipedia.org/wiki/Abbazia_delle_Tre_Fontane",
+    "https://it.wikipedia.org/wiki/Tre_Fontane_(birra)",
+    "https://en.wikipedia.org/wiki/Trappist_beer",
+    "https://www.trappist.be/en/products/beers/tre-fontane/"
+  ],
+  "stations": [
+    {
+      "year": "626",
+      "title": "Klášter na místě mučednictví apoštola Pavla",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 8,
+      "text": "Papež Honorius I. dal v roce 626 postavit kostel a klášter svatých Vincence a Anastasia a svěřil je benediktinům. Ti měli pečovat i o dvě starší svatyně na místě, mezi nimi kostel na místě, kde byl podle legendy sťat apoštol Pavel; jeho tři prameny („tre fontane“) dávají místu jméno."
+    },
+    {
+      "year": "1140",
+      "title": "Cisterciáci z Clairvaux",
+      "coordinates": [
+        4.7869,
+        48.1522
+      ],
+      "zoom": 6,
+      "text": "Papež Inocenc II. odebral opatství v roce 1140 cluniackým a svěřil je Bernardovi z Clairvaux. Ten sem vyslal cisterciáky z Clairvaux pod vedením opata Petra Bernarda z Paganelli, který se o pět let později stal jako Evžen III. sám papežem."
+    },
+    {
+      "year": "1221",
+      "title": "Vysvěcení opatského kostela",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Papež Honorius III. dal kostel svatých Vincence a Anastasia obnovit a roku 1221 jej osobně vysvětil; sedm kardinálů zároveň vysvětilo sedm oltářů. Opatství bylo v té době bohatě vybaveno a vykonávalo na rozsáhlých územích toskánského pobřeží práva územního opatství."
+    },
+    {
+      "year": "1812",
+      "title": "Zrušení za Napoleona",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "S napoleonskou okupací bylo opatství zrušeno, podle anglické verze roku 1812 (italská Wikipedie uvádí 1808). Klášter zchátral a okolí sužovala malárie."
+    },
+    {
+      "year": "1826",
+      "title": "Františkáni a malárie",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Papež Lev XII. vzal svatyně v roce 1826 cisterciákům a předal je menším bratřím přísné observance. Jeho plán ztroskotal, protože kraj byl tak zamořený malárií, že tam žádné společenství nemohlo trvale žít."
+    },
+    {
+      "year": "1868",
+      "title": "Trapisté z La Grande Trappe",
+      "coordinates": [
+        0.5478,
+        48.6258
+      ],
+      "zoom": 6,
+      "text": "Pius IX. předal opatství v rámci jeho obnovy cisterciákům; roku 1868 přišlo do Říma společenství z La Grande Trappe. Mniši měli znovu vybudovat klášterní život a odvodnit půdu; později k tomu vysadili eukalypty."
+    },
+    {
+      "year": "2014",
+      "title": "Mniši začínají vařit",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Podle italské Wikipedie zahájilo opatství v roce 2014 výrobu svého piva. Tripel (8,5 %) získává balzámovou vůni přídavkem eukalyptu."
+    },
+    {
+      "year": "květen 2015",
+      "title": "Uznaný trapistický pivovar",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "V květnu 2015 se Tre Fontane stal jedenáctým trapistickým pivovarem a obdržel pečeť „Authentic Trappist Product“. Dnes Mezinárodní trapistické sdružení uvádí tři piva: Tripel (8,5 %), Scala Coeli (6,7 %) a Tertia (5 %)."
+    }
+  ]
+}

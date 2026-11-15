@@ -330,7 +330,7 @@
             "abv": 6.7
           }
         ],
-        "history": "Die Abtei bei Rom geht auf eine Gründung Papst Honorius’ I. im Jahr 626 zurück, seit 1140 von Zisterziensern bewohnt. Seit 2015 brauen die Mönche Bier unter Zugabe von Eukalyptusblättern aus dem abteieigenen Wald – eine Zutat, die vorher in keinem anderen Trappistenbier verwendet wurde. Bis zur Anerkennung mit dem „Authentic Trappist Product“-Siegel 2015 hieß das Bier „Birra dei Monaci“.",
+        "history": "Die Abtei bei Rom geht auf eine Gründung Papst Honorius’ I. im Jahr 626 zurück. Ab 1140 lebten hier Zisterzienser, seit 1868 sind es Trappisten. Das Tripel der Mönche wird mit Eukalyptus gebraut; im Mai 2015 erhielt das Bier das „Authentic Trappist Product“-Siegel.",
         "visit": null,
         "ita_status": true,
         "sources": [
@@ -353,18 +353,18 @@
         "name": "Cardeña",
         "abbey": "Monasterio de San Pedro de Cardeña",
         "country": "Spanien",
-        "founded_abbey": 1942,
+        "founded_abbey": 1948,
         "brewing_since": 2016,
         "beers": [
           {
             "name": "Cardeña Tripel",
             "style": "Tripel",
-            "abv": null
+            "abv": 7.0
           },
           {
             "name": "Cardeña Doble",
             "style": "Dubbel",
-            "abv": null
+            "abv": 6.0
           },
           {
             "name": "Cardeña Quadrupel",
@@ -372,7 +372,7 @@
             "abv": 10.0
           }
         ],
-        "history": "Das über tausend Jahre alte Kloster bei Burgos war größtenteils benediktinisch und fiel im 19. Jahrhundert in weltliche Hände; erst 1942 kehrten Mönche zurück. 2016 entstand mit der Cardeña Tripel das erste spanische Trappistenbier, gebraut nicht innerhalb der Klostermauern, sondern unter Aufsicht der Mönche an anderer Stelle – weshalb das Bier offiziell nicht als „Authentic Trappist Product“ zertifiziert ist, auch wenn es als Marke „Trappist“ im Namen führt.",
+        "history": "Das Kloster bei Burgos wurde vor dem Jahr 902 gegründet, war überwiegend benediktinisch und fiel im 19. Jahrhundert durch die Desamortisation in weltliche Hände. 1942 kehrten Mönche zurück, 1948 wurde es wieder Abtei. 2016 entstand mit der Cardeña Tripel das erste spanische Trappistenbier – gebraut nicht im Kloster, sondern bei MarPal in Madrid, weshalb es kein „Authentic Trappist Product“-Logo trägt.",
         "visit": null,
         "ita_status": false,
         "sources": [

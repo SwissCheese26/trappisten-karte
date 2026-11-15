@@ -1,0 +1,124 @@
+{
+  "brewery": "Engelszell",
+  "glossary": "data/timelines/engelszell-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Engelszell_Abbey",
+    "https://de.wikipedia.org/wiki/Stift_Engelszell",
+    "https://en.wikipedia.org/wiki/Oelenberg_Abbey",
+    "https://structurae.net/de/bauwerke/stift-engelszell",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange",
+    "http://www.mediterranee-antique.fr/Auteurs/Fichiers/GHI/Gaillardin/Trappistes/T2/Trappe_2_180.htm"
+  ],
+  "stations": [
+    {
+      "year": "1293",
+      "title": "Založeno biskupem Bernhardem",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Biskup Bernhard z Prambachu založil roku 1293 cisterciácký klášter; v roce 1295 jej osídlili mniši z mateřského kláštera Wilhering."
+    },
+    {
+      "year": "1786",
+      "title": "Zrušeno císařem Josefem II.",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Císař Josef II. klášter v roce 1786 zrušil v rámci svých klášterních reforem. Budovy poté sloužily mimo jiné jako továrna a obytný dům."
+    },
+    {
+      "year": "únor 1798",
+      "title": "Odchod ze Švýcarska",
+      "coordinates": [
+        7.188653,
+        46.649278
+      ],
+      "zoom": 7,
+      "text": "Francouzská vojska vtrhla do Švýcarska. Augustin de Lestrange opustil s více než 200 mnichy, jeptiškami a dětmi kartuziánský klášter Val-Sainte u Fribourgu – začátek dvouleté cesty přes celou Evropu."
+    },
+    {
+      "year": "1798",
+      "title": "Zastávka v Engelszellu",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Opuštěné budovy opatství, zrušeného roku 1786, tak v roce 1798 nečekaně ještě jednou posloužily klášternímu životu: 254 trapistických mnichů, jeptišek a dětí se tu zastavilo na cestě přes Německo, Rakousko, Čechy a Polsko dále na východ."
+    },
+    {
+      "year": "1798–1800",
+      "title": "Usazení na Volyni",
+      "coordinates": [
+        25.32,
+        50.80472
+      ],
+      "zoom": 7,
+      "text": "Car Pavel I. dovolil společenství usadit se v klášteře v Zydyczynu (Volyň, dnes Ukrajina). První zima při asi −30 °C byla sotva k vydržení. V březnu 1800 car nařídil vypovězení všech francouzských emigrantů; o Velikonocích téhož roku, 13. dubna, museli trapisté opustit i Rusko."
+    },
+    {
+      "year": "13. dubna 1800",
+      "title": "Zpět přes Baltské moře",
+      "coordinates": [
+        10.687,
+        53.869
+      ],
+      "zoom": 6,
+      "text": "Společenství, vypovězené z Ruska, odcestovalo přes Baltské moře do Lübecku. V letech 1801/1802 se navrátilci z Ruska znovu setkali s ostatními rozptýlenými trapisty; v roce 1814, po Napoleonově porážce, bylo konečně možné znovu osídlit samotnou La Trappe."
+    },
+    {
+      "year": "1925",
+      "title": "Obnovení vyhnanými mnichy",
+      "coordinates": [
+        7.21337,
+        47.74603
+      ],
+      "zoom": 7,
+      "text": "Němečtí mniši, po první světové válce vyhnaní z opatství Oelenberg v Alsasku, nejprve našli útočiště v klášteře Banz a v roce 1925 založili Engelszell znovu – tentokrát jako trapistický klášter. V roce 1931 bylo převorství povýšeno na opatství, jeho prvním opatem se stal Gregorius Eisvogel."
+    },
+    {
+      "year": "2. prosince 1939",
+      "title": "Vyhnáni gestapem",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Gestapo opatství 2. prosince 1939 zabavilo a vyhnalo 73členné společenství. Čtyři mniši se dostali do koncentračního tábora Dachau, jiní byli uvězněni nebo odvedeni do Wehrmachtu."
+    },
+    {
+      "year": "1945",
+      "title": "Návrat po válce",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "V roce 1945 se vrátila asi třetina společenství, posílená německými trapisty vyhnanými z opatství Mariastern v Banja Luce (dnes Bosna)."
+    },
+    {
+      "year": "květen 2012",
+      "title": "Devátý trapistický pivovar",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 9,
+      "text": "Mezinárodní trapistické sdružení uznalo v květnu 2012 Engelszell, v němž už žilo jen sedm mnichů, za devátý trapistický pivovar – teprve druhý mimo Belgii."
+    },
+    {
+      "year": "15. května 2023",
+      "title": "Konec společenství",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Řád společenství 15. května 2023 rozpustil. Poslední čtyři mniši prohlásili, že už nemohou v klášteře udržet trapistický život. Pivovar pokračuje pod novým, světským vedením – bez trapistické pečeti."
+    }
+  ]
+}

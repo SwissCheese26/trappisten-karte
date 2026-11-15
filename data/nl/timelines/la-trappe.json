@@ -1,0 +1,82 @@
+{
+  "brewery": "La Trappe",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://en.wikipedia.org/wiki/De_Koningshoeven_Brewery",
+    "https://ocso.org/monastery/tilburg/",
+    "https://ocso.org/monastery/mont-des-cats",
+    "https://wierookwijwaterenworstenbrood.nl/ontdekken/verhalen/abdij-koningshoeven-in-berkel-enschot"
+  ],
+  "stations": [
+    {
+      "year": "omstreeks 1880",
+      "title": "Toevlucht voor de ballingschap",
+      "coordinates": [
+        2.6528,
+        50.7869
+      ],
+      "zoom": 6,
+      "text": "De trappisten van Mont des Cats in Noord-Frankrijk vreesden uit Frankrijk te worden verbannen en zochten een toevlucht in het buitenland. Abt Dominique Lacaes stuurde de voormalige zouavenofficier Sébastien Wyart op pad om in Engeland of Nederland een plaats te vinden."
+    },
+    {
+      "year": "1881",
+      "title": "Stichting in Berkel-Enschot",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 8,
+      "text": "In maart 1881 stichtte Mont des Cats het klooster Koningshoeven bij Tilburg. De plaats was de Schaapskooi, een groep hoeven die de Nederlandse kroonprins Willem in 1834 had laten bouwen."
+    },
+    {
+      "year": "1883",
+      "title": "Verheven tot priorij",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Volgens de cisterciënzerorde (OCSO) werd de jonge gemeenschap in 1883 tot priorij verheven. De landbouw alleen kon het klooster nog niet onderhouden."
+    },
+    {
+      "year": "1884",
+      "title": "De brouwerij ontstaat",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "In 1884 richtten de monniken binnen de kloostermuren een brouwerij op om het klooster en zijn caritatieve taken te financieren. Het bier wordt tot vandaag verkocht onder de naam La Trappe."
+    },
+    {
+      "year": "1891",
+      "title": "Koningshoeven wordt abdij",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Volgens OCSO werd de gemeenschap in 1891 tot abdij verheven. Dom Willibrord Verbruggen geldt als eerste abt."
+    },
+    {
+      "year": "1999",
+      "title": "Geschil over het trappistenlabel",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "In 1999 sloot de abdij een overeenkomst met het brouwerijconcern Bavaria, dat de brouwactiviteit overnam. Daarop verloor Koningshoeven het recht om zijn bier als trappistenbier aan te duiden."
+    },
+    {
+      "year": "2005",
+      "title": "Het label keert terug",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Na een aanvraag van februari 2005 stond de International Trappist Association de brouwerij toe het officiële trappistenlogo opnieuw te voeren. De brouwerij wordt nog altijd geëxploiteerd door een dochter van Bavaria, terwijl de abdij de gebouwen en het toezicht behoudt."
+    }
+  ]
+}

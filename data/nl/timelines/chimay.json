@@ -1,0 +1,74 @@
+{
+  "brewery": "Chimay",
+  "glossary": "data/timelines/chimay-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey",
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Chimay_Brewery",
+    "https://en.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_(1808%E2%80%931886)"
+  ],
+  "stations": [
+    {
+      "year": "1844",
+      "title": "Het idee voor een klooster op Scourmont",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 8,
+      "text": "De dorpspastoor van Virelles, Jean-Baptiste Jourdain, stelde het schrale plateau van Scourmont voor als locatie voor een klooster – eerdere pogingen om het land te bewerken waren mislukt. Joseph de Riquet de Caraman, vorst van Chimay, steunde de stichting met eigen grond; ook de abten van Westmalle en Westvleteren keurden het plan goed."
+    },
+    {
+      "year": "25 juli 1850",
+      "title": "Monniken uit Westvleteren",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 7,
+      "text": "Een kleine groep monniken uit Westvleteren vestigde zich op het plateau van Scourmont en stichtte er een priorij. De schrale bodem dwong de gemeenschap van meet af aan zichzelf te bedruipen."
+    },
+    {
+      "year": "jaren 1850",
+      "title": "School en modelboerderij",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "De monniken legden rond het klooster een landbouwkundig modelbedrijf aan en richtten een school op – onder meer voor wezen en verlaten kinderen uit de streek."
+    },
+    {
+      "year": "1859–1861",
+      "title": "Een donker hoofdstuk",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "sensitive": true,
+      "trigger_warning": "seksueel misbruik, geweld",
+      "text": "De jonge gemeenschap kende ook haar afgronden: in 1859 veroordeelde een rechtbank de eerste prior van de abdij, Modeste Decroix, wegens herhaald seksueel misbruik tot twintig jaar dwangarbeid; een ander lid kreeg tien jaar. Beiden hadden volgens de gerechtelijke stukken ook leerlingen van de kloosterschool misbruikt. In oktober 1860 stak de monnik broeder Hugo (François Robyn), kort daarvoor berispt omdat hij zijn zwijggelofte had verbroken, brand in de kerk, de bibliotheek en een nieuw gebouwde slaapzaal. In februari 1861 werd hij in Bergen ter dood veroordeeld."
+    },
+    {
+      "year": "1862",
+      "title": "Kaasmakerij en brouwerij",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Rond de boerderij van het klooster ontstonden een kaasmakerij en een brouwerij – beide bedoeld voor economische zelfvoorziening. Tot vandaag verkoopt de abdij haar bier en haar kaas onder de naam Chimay."
+    },
+    {
+      "year": "24 februari / 7 juli 1871",
+      "title": "Abdij door paus Pius IX",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Paus Pius IX verhief de priorij op 24 februari 1871 tot abdij; de plechtige inwijding volgde op 7 juli van datzelfde jaar."
+    }
+  ]
+}

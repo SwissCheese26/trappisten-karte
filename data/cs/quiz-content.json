@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Co znamená zkratka „OCSO“, oficiální název řádu trapistů?",
+    "options": [
+      "Řád cluniaciánů přísnějšího zvyku",
+      "Řád cisterciáků přísnější observance",
+      "Řád kartuziánů přísnějšího ticha",
+      "Řád benediktinů svatého kříže"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "V kterém roce Armand de Rancé od základů reformoval opatství La Trappe?",
+    "options": [
+      "1598",
+      "1664",
+      "1789",
+      "1892"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jakou mnišskou řeholí se trapisté řídí?",
+    "options": [
+      "Řehole svatého Františka",
+      "Řehole svatého Benedikta",
+      "Řehole svatého Augustina",
+      "Řehole svatého Dominika"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co znamená benediktinský slib „Stabilitas“?",
+    "options": [
+      "Doživotní svázanost s jedním klášterním společenstvím",
+      "Slib naprostého mlčení",
+      "Každodenní úplný půst",
+      "Zřeknutí se veškerého osobního majetku"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Kam uprchla část trapistů za Francouzské revoluce na pozvání cara Pavla I.?",
+    "options": [
+      "Do Španělska",
+      "Do Ruska",
+      "Do Portugalska",
+      "Do Egypta"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Které maso je trapistům podle reformy z roku 1664 dovoleno?",
+    "options": [
+      "Hovězí",
+      "Vepřové",
+      "Ryby a drůbež",
+      "Jehněčí"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Co říká 48. kapitola Benediktovy řehole o ruční práci?",
+    "options": [
+      "Ruční práce je předepsána jen novicům",
+      "Zahálka je nepřítelem duše",
+      "Ruční práce nahrazuje modlitbu",
+      "Ruční práce je dovolena jen v létě"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Od kterého roku vařilo opatství Orval pivo, aby financovalo obnovu?",
+    "options": [
+      "1836",
+      "1931",
+      "1664",
+      "1892"
+    ],
+    "correct": 1
+  }
+]

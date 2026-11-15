@@ -1,4 +1,5 @@
 import * as maplibregl from "https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-gl.mjs";
+import { fetchJson, t, uiReady } from "./i18n.js";
 
 // Grundgerüst: eigene Vektorkarte (MapLibre GL + eigener Stil) initialisieren,
 // GeoJSON laden, Marker mit Popup anzeigen.
@@ -25,7 +26,7 @@ function breweryMarkerElement(name, closed) {
   el.className = closed ? "brewery-marker brewery-marker--closed" : "brewery-marker";
   el.setAttribute("role", "button");
   el.setAttribute("tabindex", "0");
-  el.setAttribute("aria-label", closed ? `${name} (nicht mehr aktiv)` : name);
+  el.setAttribute("aria-label", closed ? t("marker_closed", { name }) : name);
   return el;
 }
 
@@ -41,24 +42,80 @@ const TIMELINE_BREWERIES = {
   Achel: "data/timelines/achel.json",
   "Mont des Cats": "data/timelines/mont-des-cats.json",
   Engelszell: "data/timelines/engelszell.json",
+  "La Trappe": "data/timelines/la-trappe.json",
+  "Tre Fontane": "data/timelines/tre-fontane.json",
+  Cardeña: "data/timelines/cardena.json",
+  "Mount Saint Bernard": "data/timelines/mount-saint-bernard.json",
+  Spencer: "data/timelines/spencer.json",
+  Zundert: "data/timelines/zundert.json",
 };
+
+// Issue #6: lange Abtei-Texte in kurze Seiten (je ca. 5-6 Zeilen) zum Umblättern.
+function chunkText(text, max = 230) {
+  const out = [];
+  let cur = "";
+  for (const sentence of text.split(/(?<=[.!?])\s+/)) {
+    if (cur && `${cur} ${sentence}`.length > max) {
+      out.push(cur);
+      cur = sentence;
+    } else {
+      cur = cur ? `${cur} ${sentence}` : sentence;
+    }
+  }
+  if (cur) out.push(cur);
+  return out;
+}
 
 function popupHtml(p, closed) {
   const dates = closed
-    ? `Abtei gegründet ${p.founded_abbey} &middot; Bier ${p.brewing_since}–${p.closed_since}`
-    : `Abtei gegründet ${p.founded_abbey} &middot; Bier seit ${p.brewing_since}`;
-  const badge = closed ? `<p class="popup-meta popup-meta--closed">Nicht mehr aktiv seit ${p.closed_since}</p>` : "";
+    ? `${t("popup_founded", { year: p.founded_abbey })} &middot; ${t("popup_brewing_range", { from: p.brewing_since, to: p.closed_since })}`
+    : `${t("popup_founded", { year: p.founded_abbey })} &middot; ${t("popup_brewing_since", { year: p.brewing_since })}`;
+  const badge = closed ? `<p class="popup-meta popup-meta--closed">${t("popup_closed", { year: p.closed_since })}</p>` : "";
   const playButton = TIMELINE_BREWERIES[p.name]
-    ? `<button type="button" class="popup-play" data-timeline="${TIMELINE_BREWERIES[p.name]}">&#9654; Geschichte erfahren</button>`
+    ? `<button type="button" class="popup-play" data-timeline="${TIMELINE_BREWERIES[p.name]}">${t("popup_play")}</button>`
     : "";
+  const pages = chunkText(p.history);
+  if (p.beers && p.beers.length) {
+    const items = p.beers.map((b) => `<li>${b.name} &middot; ${b.style}${b.abv != null ? ` &middot; ${b.abv}&nbsp;%` : ""}</li>`).join("");
+    pages.push(`<strong>${t("popup_beers")}</strong><ul class="popup-beers">${items}</ul>`);
+  }
+  if (p.visit) pages.push(`<strong>${t("popup_visit")}</strong><br>${p.visit}`);
+  const pager =
+    pages.length > 1
+      ? `<div class="popup-page__nav">
+           <button type="button" class="popup-page__prev" aria-label="${t("page_prev")}" disabled>&larr;</button>
+           <span class="popup-page__count">${t("page_of", { n: 1, total: pages.length })}</span>
+           <button type="button" class="popup-page__next" aria-label="${t("page_next")}">&rarr;</button>
+         </div>`
+      : "";
   return `
     <h2>${p.name}</h2>
     <p class="popup-meta">${p.abbey} &middot; ${p.country}</p>
     ${badge}
     <p>${dates}</p>
-    <p>${p.history}</p>
+    ${pages.map((h, i) => `<div class="popup-page" data-page="${i}"${i ? " hidden" : ""}>${h.startsWith("<") ? h : `<p>${h}</p>`}</div>`).join("")}
+    ${pager}
     ${playButton}
   `;
+}
+
+// Blättern innerhalb eines geöffneten Popups.
+function wirePager(popup) {
+  const root = popup.getElement();
+  const pages = [...root.querySelectorAll(".popup-page")];
+  const prev = root.querySelector(".popup-page__prev");
+  const next = root.querySelector(".popup-page__next");
+  if (!prev) return;
+  let i = 0;
+  const show = (n) => {
+    i = n;
+    pages.forEach((el, k) => (el.hidden = k !== i));
+    root.querySelector(".popup-page__count").textContent = t("page_of", { n: i + 1, total: pages.length });
+    prev.disabled = i === 0;
+    next.disabled = i === pages.length - 1;
+  };
+  prev.addEventListener("click", () => show(i - 1));
+  next.addEventListener("click", () => show(i + 1));
 }
 
 function bounds(coordsList) {
@@ -72,28 +129,6 @@ function bounds(coordsList) {
       [-Infinity, -Infinity],
     ]
   );
-}
-
-// Verbindungslinien: Klick auf eine Brauerei zeichnet gerade "Wege" zu den
-// anderen aktuell geladenen Brauereien. Das ist bewusst noch keine echte
-// Routing-Berechnung (Straßen/Fußwege) — das kommt erst in Roadmap-Schritt 5
-// über einen Routing-Dienst. Hier geht es nur darum, Beziehungen zwischen
-// den Abteien sichtbar zu machen.
-function connectionLines(fromFeature, allFeatures) {
-  const [fromLng, fromLat] = fromFeature.geometry.coordinates;
-  return {
-    type: "FeatureCollection",
-    features: allFeatures
-      .filter((f) => f !== fromFeature)
-      .map((f) => ({
-        type: "Feature",
-        geometry: {
-          type: "LineString",
-          coordinates: [[fromLng, fromLat], f.geometry.coordinates],
-        },
-        properties: {},
-      })),
-  };
 }
 
 // --- Zeitstrahl-Modus: "Geschichte erfahren" -----------------------------
@@ -185,18 +220,14 @@ function highlightGlossaryTerms(text) {
 }
 
 function openTimeline(url) {
-  fetch(url)
-    .then((res) => res.json())
+  fetchJson(url)
     .then((data) => {
       const sensitiveEnabled = window.isSensitiveContentEnabled && window.isSensitiveContentEnabled();
       timelineStations = data.stations.filter((s) => !s.sensitive || sensitiveEnabled);
       const hiddenCount = data.stations.length - timelineStations.length;
       const hiddenNote = timelineMode.querySelector(".timeline-axis__hidden-note");
       hiddenNote.hidden = hiddenCount === 0;
-      hiddenNote.textContent =
-        hiddenCount === 1
-          ? "+ 1 belastendes Kapitel ausgeblendet — Einstellung im Kopfbereich"
-          : `+ ${hiddenCount} belastende Kapitel ausgeblendet — Einstellung im Kopfbereich`;
+      hiddenNote.textContent = hiddenCount === 1 ? t("hidden_one") : t("hidden_many", { n: hiddenCount });
       timelineIndex = 0;
       viewBeforeTimeline = { center: map.getCenter(), zoom: map.getZoom() };
       timelineGlossary = [];
@@ -206,8 +237,7 @@ function openTimeline(url) {
       map.getSource("connections").setData({ type: "FeatureCollection", features: [] });
 
       if (data.glossary) {
-        fetch(data.glossary)
-          .then((res) => res.json())
+        fetchJson(data.glossary)
           .then((glossary) => {
             timelineGlossary = glossary;
             renderStation(); // Begriffe im bereits sichtbaren Text nachträglich markieren
@@ -246,10 +276,10 @@ function renderStation() {
   timelinePanelYear.textContent = s.year;
   timelinePanelTitle.textContent = s.title;
   timelinePanelWarning.hidden = !s.sensitive;
-  timelinePanelWarning.textContent = s.sensitive ? `⚠ Inhaltswarnung: ${s.trigger_warning || "belastende Inhalte"}` : "";
+  timelinePanelWarning.textContent = s.sensitive ? t("trigger_prefix", { text: s.trigger_warning || t("trigger_default") }) : "";
   timelinePanelText.innerHTML = highlightGlossaryTerms(s.text);
   timelinePrevBtn.disabled = timelineIndex === 0;
-  timelineNextBtn.textContent = timelineIndex === timelineStations.length - 1 ? "Beenden" : "Weiter →";
+  timelineNextBtn.textContent = timelineIndex === timelineStations.length - 1 ? t("finish") : t("next");
 
   timelineAxisPoints.querySelectorAll(".timeline-axis__point").forEach((el, i) => {
     el.classList.toggle("is-active", i === timelineIndex);
@@ -323,53 +353,88 @@ map.on("load", () => {
     },
   });
 
-  Promise.all([
-    fetch("data/breweries.geojson").then((res) => res.json()),
-    fetch("data/breweries-closed.json").then((res) => res.json()),
-  ])
+  uiReady.then(() => Promise.all([fetchJson("data/breweries.geojson"), fetchJson("data/breweries-closed.json")]))
     .then(([activeGeojson, closedFeatures]) => {
       const features = activeGeojson.features;
+      const entries = [];
 
-      features.forEach((feature) => {
+      // Issue #3: Marker, die sich auf dem Bildschirm überlappen, werden zu
+      // einer Zahl zusammengefasst (Pixel-Abstand, neu berechnet beim Zoomen).
+      const CLUSTER_PX = 28;
+      let clusterMarkers = [];
+      function recluster() {
+        clusterMarkers.forEach((m) => m.remove());
+        clusterMarkers = [];
+        const pts = entries.map((e) => ({ e, p: map.project(e.lngLat) }));
+        const used = new Set();
+        pts.forEach((a, i) => {
+          if (used.has(i)) return;
+          used.add(i);
+          const group = [a];
+          pts.forEach((b, j) => {
+            if (!used.has(j) && Math.hypot(a.p.x - b.p.x, a.p.y - b.p.y) < CLUSTER_PX) {
+              used.add(j);
+              group.push(b);
+            }
+          });
+          group.forEach((g) => (g.e.el.style.display = group.length > 1 ? "none" : ""));
+          if (group.length < 2) return;
+          const el = document.createElement("button");
+          el.type = "button";
+          el.className = "brewery-cluster";
+          el.textContent = group.length;
+          el.setAttribute("aria-label", t("cluster_aria", { n: group.length }));
+          const lngs = group.map((g) => g.e.lngLat[0]);
+          const lats = group.map((g) => g.e.lngLat[1]);
+          const box = [[Math.min(...lngs), Math.min(...lats)], [Math.max(...lngs), Math.max(...lats)]];
+          el.addEventListener("click", () => map.fitBounds(box, { padding: 90, maxZoom: 13, duration: 700 }));
+          clusterMarkers.push(
+            new maplibregl.Marker({ element: el }).setLngLat([(box[0][0] + box[1][0]) / 2, (box[0][1] + box[1][1]) / 2]).addTo(map)
+          );
+        });
+      }
+      map.on("zoomend", recluster);
+
+      const clearRoute = () => map.getSource("connections").setData({ type: "FeatureCollection", features: [] });
+
+      // Issues #4/#5: nur die angeklickte Abtei bekommt ihre eigene Route
+      // (Stationen ihres Zeitstrahls); alle anderen Pins werden ausgeblendet.
+      function addBrewery(feature, closed) {
         const p = feature.properties;
         const [lng, lat] = feature.geometry.coordinates;
-
-        const popup = new maplibregl.Popup({ offset: 18 }).setHTML(popupHtml(p, false));
-
-        const el = breweryMarkerElement(p.name, false);
-        el.addEventListener("click", () => {
-          map.getSource("connections").setData(connectionLines(feature, features));
-        });
-
+        const el = breweryMarkerElement(p.name, closed);
+        const popup = new maplibregl.Popup({ offset: 18 }).setHTML(popupHtml(p, closed));
         new maplibregl.Marker({ element: el }).setLngLat([lng, lat]).setPopup(popup).addTo(map);
+        entries.push({ el, lngLat: [lng, lat] });
 
+        popup.on("open", () => {
+          document.body.classList.add("has-selection");
+          el.classList.add("is-selected");
+          wirePager(popup);
+          const btn = popup.getElement().querySelector(".popup-play");
+          if (btn) btn.addEventListener("click", () => openTimeline(btn.dataset.timeline));
+          const url = TIMELINE_BREWERIES[p.name];
+          if (url) {
+            fetchJson(url)
+              .then((d) =>
+                map.getSource("connections").setData({
+                  type: "Feature",
+                  geometry: { type: "LineString", coordinates: d.stations.filter((st) => !st.sensitive).map((st) => st.coordinates) },
+                  properties: {},
+                })
+              )
+              .catch(() => {});
+          }
+        });
         popup.on("close", () => {
-          map.getSource("connections").setData({ type: "FeatureCollection", features: [] });
+          document.body.classList.remove("has-selection");
+          el.classList.remove("is-selected");
+          clearRoute();
         });
+      }
 
-        popup.on("open", () => {
-          const btn = popup.getElement().querySelector(".popup-play");
-          if (btn) btn.addEventListener("click", () => openTimeline(btn.dataset.timeline));
-        });
-      });
-
-      // Geschlossene/ehemalige Trappisten-Brauereien: eigene dunkle Marker,
-      // bewusst ohne Verbindungslinien (die zeigen nur Beziehungen zwischen
-      // aktuell brauenden Abteien).
-      closedFeatures.forEach((feature) => {
-        const p = feature.properties;
-        const [lng, lat] = feature.geometry.coordinates;
-        const popup = new maplibregl.Popup({ offset: 18 }).setHTML(popupHtml(p, true));
-        new maplibregl.Marker({ element: breweryMarkerElement(p.name, true) })
-          .setLngLat([lng, lat])
-          .setPopup(popup)
-          .addTo(map);
-
-        popup.on("open", () => {
-          const btn = popup.getElement().querySelector(".popup-play");
-          if (btn) btn.addEventListener("click", () => openTimeline(btn.dataset.timeline));
-        });
-      });
+      features.forEach((f) => addBrewery(f, false));
+      closedFeatures.forEach((f) => addBrewery(f, true));
 
       const allCoords = features.concat(closedFeatures).map((f) => f.geometry.coordinates);
       if (allCoords.length > 0) {
@@ -385,6 +450,7 @@ map.on("load", () => {
           duration: 0,
         });
       }
+      recluster();
     })
     .catch((err) => console.error("Konnte Brauerei-Daten nicht laden:", err));
 });

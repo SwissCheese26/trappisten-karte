@@ -1,0 +1,92 @@
+{
+  "brewery": "Tre Fontane",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tre_Fontane_Abbey",
+    "https://it.wikipedia.org/wiki/Abbazia_delle_Tre_Fontane",
+    "https://it.wikipedia.org/wiki/Tre_Fontane_(birra)",
+    "https://en.wikipedia.org/wiki/Trappist_beer",
+    "https://www.trappist.be/en/products/beers/tre-fontane/"
+  ],
+  "stations": [
+    {
+      "year": "626",
+      "title": "A monastery at the site of Paul's martyrdom",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 8,
+      "text": "In 626 Pope Honorius I had the church and monastery of Saints Vincent and Anastasius built and entrusted them to Benedictines. They were also to look after the two older shrines on the site, including the church on the spot where, according to legend, Paul was beheaded and whose three springs (“tre fontane”) give the place its name."
+    },
+    {
+      "year": "1140",
+      "title": "Cistercians from Clairvaux",
+      "coordinates": [
+        4.7869,
+        48.1522
+      ],
+      "zoom": 6,
+      "text": "In 1140 Pope Innocent II took the abbey away from the Cluniacs and entrusted it to Bernard of Clairvaux. He sent Cistercians from Clairvaux under Abbot Peter Bernard of Paganelli, who became Pope himself as Eugene III five years later."
+    },
+    {
+      "year": "1221",
+      "title": "Consecration of the abbey church",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Pope Honorius III had the church of Saints Vincent and Anastasius restored and consecrated it in person in 1221; seven cardinals consecrated the seven altars at the same time. At that time the abbey was richly endowed and exercised the rights of a territorial abbey over wide areas of the Tuscan coast."
+    },
+    {
+      "year": "1812",
+      "title": "Suppression under Napoleon",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "With the Napoleonic occupation the abbey was suppressed, in 1812 according to the English account (Italian Wikipedia gives 1808). The monastery fell into decay, and the surrounding area was infested with malaria."
+    },
+    {
+      "year": "1826",
+      "title": "Franciscans and malaria",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "In 1826 Pope Leo XII took the shrines away from the Cistercians and handed them to the Friars Minor of the Strict Observance. His plan failed because the area was so malaria-ridden that no community could live there permanently."
+    },
+    {
+      "year": "1868",
+      "title": "Trappists from La Grande Trappe",
+      "coordinates": [
+        0.5478,
+        48.6258
+      ],
+      "zoom": 6,
+      "text": "In the course of its revival, Pius IX handed the abbey over to the Cistercians; in 1868 a community from La Grande Trappe came to Rome. The monks were to rebuild monastic life and drain the land; later they planted eucalyptus trees for this purpose."
+    },
+    {
+      "year": "2014",
+      "title": "The monks begin to brew",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "According to Italian Wikipedia, the abbey began producing its beer in 2014. The Tripel (8.5%) gets its balsamic aroma from the addition of eucalyptus."
+    },
+    {
+      "year": "May 2015",
+      "title": "A recognised Trappist brewery",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "In May 2015 Tre Fontane became the eleventh Trappist brewery and received the “Authentic Trappist Product” seal. Today the International Trappist Association lists three beers: Tripel (8.5%), Scala Coeli (6.7%) and Tertia (5%)."
+    }
+  ]
+}

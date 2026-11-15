@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Maître des novices de l’abbaye de La Trappe, il s’enfuit en 1791 devant la Révolution française vers la Suisse, où il fonda une communauté trappiste encore plus stricte. De 1798 à 1802, il conduisit sa communauté à travers l’Europe jusqu’en Russie et retour.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Plaque commémorative, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "paul1",
+    "term": "tsar Paul Ier",
+    "description": "1754–1801. Empereur de Russie à partir de 1796. En 1798, il accueillit en Volhynie les trappistes chassés de Suisse, mais les expulsa dès 1800 par décret, après un conflit avec la hiérarchie de l’Église orthodoxe. Il fut assassiné en 1801.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Paul_I_of_Russia_by_Stepan_Shchukin_%281797%2C_Tretyakov_gallery%29.jpg",
+    "credit": "Portrait par Stepan Chtchoukine, 1797, galerie Tretiakov · Wikimedia Commons, domaine public"
+  }
+]

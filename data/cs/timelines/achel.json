@@ -1,0 +1,90 @@
+{
+  "brewery": "Achel",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://brusselstimes.com/358914/belgium-loses-trappist-beer-following-brewery-purchase",
+    "https://www.vrt.be/vrtnws/en/2023/01/25/belgium-loses-trappist-beer/"
+  ],
+  "stations": [
+    {
+      "year": "1648",
+      "title": "Kaple v pohraničí",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "Nizozemští mniši postavili roku 1648 v Achelu kapli poblíž hranice se Severním Nizozemím – počátek pozdější Achelse Kluis."
+    },
+    {
+      "year": "1686",
+      "title": "Opatství – a zkáza",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "Roku 1686 byla kaple povýšena na opatství. Za Velké francouzské revoluce byla zničena a poté dlouho zůstávala v troskách."
+    },
+    {
+      "year": "1844",
+      "title": "Obnova z Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "Mniši z Westmalle obnovili zříceniny roku 1844 a začali hospodařit na půdě – tentýž klášter Westmalle, který sám založili teprve před padesáti lety uprchlíci z hnutí Lestrangeova."
+    },
+    {
+      "year": "1852",
+      "title": "První pivo: Patersvaatje",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "Roku 1852 uvařili mniši své první vlastní pivo, „Patersvaatje”. V roce 1871 se Achel stal oficiálně trapistickým klášterem a vaření se stalo pravidelnou činností."
+    },
+    {
+      "year": "1914–1917",
+      "title": "Válka a měď",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "V roce 1914 museli mniši opustit opatství kvůli německé okupaci. V roce 1917 okupanti pivovar úplně rozebrali, aby získali zhruba 700 kilogramů mědi pro válečný průmysl."
+    },
+    {
+      "year": "1998",
+      "title": "Nový začátek s pomocí Westmalle a Rochefortu",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "V roce 1998 se několik zbývajících mnichů rozhodlo znovu vařit pivo. Mniši z Westmalle a Rochefortu pomohli s výstavbou nového pivovaru; v roce 2001 se na trhu objevilo „Achel 8°”."
+    },
+    {
+      "year": "leden 2021",
+      "title": "Konec trapistického pivovaru",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "Když poslední vařící mniši odešli, ztratil Achel v lednu 2021 status trapistického pivovaru – jako dosud nejmenší trapistický pivovar Belgie. Podnikatel budovy koupil; vaří se tam dál, ale už ne jako trapistické pivo."
+    },
+    {
+      "year": "2021",
+      "title": "Zpět do Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "Poslední dva mniši se vrátili do Westmalle, kde všechno začalo před 227 lety – na totéž místo, odkud roku 1844 přišli mniši, kteří Achel vůbec obnovili. Kruh se uzavírá."
+    }
+  ]
+}

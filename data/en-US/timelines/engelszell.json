@@ -1,0 +1,124 @@
+{
+  "brewery": "Engelszell",
+  "glossary": "data/timelines/engelszell-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Engelszell_Abbey",
+    "https://de.wikipedia.org/wiki/Stift_Engelszell",
+    "https://en.wikipedia.org/wiki/Oelenberg_Abbey",
+    "https://structurae.net/de/bauwerke/stift-engelszell",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange",
+    "http://www.mediterranee-antique.fr/Auteurs/Fichiers/GHI/Gaillardin/Trappistes/T2/Trappe_2_180.htm"
+  ],
+  "stations": [
+    {
+      "year": "1293",
+      "title": "Founded by Bishop Bernhard",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Bishop Bernhard of Prambach founded a Cistercian monastery in 1293; in 1295 it was settled by monks from its mother house, Wilhering."
+    },
+    {
+      "year": "1786",
+      "title": "Dissolved by Emperor Joseph II",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Emperor Joseph II dissolved the monastery in 1786 as part of his monastic reforms. Afterward the buildings served, among other things, as a factory and a residence."
+    },
+    {
+      "year": "February 1798",
+      "title": "Departure from Switzerland",
+      "coordinates": [
+        7.188653,
+        46.649278
+      ],
+      "zoom": 7,
+      "text": "French troops invaded Switzerland. Augustin de Lestrange set out with more than 200 monks, nuns and children from the Carthusian monastery of Val-Sainte near Fribourg—the beginning of a two-year flight across Europe."
+    },
+    {
+      "year": "1798",
+      "title": "A resting place at Engelszell",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "In 1798 the empty buildings of the abbey, dissolved in 1786, unexpectedly served monastic life once more: 254 Trappist monks, nuns and children rested here on their way through Germany, Austria, Bohemia and Poland, traveling further east."
+    },
+    {
+      "year": "1798–1800",
+      "title": "Settling in Volhynia",
+      "coordinates": [
+        25.32,
+        50.80472
+      ],
+      "zoom": 7,
+      "text": "Tsar Paul I allowed the community to settle in the monastery of Zydyczyn (Volhynia, now Ukraine). The first winter, at around −30 °C, proved almost unbearable. In March 1800 the Tsar ordered all French émigrés to be expelled; at Easter that year, on April 13, the Trappists had to leave Russia as well."
+    },
+    {
+      "year": "April 13, 1800",
+      "title": "Back across the Baltic",
+      "coordinates": [
+        10.687,
+        53.869
+      ],
+      "zoom": 6,
+      "text": "Expelled from Russia, the community traveled across the Baltic Sea to Lübeck. In 1801/1802 those returning from Russia met up again with the other scattered Trappists; in 1814, after Napoleon's defeat, La Trappe itself could finally be resettled."
+    },
+    {
+      "year": "1925",
+      "title": "Refounded by exiled monks",
+      "coordinates": [
+        7.21337,
+        47.74603
+      ],
+      "zoom": 7,
+      "text": "German monks, expelled after the First World War from Oelenberg Abbey in Alsace, first found refuge in Banz Abbey and in 1925 refounded Engelszell—this time as a Trappist monastery. In 1931 the priory was raised to an abbey, with Gregorius Eisvogel as its first abbot."
+    },
+    {
+      "year": "December 2, 1939",
+      "title": "Expelled by the Gestapo",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "The Gestapo seized the abbey on December 2, 1939 and expelled the community of 73. Four monks were sent to Dachau concentration camp; others were imprisoned or conscripted into the Wehrmacht."
+    },
+    {
+      "year": "1945",
+      "title": "Return after the war",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "About a third of the community returned in 1945, reinforced by German Trappists who had been expelled from Mariastern Abbey in Banja Luka (now in Bosnia)."
+    },
+    {
+      "year": "May 2012",
+      "title": "The ninth Trappist brewery",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 9,
+      "text": "With only seven monks left in the community, the International Trappist Association recognized Engelszell in May 2012 as the ninth Trappist brewery—only the second outside Belgium."
+    },
+    {
+      "year": "May 15, 2023",
+      "title": "The end of the community",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "The Order dissolved the community on May 15, 2023. The last four remaining monks declared that they could no longer sustain a Trappist life in the monastery. The brewery continues under new, lay management—without the Trappist seal."
+    }
+  ]
+}

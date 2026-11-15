@@ -1,0 +1,40 @@
+{
+  "heading": "Rules of the Trappists",
+  "intro": "Trappists follow the Rule of Saint Benedict (6th century), made stricter by Armand de Rancé's reform of 1664. These seven points still shape life in the abbey today.",
+  "rules": [
+    {
+      "title": "Stabilitas—Stability",
+      "text": "A monk commits himself for life to a single monastic community, not merely to a place. Benedict of Nursia, Rule ch. 58."
+    },
+    {
+      "title": "Conversatio morum—Conversion of Life",
+      "text": "The promise of a continual, daily turning toward a simpler life directed toward God—not a single act, but an ongoing process."
+    },
+    {
+      "title": "Oboedientia—Obedience",
+      "text": "Literally “listening”: obedience to the abbot and the community as an exercise in listening, not mere subordination."
+    },
+    {
+      "title": "Silence",
+      "text": "Not a strict vow of silence, but a lived restraint: conversation only when necessary. Meals are taken together and in quiet, accompanied by a reading."
+    },
+    {
+      "title": "Manual Labor",
+      "text": "“Idleness is the enemy of the soul” (Rule, ch. 48). Physical work provides for the community's livelihood and is at the same time a spiritual exercise—crafts such as brewing grew out of it."
+    },
+    {
+      "title": "Simplicity and Penance",
+      "text": "De Rancé's reform of 1664 tightened the Rule: simple food, abstention from the meat of four-footed animals (fish and poultry are permitted), withdrawal from the world."
+    },
+    {
+      "title": "Divine Office",
+      "text": "The Liturgy of the Hours—communal prayer several times a day—forms the backbone of the daily routine, around which work and rest are organized."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict",
+    "https://en.wikipedia.org/wiki/Trappists",
+    "https://westminsterabbey.ca/benedictine-monasticism/our-vowed-life/",
+    "https://mirfield.org.uk/?p=92"
+  ]
+}

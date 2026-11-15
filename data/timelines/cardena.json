@@ -1,0 +1,105 @@
+{
+  "brewery": "Cardeña",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Monasterio_de_San_Pedro_de_Carde%C3%B1a",
+    "https://en.wikipedia.org/wiki/San_Pedro_de_Carde%C3%B1a",
+    "https://nl.wikipedia.org/wiki/Trappistenbier",
+    "https://es.wikipedia.org/wiki/Cerveza_trapense"
+  ],
+  "stations": [
+    {
+      "year": "Um 900",
+      "title": "Benediktiner bei Burgos",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 7,
+      "text": "San Pedro de Cardeña entstand als Benediktinerabtei bei Burgos. Die Gründung liegt vor 902: Am 24. September 902 schenkten der Graf Gonzalo Téllez und seine Frau Flámula dem Kloster als erste dokumentierte Stiftung Land und Salzgärten. Als Baubeginn wird auch 899 genannt."
+    },
+    {
+      "year": "9. oder 10. Jahrhundert",
+      "title": "Die Märtyrer von Cardeña",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Erwähnt die Tötung von Mönchen.",
+      "text": "Nach der Überlieferung wurden die Mönche im 9. oder 10. Jahrhundert von Muslimen getötet; sie wurden 1603 heiliggesprochen und als „Märtyrer von Cardeña“ verehrt. Einen urkundlichen Beleg dafür gibt es nicht."
+    },
+    {
+      "year": "1102",
+      "title": "Das Kloster des Cid",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "Der Cid starb 1099 und wurde zunächst in Valencia beigesetzt. 1102 ließ seine Witwe Jimena Díaz die Stadt räumen, und seine Gebeine kamen nach Cardeña. Dort blieben sie einige Jahre; das Kloster ist bis heute eng mit dem Cid verbunden."
+    },
+    {
+      "year": "19. Jahrhundert",
+      "title": "Aufhebung der Klöster",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "Mit der Desamortisation unter Mendizábal wurde Cardeña aufgehoben, das klösterliche Leben erlosch. Ein genaues Jahr nennt die ausgewertete Quelle nicht."
+    },
+    {
+      "year": "1936 bis 1939",
+      "title": "Lager im Bürgerkrieg",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Erwähnt Gefangenschaft und Misshandlung von Kriegsgefangenen.",
+      "text": "Im Spanischen Bürgerkrieg diente das leere Kloster als Konzentrationslager der Franco-Seite für republikanische Kriegsgefangene, vor allem Interbrigadisten. Es hielt mehr als 4000 Gefangene fest, auch baskische Soldaten und Kapläne, und wurde im November 1939 geschlossen."
+    },
+    {
+      "year": "1. Mai 1942",
+      "title": "Trappisten kehren zurück",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Am 1. Mai 1942 wurde das Klosterleben durch Trappisten aus dem Kloster San Isidro de Dueñas in der Provinz Palencia wiederhergestellt."
+    },
+    {
+      "year": "1945 und 1948",
+      "title": "Zur Abtei erhoben",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "1945 wurde die Gemeinschaft zum Priorat, 1948 zur Abtei erhoben; erster Abt war Jesús Álvarez Álvarez. Das Kloster liegt bei Castrillo del Val, östlich von Burgos."
+    },
+    {
+      "year": "16. März 2016",
+      "title": "Das erste spanische Trappistenbier",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Am 16. März 2016 kam das Cardeña Tripel (7 %) auf den Markt, das erste spanische Trappistenbier. Es wird nicht im Kloster, sondern bei MarPal in Madrid gebraut und trägt daher nicht das Logo „Authentic Trappist Product“."
+    },
+    {
+      "year": "2021 und 2022",
+      "title": "Weitere Biere",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Laut niederländischer Wikipedia folgten 2021 das Cardeña Doble (6 %) und 2022 das Cardeña Quadrupel (10 %). Auch sie führen das ATP-Logo nicht."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "brewery": "Westvleteren",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Westvleteren_Brewery",
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "1814",
+      "title": "The hermit in the forest",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Long before there was an abbey, only a hermit lived here: Jan-Baptist Victoor withdrew into the forests of Westvleteren in 1814."
+    },
+    {
+      "year": "1831",
+      "title": "A community emerges",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "In 1831 a prior and a few monks joined Victoor—the beginning of the later Trappist community. Not a foundation with a grand plan, but a gradual coming together."
+    },
+    {
+      "year": "1838",
+      "title": "The brewery is established",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "In 1838 the brewery was established within the monastery walls—intended from the start for the community’s own use, not for trade."
+    },
+    {
+      "year": "July 25, 1850",
+      "title": "A daughter house in Chimay",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 8,
+      "text": "A small group of monks from Westvleteren moved on to the barren plateau of Scourmont and founded a new priory there—the later Chimay Abbey."
+    },
+    {
+      "year": "February 24, 1871",
+      "title": "Abbey status from Pope Pius IX",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Only in 1871 did Pope Pius IX officially raise the priory to the status of an abbey—forty years after the first monks in the forest."
+    },
+    {
+      "year": "First World War",
+      "title": "Refuge for soldiers",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "During the First World War the abbey lay close to the front in Flanders and at times offered refuge to refugees and soldiers—altogether almost 400,000 Allied soldiers are said to have lived in and around the monastery."
+    },
+    {
+      "year": "1945",
+      "title": "Staying small on purpose",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "In 1945 the abbot deliberately limited annual production to 4,800 hectoliters. The same attitude applies to this day: Westvleteren sells its beer only in small quantities directly at the abbey, never through regular retail."
+    }
+  ]
+}

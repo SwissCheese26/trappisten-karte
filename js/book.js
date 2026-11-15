@@ -5,6 +5,8 @@
 // - "Regeln" (data/rules-content.json): über den Nav-Punkt "Schule" jederzeit
 //   aufrufbar, eigenständiger Inhalt (keine Wiederholung der Story) — eine
 //   scrollbare Liste der Trappisten-Regeln.
+import { fetchJson, t, uiReady, storedLang, lang } from "./i18n.js";
+
 const SEEN_KEY = "trappist-karte-book-seen";
 
 const overlay = document.getElementById("book-overlay");
@@ -81,7 +83,7 @@ document.addEventListener("keydown", (e) => {
 function renderStoryShell() {
   overlay.innerHTML = `
     <div class="book">
-      <button type="button" class="book__close" aria-label="Schließen">&times;</button>
+      <button type="button" class="book__close" aria-label="${t("close")}">&times;</button>
       <figure class="book__page">
         <img class="book__image" alt="" />
         <figcaption class="book__credit"></figcaption>
@@ -91,9 +93,9 @@ function renderStoryShell() {
         <p class="book__body"></p>
       </div>
       <div class="book__controls">
-        <button type="button" class="book__prev">&larr; Zurück</button>
+        <button type="button" class="book__prev">${t("back")}</button>
         <div class="book__progress"></div>
-        <button type="button" class="book__next">Weiter &rarr;</button>
+        <button type="button" class="book__next">${t("next")}</button>
       </div>
     </div>
   `;
@@ -114,7 +116,7 @@ function renderStoryPage() {
 
   overlay.querySelector(".book__prev").disabled = storyIndex === 0;
   overlay.querySelector(".book__next").textContent =
-    storyIndex === storyPages.length - 1 ? "Zur Karte →" : "Weiter →";
+    storyIndex === storyPages.length - 1 ? t("story_to_map") : t("next");
 }
 
 function turnStory(direction) {
@@ -159,14 +161,14 @@ function openRules(data) {
 
   overlay.innerHTML = `
     <div class="book book--rules">
-      <button type="button" class="book__close" aria-label="Schließen">&times;</button>
+      <button type="button" class="book__close" aria-label="${t("close")}">&times;</button>
       <div class="book__text">
         <h2 class="book__heading">${data.heading}</h2>
         <p class="rules-intro">${data.intro}</p>
       </div>
       <ol class="rules-list">${items}</ol>
       <div class="book__controls book__controls--end">
-        <button type="button" class="book__next">Quiz starten &rarr;</button>
+        <button type="button" class="book__next">${t("rules_quiz")}</button>
       </div>
     </div>
   `;
@@ -188,8 +190,7 @@ let quizScore = 0;
 let quizSelected = null;
 
 function openQuiz() {
-  fetch("data/quiz-content.json")
-    .then((res) => res.json())
+  fetchJson("data/quiz-content.json")
     .then((data) => {
       quizQuestions = data;
       quizIndex = 0;
@@ -204,7 +205,7 @@ function openQuiz() {
 function renderQuizShell() {
   overlay.innerHTML = `
     <div class="book book--quiz">
-      <button type="button" class="book__close" aria-label="Schließen">&times;</button>
+      <button type="button" class="book__close" aria-label="${t("close")}">&times;</button>
       <div class="book__text">
         <div class="book__progress quiz__progress"></div>
         <h2 class="book__heading quiz__question"></h2>
@@ -212,7 +213,7 @@ function renderQuizShell() {
       <ul class="quiz__options"></ul>
       <div class="book__controls">
         <div></div>
-        <button type="button" class="book__next quiz__next" disabled>Weiter &rarr;</button>
+        <button type="button" class="book__next quiz__next" disabled>${t("next")}</button>
       </div>
     </div>
   `;
@@ -230,7 +231,7 @@ function renderQuizShell() {
 function renderQuizQuestion() {
   quizSelected = null;
   const q = quizQuestions[quizIndex];
-  overlay.querySelector(".quiz__progress").textContent = `Frage ${quizIndex + 1} / ${quizQuestions.length}`;
+  overlay.querySelector(".quiz__progress").textContent = t("quiz_progress", { n: quizIndex + 1, total: quizQuestions.length });
   overlay.querySelector(".quiz__question").textContent = q.question;
 
   const list = overlay.querySelector(".quiz__options");
@@ -244,7 +245,7 @@ function renderQuizQuestion() {
 
   overlay.querySelector(".quiz__next").disabled = true;
   overlay.querySelector(".quiz__next").textContent =
-    quizIndex === quizQuestions.length - 1 ? "Ergebnis ansehen →" : "Weiter →";
+    quizIndex === quizQuestions.length - 1 ? t("quiz_see_result") : t("next");
 }
 
 function selectQuizOption(index) {
@@ -267,28 +268,26 @@ function renderQuizResult() {
   const passed = quizScore / quizQuestions.length >= QUIZ_PASS_RATIO;
   overlay.innerHTML = `
     <div class="book book--quiz">
-      <button type="button" class="book__close" aria-label="Schließen">&times;</button>
+      <button type="button" class="book__close" aria-label="${t("close")}">&times;</button>
       <div class="book__text">
-        <h2 class="book__heading">${quizScore} von ${quizQuestions.length} richtig</h2>
+        <h2 class="book__heading">${t("quiz_score", { score: quizScore, total: quizQuestions.length })}</h2>
         <p class="rules-intro">${
-          passed
-            ? "Die Grundlagen sitzen. Lade dir zur Erinnerung ein Zertifikat herunter."
-            : "Noch nicht ganz — ein Blick zurück in die Regeln oder die Geschichte lohnt sich."
+          passed ? t("quiz_pass") : t("quiz_fail")
         }</p>
       </div>
       ${
         passed
           ? `<div class="quiz__certificate-form">
-               <label for="quiz-name">Name für das Zertifikat</label>
-               <input type="text" id="quiz-name" placeholder="Dein Name" maxlength="60" />
-               <button type="button" class="book__next quiz__download">Zertifikat herunterladen</button>
+               <label for="quiz-name">${t("quiz_name_label")}</label>
+               <input type="text" id="quiz-name" placeholder="${t("quiz_name_placeholder")}" maxlength="60" />
+               <button type="button" class="book__next quiz__download">${t("quiz_download")}</button>
              </div>`
           : ""
       }
       <div class="book__controls">
-        <button type="button" class="book__prev quiz__retry">&larr; Nochmal versuchen</button>
+        <button type="button" class="book__prev quiz__retry">${t("quiz_retry")}</button>
         <div></div>
-        <button type="button" class="book__next quiz__to-map">Zur Karte →</button>
+        <button type="button" class="book__next quiz__to-map">${t("quiz_to_map")}</button>
       </div>
     </div>
   `;
@@ -297,7 +296,7 @@ function renderQuizResult() {
   overlay.querySelector(".quiz__to-map").addEventListener("click", closeOverlay);
   if (passed) {
     overlay.querySelector(".quiz__download").addEventListener("click", () => {
-      const name = overlay.querySelector("#quiz-name").value.trim() || "Besucher der Trappisten-Karte";
+      const name = overlay.querySelector("#quiz-name").value.trim() || t("quiz_default_name");
       downloadCertificate(name, quizScore, quizQuestions.length);
     });
   }
@@ -332,11 +331,11 @@ async function downloadCertificate(name, score, total) {
   ctx.textAlign = "center";
   ctx.fillStyle = "#1c1f1a";
   ctx.font = "700 46px Cinzel";
-  ctx.fillText("ZERTIFIKAT", cx, 250);
+  ctx.fillText(t("cert_title"), cx, 250);
 
   ctx.font = "italic 400 26px 'Cormorant Garamond'";
   ctx.fillStyle = "#343a2e";
-  ctx.fillText("hiermit wird bestätigt, dass", cx, 330);
+  ctx.fillText(t("cert_confirm"), cx, 330);
 
   ctx.font = "700 40px Cinzel";
   ctx.fillStyle = "#1c1f1a";
@@ -346,7 +345,7 @@ async function downloadCertificate(name, score, total) {
   ctx.fillStyle = "#343a2e";
   wrapText(
     ctx,
-    "sich mit der Geschichte, der Philosophie und den Regeln der Trappisten auseinandergesetzt hat.",
+    t("cert_body"),
     cx,
     460,
     760,
@@ -355,12 +354,12 @@ async function downloadCertificate(name, score, total) {
 
   ctx.font = "400 24px 'Cormorant Garamond'";
   ctx.fillStyle = "#a9712b";
-  ctx.fillText(`${score} von ${total} Fragen richtig beantwortet`, cx, 580);
+  ctx.fillText(t("cert_score", { score, total }), cx, 580);
 
-  const today = new Date().toLocaleDateString("de-DE", { year: "numeric", month: "long", day: "numeric" });
+  const today = new Date().toLocaleDateString(lang, { year: "numeric", month: "long", day: "numeric" });
   ctx.font = "italic 400 22px 'Cormorant Garamond'";
   ctx.fillStyle = "#343a2e";
-  ctx.fillText(`Trappisten-Karte · ${today}`, cx, 760);
+  ctx.fillText(t("cert_footer", { date: today }), cx, 760);
 
   canvas.toBlob((blob) => {
     const url = URL.createObjectURL(blob);
@@ -397,17 +396,17 @@ topCross.addEventListener("click", closeOverlay);
 schoolLink.addEventListener("click", () => {
   mapLink.classList.remove("is-active");
   schoolLink.classList.add("is-active");
-  fetch("data/rules-content.json")
-    .then((res) => res.json())
+  fetchJson("data/rules-content.json")
     .then(openRules)
     .catch((err) => console.error("Konnte rules-content.json nicht laden:", err));
 });
 
-fetch("data/book-content.json")
-  .then((res) => res.json())
+uiReady
+  .then(() => fetchJson("data/book-content.json"))
   .then((data) => {
     storyPages = data;
-    if (!localStorage.getItem(SEEN_KEY)) {
+    // Bei der allerersten Sprachwahl liegt der Picker oben; Story erst danach.
+    if (storedLang() && !localStorage.getItem(SEEN_KEY)) {
       schoolLink.classList.remove("is-active");
       mapLink.classList.remove("is-active");
       openStory();

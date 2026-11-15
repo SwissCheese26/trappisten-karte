@@ -1,0 +1,83 @@
+{
+  "brewery": "Zundert",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zundert_Trappist",
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://abdijmariatoevlucht.nl/geschiedenis/",
+    "https://zunderttrappist.nl/en/",
+    "https://nltimes.nl/2025/05/14/trappist-brewery-zundert-set-close-citing-lack-occupancy",
+    "https://www.omroepbrabant.nl/nieuws/4742362/na-125-jaar-sluit-trappistenabdij-laatste-monniken-vertrokken"
+  ],
+  "stations": [
+    {
+      "year": "1881",
+      "title": "Trappisten uit Noord-Frankrijk",
+      "coordinates": [
+        2.6431,
+        50.785
+      ],
+      "zoom": 6,
+      "text": "De wortels liggen bij de Franse trappistenabdij Mont des Cats. Vandaar vestigden zich in 1881 monniken bij Tilburg in Nederland en stichtten ze Koningshoeven."
+    },
+    {
+      "year": "1899",
+      "title": "Twee monniken trekken naar Zundert",
+      "coordinates": [
+        5.1195,
+        51.56
+      ],
+      "zoom": 8,
+      "text": "De gemeenschap in Koningshoeven groeide zo sterk dat ze een dochterstichting kon wagen. In het najaar van 1899 trokken pater Nivardus Muis en broeder Dorotheüs de Vries van Tilburg naar Zundert."
+    },
+    {
+      "year": "24 mei 1900",
+      "title": "Inwijding van Maria Toevlucht",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Op 24 mei 1900 wijdde de abt van Tilburg kerk en klooster in. Met twaalf monniken begon de gemeenschap als priorij van Koningshoeven; de naam „Maria Toevlucht” herinnert aan de toevlucht voor kloosterlingen in tijden van Franse kloosterpolitiek."
+    },
+    {
+      "year": "1938",
+      "title": "Verheven tot abdij",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Op 14 september 1938 werd de priorij tot zelfstandige abdij verheven. Op 19 oktober van datzelfde jaar kozen de broeders pater Nivardus Muis tot eerste abt."
+    },
+    {
+      "year": "December 2013",
+      "title": "Het eigen trappistenbier",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Omdat de landbouw te arbeidsintensief werd, bouwden de monniken de brouwerij De Kievit (gebouwd in 2011). In december 2013 kwam „Zundert Trappist” op de markt, als tweede Nederlands bier met het label „Authentic Trappist Product”."
+    },
+    {
+      "year": "13 mei 2025",
+      "title": "Sluiting aangekondigd",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Wegens gebrek aan monniken vroegen de broeders op 13 mei 2025 aan het Algemeen Kapittel van hun orde toestemming om de abdij te sluiten. Daarmee stond ook het trappistenbier op de helling, want het mag enkel binnen een levende kloostergemeenschap gebrouwen worden."
+    },
+    {
+      "year": "2025",
+      "title": "Einde na 125 jaar",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "De laatste monniken verlieten het klooster eind augustus 2025; in september 2025 stemde het Algemeen Kapittel ermee in en het kloosterleven kwam ten einde. De brouwerij stopte de productie van Zundert Trappist en het label „Authentic Trappist Product” kwam te vervallen."
+    }
+  ]
+}

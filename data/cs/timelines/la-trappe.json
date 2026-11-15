@@ -1,0 +1,82 @@
+{
+  "brewery": "La Trappe",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://en.wikipedia.org/wiki/De_Koningshoeven_Brewery",
+    "https://ocso.org/monastery/tilburg/",
+    "https://ocso.org/monastery/mont-des-cats",
+    "https://wierookwijwaterenworstenbrood.nl/ontdekken/verhalen/abdij-koningshoeven-in-berkel-enschot"
+  ],
+  "stations": [
+    {
+      "year": "kolem 1880",
+      "title": "Útočiště před exilem",
+      "coordinates": [
+        2.6528,
+        50.7869
+      ],
+      "zoom": 6,
+      "text": "Trapisté z Mont des Cats v severní Francii se obávali vyhnání z Francie a hledali útočiště v zahraničí. Opat Dominique Lacaes vyslal bývalého důstojníka zuávů Sébastiena Wyarta, aby v Anglii nebo v Nizozemsku našel vhodné místo."
+    },
+    {
+      "year": "1881",
+      "title": "Založení v Berkel-Enschot",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 8,
+      "text": "V březnu 1881 založil Mont des Cats klášter Koningshoeven u Tilburgu. Místem byla Schaapskooi, skupina statků, které nechal v roce 1834 postavit nizozemský korunní princ Willem."
+    },
+    {
+      "year": "1883",
+      "title": "Povýšeno na převorství",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Podle cisterciáckého řádu (OCSO) bylo mladé společenství v roce 1883 povýšeno na převorství. Samotné zemědělství klášter ještě neuživilo."
+    },
+    {
+      "year": "1884",
+      "title": "Vzniká pivovar",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "V roce 1884 mniši zřídili uvnitř klášterních zdí pivovar, aby financovali klášter a jeho charitativní úkoly. Pivo se dodnes prodává pod názvem La Trappe."
+    },
+    {
+      "year": "1891",
+      "title": "Koningshoeven se stává opatstvím",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Podle OCSO bylo společenství v roce 1891 povýšeno na opatství. Za prvního opata je považován Dom Willibrord Verbruggen."
+    },
+    {
+      "year": "1999",
+      "title": "Spor o trapistickou pečeť",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "V roce 1999 uzavřelo opatství smlouvu s pivovarnickou skupinou Bavaria, která převzala provoz pivovaru. Koningshoeven poté ztratilo právo označovat své pivo jako trapistické."
+    },
+    {
+      "year": "2005",
+      "title": "Pečeť se vrací",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Po žádosti z února 2005 International Trappist Association pivovaru dovolila znovu užívat oficiální trapistické logo. Pivovar dále provozuje dceřiná společnost Bavaria, zatímco opatství si ponechává budovy a dohled."
+    }
+  ]
+}

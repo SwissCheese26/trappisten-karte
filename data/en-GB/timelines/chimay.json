@@ -1,0 +1,74 @@
+{
+  "brewery": "Chimay",
+  "glossary": "data/timelines/chimay-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey",
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Chimay_Brewery",
+    "https://en.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_(1808%E2%80%931886)"
+  ],
+  "stations": [
+    {
+      "year": "1844",
+      "title": "The idea of a monastery at Scourmont",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 8,
+      "text": "The village priest of Virelles, Jean-Baptiste Jourdain, proposed the barren plateau of Scourmont as the site for a monastery – earlier attempts to farm the land had failed. Joseph de Riquet de Caraman, Prince of Chimay, supported the foundation with land of his own; the abbots of Westmalle and Westvleteren also backed the plan."
+    },
+    {
+      "year": "25 July 1850",
+      "title": "Monks from Westvleteren",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 7,
+      "text": "A small group of monks from Westvleteren settled on the Scourmont plateau and founded a priory. The barren soil forced the community to provide for itself from the start."
+    },
+    {
+      "year": "1850s",
+      "title": "School and model farm",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "The monks set up a model agricultural estate around the monastery and founded a school – among others for orphans and abandoned children of the region."
+    },
+    {
+      "year": "1859–1861",
+      "title": "A dark chapter",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "sensitive": true,
+      "trigger_warning": "sexual abuse, violence",
+      "text": "The young community also had its dark side: in 1859 a court sentenced the abbey’s first prior, Modeste Decroix, to twenty years of forced labour for repeated sexual abuse; another member received ten years. According to the court records, both had also abused pupils of the monastery’s school. In October 1860 the monk Brother Hugo (François Robyn), who had recently been reprimanded for breaking his vow of silence, set fire to the church, the library and a newly built dormitory. In February 1861 he was sentenced to death in Mons."
+    },
+    {
+      "year": "1862",
+      "title": "Cheese dairy and brewery",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "A cheese dairy and a brewery were established around the monastery’s farm – both intended to provide economic self-sufficiency. To this day the abbey sells its beer and its cheese under the name Chimay."
+    },
+    {
+      "year": "24 February / 7 July 1871",
+      "title": "Abbey status from Pope Pius IX",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Pope Pius IX raised the priory to the status of an abbey on 24 February 1871; the solemn consecration followed on 7 July of the same year."
+    }
+  ]
+}

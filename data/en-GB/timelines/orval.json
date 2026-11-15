@@ -1,0 +1,80 @@
+{
+  "brewery": "Orval",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Orval_Abbey",
+    "https://en.wikipedia.org/wiki/Trois-Fontaines_Abbey",
+    "https://en.wikipedia.org/wiki/Orval_Brewery"
+  ],
+  "stations": [
+    {
+      "year": "c. 1070",
+      "title": "The first monks",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 7,
+      "text": "Benedictine monks from Calabria in southern Italy settled here and began to build a church and monastery. After about forty years they left the place again, before canons regular completed the building."
+    },
+    {
+      "year": "1132",
+      "title": "Cistercians from Champagne",
+      "coordinates": [
+        4.949186,
+        48.717496
+      ],
+      "zoom": 7,
+      "text": "A group of Cistercian monks from Trois-Fontaines Abbey in Champagne arrived in Orval in 1132 and merged with the existing community under the first abbot, Constantin."
+    },
+    {
+      "year": "1637",
+      "title": "Devastated in the Thirty Years’ War",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "In 1637 French mercenary troops plundered and burned the abbey during the Thirty Years’ War."
+    },
+    {
+      "year": "1793",
+      "title": "Burned down in the Revolution",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "In 1793 French revolutionary troops burned the abbey to the ground – in retaliation for having given shelter to Austrian troops. The community was forcibly dispersed."
+    },
+    {
+      "year": "1926",
+      "title": "The ruins are returned",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "For over a century Orval remained a ruin, until the Harenne family donated the land to the Cistercian Order in 1926 so that monastic life could be possible there again."
+    },
+    {
+      "year": "1931",
+      "title": "Beer for the rebuilding",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "The new abbey was built from 1926 under the Trappist Marie-Albert van der Cruyssen. In 1931 the monks revived the medieval art of brewing – not out of tradition, but to finance the rebuilding."
+    },
+    {
+      "year": "8 September 1948",
+      "title": "The new church",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "With the consecration of the new abbey church on 8 September 1948, the rebuilding was essentially complete. To this day Orval brews only this one beer."
+    }
+  ]
+}

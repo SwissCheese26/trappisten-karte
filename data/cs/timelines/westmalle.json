@@ -1,0 +1,70 @@
+{
+  "brewery": "Westmalle",
+  "glossary": "data/timelines/westmalle-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Westmalle_Abbey",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange"
+  ],
+  "stations": [
+    {
+      "year": "před 1791",
+      "title": "La Trappe v Normandii",
+      "coordinates": [
+        0.57333,
+        48.63722
+      ],
+      "zoom": 6,
+      "text": "Příběh nezačíná ve Westmalle, ale v opatství La Trappe v Normandii. Tam byl Augustin de Lestrange novicmistr – dokud Velká francouzská revoluce neznemožnila klášterní život ve Francii."
+    },
+    {
+      "year": "1791",
+      "title": "Útěk do Švýcarska: Val-Sainte",
+      "coordinates": [
+        7.188653,
+        46.649278
+      ],
+      "zoom": 7,
+      "text": "V roce 1791 uprchl Lestrange se skupinou mnichů do Val-Sainte u Freiburgu a založil tam ještě přísnější komunitu. Freiburský senát však počet mnichů omezil na 21 – zatímco z Francie neustále přicházeli noví uprchlíci. Lestrange posílal skupiny dál: do Španělska, do Itálie a třetí směrem do Kanady."
+    },
+    {
+      "year": "6. června 1794",
+      "title": "Založení ve Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "Kanadská skupina procházela Flandry. Antverpský biskup ji pozval, aby zůstala, a nabídl, že místo toho ve své diecézi založí trapistický klášter. Osm mnichů zůstalo – spolu se dvěma novici založilo deset mnichů 6. června 1794 na malém statku zvaném „Nooit Rust” převorství Westmalle."
+    },
+    {
+      "year": "17. července 1794",
+      "title": "Nové vyhnání: Darfeld",
+      "coordinates": [
+        7.23444,
+        52.02667
+      ],
+      "zoom": 7,
+      "text": "Už po šesti týdnech museli mniši znovu prchat: francouzská vojska vtrhla do Rakouského Nizozemí. Komunita uprchla do Münsteru ve Vestfálsku a založila klášter v Darfeldu."
+    },
+    {
+      "year": "únor 1802",
+      "title": "Návrat do Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "V únoru 1802 se dvanáct mnichů vrátilo do Westmalle. Komunita se ještě nezklidnila: v roce 1811 nechal Napoleon zavřít všechny trapistické kláštery ve Francii a teprve po jeho porážce se mniši mohli 21. srpna 1814 definitivně vrátit do Westmalle."
+    },
+    {
+      "year": "1836",
+      "title": "Opatství a první pivo",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 9,
+      "text": "Dne 22. dubna 1836 bylo Westmalle povýšeno na opatství a prvním opatem byl zvolen Martinus Dom. Protože pravidla, která stanovil Armand de Rancé, mnichům povolovala pivo k jídlu, začal opat Dom téhož roku stavět malý pivovar. Dne 10. prosince 1836 bylo k obědu podáno první trapistické pivo."
+    }
+  ]
+}

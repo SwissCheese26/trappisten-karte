@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Novice master of La Trappe Abbey, who fled the French Revolution in 1791 to Switzerland and founded an even stricter Trappist community there. He led his community across Europe from 1798 to 1802, as far as Russia and back.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Memorial plaque, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "paul1",
+    "term": "Tsar Paul I",
+    "description": "1754–1801. Emperor of Russia from 1796. In 1798 he took in the Trappists driven out of Switzerland, settling them in Volhynia – but expelled them by decree as early as 1800, after a conflict with the Orthodox Church hierarchy. He was assassinated in 1801.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Paul_I_of_Russia_by_Stepan_Shchukin_%281797%2C_Tretyakov_gallery%29.jpg",
+    "credit": "Portrait by Stepan Shchukin, 1797, Tretyakov Gallery · Wikimedia Commons, public domain"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "brewery": "Zundert",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zundert_Trappist",
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://abdijmariatoevlucht.nl/geschiedenis/",
+    "https://zunderttrappist.nl/en/",
+    "https://nltimes.nl/2025/05/14/trappist-brewery-zundert-set-close-citing-lack-occupancy",
+    "https://www.omroepbrabant.nl/nieuws/4742362/na-125-jaar-sluit-trappistenabdij-laatste-monniken-vertrokken"
+  ],
+  "stations": [
+    {
+      "year": "1881",
+      "title": "Trappists from northern France",
+      "coordinates": [
+        2.6431,
+        50.785
+      ],
+      "zoom": 6,
+      "text": "The roots lie in the French Trappist abbey of Mont des Cats. From there, in 1881, monks settled near Tilburg in the Netherlands and founded Koningshoeven."
+    },
+    {
+      "year": "1899",
+      "title": "Two monks go to Zundert",
+      "coordinates": [
+        5.1195,
+        51.56
+      ],
+      "zoom": 8,
+      "text": "The community at Koningshoeven grew so strongly that it could venture a daughter foundation. In fall 1899 Father Nivardus Muis and Brother Dorotheüs de Vries moved from Tilburg to Zundert."
+    },
+    {
+      "year": "May 24, 1900",
+      "title": "Consecration of Maria Toevlucht",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "On May 24, 1900, the abbot of Tilburg consecrated the church and monastery. The community began with twelve monks as a priory of Koningshoeven; the name “Maria Toevlucht” (Mary's Refuge) recalls the refuge for religious in the time of French monastic policy."
+    },
+    {
+      "year": "1938",
+      "title": "Raised to an abbey",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "On September 14, 1938, the priory was raised to an independent abbey. On October 19 of the same year the brothers elected Father Nivardus Muis as their first abbot."
+    },
+    {
+      "year": "December 2013",
+      "title": "Their own Trappist beer",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Because farming had become too labor-intensive, the monks built the De Kievit brewery (built in 2011). In December 2013 “Zundert Trappist” came onto the market, as the second Dutch beer with the “Authentic Trappist Product” label."
+    },
+    {
+      "year": "May 13, 2025",
+      "title": "Closure announced",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Because of a shortage of monks, on May 13, 2025, the brothers asked their Order's General Chapter for permission to close the abbey. This also put the Trappist beer in jeopardy, since it may only be brewed within a living monastic community."
+    },
+    {
+      "year": "2025",
+      "title": "The end after 125 years",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "The last monks left the monastery at the end of August 2025; in September 2025 the General Chapter agreed, and monastic life came to an end. The brewery stopped producing Zundert Trappist, and the “Authentic Trappist Product” label lapsed."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "brewery": "Cardeña",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Monasterio_de_San_Pedro_de_Carde%C3%B1a",
+    "https://en.wikipedia.org/wiki/San_Pedro_de_Carde%C3%B1a",
+    "https://nl.wikipedia.org/wiki/Trappistenbier",
+    "https://es.wikipedia.org/wiki/Cerveza_trapense"
+  ],
+  "stations": [
+    {
+      "year": "kolem 900",
+      "title": "Benediktini u Burgosu",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 7,
+      "text": "San Pedro de Cardeña vzniklo jako benediktinské opatství u Burgosu. Založení spadá před rok 902: dne 24. září 902 věnovali hrabě Gonzalo Téllez a jeho žena Flámula klášteru jako první doloženou donaci pozemky a solné zahrady. Jako začátek stavby se uvádí také rok 899."
+    },
+    {
+      "year": "9. nebo 10. století",
+      "title": "Mučedníci z Cardeñi",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Zmiňuje zabití mnichů.",
+      "text": "Podle podání byli mniši v 9. nebo 10. století zabiti muslimy; v roce 1603 byli svatořečeni a jsou uctíváni jako „mučedníci z Cardeñi“. Listinný doklad o tom neexistuje."
+    },
+    {
+      "year": "1102",
+      "title": "Klášter Cida",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "Cid zemřel roku 1099 a byl nejprve pohřben ve Valencii. V roce 1102 nechala jeho vdova Jimena Díaz město vyklidit a jeho ostatky se dostaly do Cardeñi. Zůstaly tam několik let; klášter je s Cidem dodnes úzce spjat."
+    },
+    {
+      "year": "19. století",
+      "title": "Zrušení klášterů",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "S desamortizací za Mendizábala bylo opatství v Cardeñi zrušeno a klášterní život zanikl. Přesný rok použitý zdroj neuvádí."
+    },
+    {
+      "year": "1936 až 1939",
+      "title": "Tábor za občanské války",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Zmiňuje věznění a týrání válečných zajatců.",
+      "text": "Ve španělské občanské válce sloužil prázdný klášter jako koncentrační tábor frankistické strany pro republikánské válečné zajatce, zejména interbrigadisty. Držel přes 4000 vězňů, také baskické vojáky a kaplany, a v listopadu 1939 byl uzavřen."
+    },
+    {
+      "year": "1. května 1942",
+      "title": "Trapisté se vracejí",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Dne 1. května 1942 byl klášterní život obnoven trapisty z kláštera San Isidro de Dueñas v provincii Palencia."
+    },
+    {
+      "year": "1945 a 1948",
+      "title": "Povýšeno na opatství",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "V roce 1945 bylo společenství povýšeno na převorství, v roce 1948 na opatství; prvním opatem byl Jesús Álvarez Álvarez. Klášter leží u Castrillo del Val, východně od Burgosu."
+    },
+    {
+      "year": "16. března 2016",
+      "title": "První španělské trapistické pivo",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Dne 16. března 2016 vyšlo na trh Cardeña Tripel (7 %), první španělské trapistické pivo. Nevaří se v klášteře, ale u MarPal v Madridu, a proto nenese logo „Authentic Trappist Product“."
+    },
+    {
+      "year": "2021 a 2022",
+      "title": "Další piva",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Podle nizozemské Wikipedie následovalo v roce 2021 Cardeña Doble (6 %) a v roce 2022 Cardeña Quadrupel (10 %). Ani ona logo ATP nenesou."
+    }
+  ]
+}

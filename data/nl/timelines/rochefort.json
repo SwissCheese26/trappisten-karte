@@ -1,0 +1,81 @@
+{
+  "brewery": "Rochefort",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rochefort_Abbey",
+    "https://en.wikipedia.org/wiki/Rochefort_Brewery",
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://en.wikipedia.org/wiki/C%C3%AEteaux_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "omstreeks 1230",
+      "title": "Gesticht voor cisterciënzerinnen",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Graaf Gilles de Walcourt van Rochefort stichtte omstreeks 1230 een klooster voor cisterciënzerinnen met de naam „Secours de Notre-Dame”."
+    },
+    {
+      "year": "1464",
+      "title": "Monniken in plaats van nonnen",
+      "coordinates": [
+        5.09333,
+        47.12806
+      ],
+      "zoom": 7,
+      "text": "Het klooster was intussen in verval geraakt. In 1464 liet Louis de la Marck de nonnen vervangen door monniken – als jongste dochterabdij van de moederabdij Cîteaux in Bourgondië, vanwaar de nieuwe gemeenschap kwam."
+    },
+    {
+      "year": "1568 / 1577",
+      "title": "Verwoest in de Tachtigjarige Oorlog",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "De abdij werd tweemaal verwoest in de Tachtigjarige Oorlog: in 1568 door protestantse troepen, in 1577 door de strijdkrachten van Johan van Oostenrijk."
+    },
+    {
+      "year": "omstreeks 1595",
+      "title": "De eerste brouwerij",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Omstreeks 1595 ontstond binnen de kloostermuren de eerste brouwerij – aanvankelijk enkel voor het eigen gebruik van de monniken."
+    },
+    {
+      "year": "1797",
+      "title": "Gesloten en verkocht",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Tijdens de Franse Revolutie werd de abdij in 1797 gesloten en verkocht. Omstreeks 1805 liet de nieuwe eigenaar de gebouwen afbreken; de stenen werden elders in Rochefort hergebruikt."
+    },
+    {
+      "year": "11 oktober 1887",
+      "title": "Terugkeer met hulp uit Achel",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 7,
+      "text": "Pater Anselmus Judong van de trappistenabdij van Achel kwam op 11 oktober 1887 naar de ruïnes; in december kochten monniken uit Achel het terrein en begonnen met de heropbouw."
+    },
+    {
+      "year": "1952",
+      "title": "Eindelijk genoeg om te verkopen",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Pas na een vernieuwing van de brouwerij in 1952 produceerde Rochefort genoeg bier om het ook te verkopen – meer dan 350 jaar na de eerste brouwerij op het terrein."
+    }
+  ]
+}

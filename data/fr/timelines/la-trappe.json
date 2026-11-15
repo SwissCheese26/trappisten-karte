@@ -1,0 +1,82 @@
+{
+  "brewery": "La Trappe",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://en.wikipedia.org/wiki/De_Koningshoeven_Brewery",
+    "https://ocso.org/monastery/tilburg/",
+    "https://ocso.org/monastery/mont-des-cats",
+    "https://wierookwijwaterenworstenbrood.nl/ontdekken/verhalen/abdij-koningshoeven-in-berkel-enschot"
+  ],
+  "stations": [
+    {
+      "year": "v. 1880",
+      "title": "Un refuge contre l’exil",
+      "coordinates": [
+        2.6528,
+        50.7869
+      ],
+      "zoom": 6,
+      "text": "Les trappistes du Mont des Cats, dans le nord de la France, craignaient d’être expulsés de France et cherchèrent refuge à l’étranger. L’abbé Dominique Lacaes envoya l’ancien officier zouave Sébastien Wyart trouver un lieu en Angleterre ou aux Pays-Bas."
+    },
+    {
+      "year": "1881",
+      "title": "Fondation à Berkel-Enschot",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 8,
+      "text": "En mars 1881, le Mont des Cats fonda le monastère de Koningshoeven, près de Tilburg. Le lieu était la Schaapskooi, un groupe de fermes que le prince héritier néerlandais Willem avait fait construire en 1834."
+    },
+    {
+      "year": "1883",
+      "title": "Élevé au rang de prieuré",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Selon l’Ordre cistercien (OCSO), la jeune communauté fut élevée au rang de prieuré en 1883. L’agriculture seule ne suffisait pas encore à faire vivre le monastère."
+    },
+    {
+      "year": "1884",
+      "title": "Naissance de la brasserie",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "En 1884, les moines installèrent une brasserie à l’intérieur des murs du monastère afin de financer celui-ci et ses œuvres de charité. La bière est aujourd’hui encore vendue sous le nom de La Trappe."
+    },
+    {
+      "year": "1891",
+      "title": "Koningshoeven devient abbaye",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Selon l’OCSO, la communauté fut élevée au rang d’abbaye en 1891. Dom Willibrord Verbruggen est considéré comme le premier abbé."
+    },
+    {
+      "year": "1999",
+      "title": "Querelle autour du label trappiste",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "En 1999, l’abbaye conclut un contrat avec le groupe brassicole Bavaria, qui reprit l’exploitation de la brasserie. Koningshoeven perdit alors le droit de désigner sa bière comme bière trappiste."
+    },
+    {
+      "year": "2005",
+      "title": "Le label fait son retour",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "À la suite d’une demande déposée en février 2005, l’International Trappist Association autorisa de nouveau la brasserie à utiliser le logo trappiste officiel. La brasserie reste exploitée par une filiale de Bavaria, tandis que l’abbaye conserve les bâtiments et la supervision."
+    }
+  ]
+}

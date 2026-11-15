@@ -1,0 +1,74 @@
+{
+  "brewery": "Chimay",
+  "glossary": "data/timelines/chimay-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey",
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Chimay_Brewery",
+    "https://en.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_(1808%E2%80%931886)"
+  ],
+  "stations": [
+    {
+      "year": "1844",
+      "title": "L’idée d’un monastère à Scourmont",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 8,
+      "text": "Le curé de Virelles, Jean-Baptiste Jourdain, proposa le plateau aride de Scourmont comme site pour un monastère – les tentatives antérieures de mise en valeur de ces terres avaient échoué. Joseph de Riquet de Caraman, prince de Chimay, soutint la fondation en cédant ses propres terres ; les abbés de Westmalle et de Westvleteren approuvaient également le projet."
+    },
+    {
+      "year": "25 juillet 1850",
+      "title": "Des moines de Westvleteren",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 7,
+      "text": "Un petit groupe de moines de Westvleteren s’établit sur le plateau de Scourmont et y fonda un prieuré. Le sol pauvre obligea dès le début la communauté à subvenir elle-même à ses besoins."
+    },
+    {
+      "year": "Années 1850",
+      "title": "École et ferme modèle",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Les moines aménagèrent autour du monastère une exploitation agricole modèle et fondèrent une école – notamment pour les orphelins et les enfants abandonnés de la région."
+    },
+    {
+      "year": "1859–1861",
+      "title": "Un chapitre sombre",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "sensitive": true,
+      "trigger_warning": "abus sexuels, violence",
+      "text": "La jeune communauté avait aussi ses zones d’ombre : en 1859, un tribunal condamna le premier prieur de l’abbaye, Modeste Decroix, à vingt ans de travaux forcés pour abus sexuels répétés ; un autre membre écopa de dix ans. Selon les pièces du dossier judiciaire, tous deux avaient aussi abusé d’élèves de l’école du monastère. En octobre 1860, le moine frère Hugo (François Robyn), réprimandé peu auparavant pour avoir rompu son vœu de silence, mit le feu à l’église, à la bibliothèque et à un dortoir récemment construit. En février 1861, il fut condamné à mort à Mons."
+    },
+    {
+      "year": "1862",
+      "title": "Fromagerie et brasserie",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Autour de la ferme du monastère furent créées une fromagerie et une brasserie – toutes deux destinées à assurer l’autosuffisance économique. Aujourd’hui encore, l’abbaye vend sa bière et son fromage sous le nom de Chimay."
+    },
+    {
+      "year": "24 février / 7 juillet 1871",
+      "title": "Abbaye par la volonté du pape Pie IX",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Le pape Pie IX éleva le prieuré au rang d’abbaye le 24 février 1871 ; l’inauguration solennelle eut lieu le 7 juillet de la même année."
+    }
+  ]
+}

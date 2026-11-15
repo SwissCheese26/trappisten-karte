@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Novicmistr opatství La Trappe, v roce 1791 uprchl před Francouzskou revolucí do Švýcarska a založil tam ještě přísnější trapistické společenství. V letech 1798–1802 vedl své společenství přes celou Evropu až do Ruska a zpět.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Pamětní deska, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "paul1",
+    "term": "Car Pavel I.",
+    "description": "1754–1801. Ruský císař od roku 1796. V roce 1798 přijal trapisty vyhnané ze Švýcarska na Volyni – ale už roku 1800 je dekretem vypověděl, poté co došlo ke sporu s hierarchií pravoslavné církve. V roce 1801 byl zavražděn.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Paul_I_of_Russia_by_Stepan_Shchukin_%281797%2C_Tretyakov_gallery%29.jpg",
+    "credit": "Portrét Stepana Ščukina, 1797, Treťjakovská galerie · Wikimedia Commons, volné dílo"
+  }
+]

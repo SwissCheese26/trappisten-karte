@@ -1,0 +1,82 @@
+{
+  "brewery": "La Trappe",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://en.wikipedia.org/wiki/De_Koningshoeven_Brewery",
+    "https://ocso.org/monastery/tilburg/",
+    "https://ocso.org/monastery/mont-des-cats",
+    "https://wierookwijwaterenworstenbrood.nl/ontdekken/verhalen/abdij-koningshoeven-in-berkel-enschot"
+  ],
+  "stations": [
+    {
+      "year": "c. 1880",
+      "title": "Refuge from exile",
+      "coordinates": [
+        2.6528,
+        50.7869
+      ],
+      "zoom": 6,
+      "text": "The Trappists of Mont des Cats in northern France feared being expelled from France and sought refuge abroad. Abbot Dominique Lacaes sent the former Zouave officer Sébastien Wyart to find a place in England or the Netherlands."
+    },
+    {
+      "year": "1881",
+      "title": "Founding at Berkel-Enschot",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 8,
+      "text": "In March 1881 Mont des Cats founded Koningshoeven Monastery near Tilburg. The site was the Schaapskooi, a group of farmsteads that the Dutch Crown Prince Willem had had built in 1834."
+    },
+    {
+      "year": "1883",
+      "title": "Raised to a priory",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "According to the Cistercian Order (OCSO), the young community was raised to a priory in 1883. Farming alone could not yet support the monastery."
+    },
+    {
+      "year": "1884",
+      "title": "The brewery is established",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "In 1884 the monks set up a brewery within the monastery walls to fund the monastery and its charitable work. The beer is still sold under the name La Trappe today."
+    },
+    {
+      "year": "1891",
+      "title": "Koningshoeven becomes an abbey",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "According to the OCSO, the community was raised to an abbey in 1891. Dom Willibrord Verbruggen is regarded as its first abbot."
+    },
+    {
+      "year": "1999",
+      "title": "Dispute over the Trappist seal",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "In 1999 the abbey signed a contract with the brewing group Bavaria, which took over the running of the brewery. As a result Koningshoeven lost the right to call its beer a Trappist beer."
+    },
+    {
+      "year": "2005",
+      "title": "The seal returns",
+      "coordinates": [
+        5.12972,
+        51.54361
+      ],
+      "zoom": 9,
+      "text": "Following an application of February 2005, the International Trappist Association allowed the brewery to use the official Trappist logo again. The brewery continues to be run by a Bavaria subsidiary, while the abbey retains the buildings and oversight."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "brewery": "Mont des Cats",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mont_des_Cats",
+    "https://ocso.org/monastery/mont-des-cats"
+  ],
+  "stations": [
+    {
+      "year": "1650",
+      "title": "Un ermitage sur la colline",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "Des frères hospitaliers de Saint-Antoine s’installèrent en 1650 sur la colline du « Mont des Cats ». La Révolution française dissout cette communauté en 1792 et les bâtiments tombèrent en ruine."
+    },
+    {
+      "year": "1819–1821",
+      "title": "Un peintre achète les ruines",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "Le peintre Nicolas Ruyssen, de Hazebrouck, acheta les ruines en 1819 pour y fonder une école ; en 1821, il ouvrit un internat avec les Frères des écoles chrétiennes de Saint-Omer."
+    },
+    {
+      "year": "26 janvier 1826",
+      "title": "Huit moines de l’abbaye du Gard",
+      "coordinates": [
+        2.2958,
+        49.8941
+      ],
+      "zoom": 7,
+      "text": "En 1825, Ruyssen s’adressa à l’abbaye trappiste Notre-Dame du Gard, près d’Amiens. Le 26 janvier 1826, huit trappistes y arrivèrent et fondèrent l’abbaye du Mont des Cats, aujourd’hui encore tenue par cette communauté."
+    },
+    {
+      "year": "1847",
+      "title": "Statut d’abbaye",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "En 1847, le prieuré fut élevé au rang d’abbaye indépendante."
+    },
+    {
+      "year": "12 octobre 1914",
+      "title": "Champ de bataille de la Première Guerre mondiale",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 9,
+      "text": "La 3e brigade de cavalerie britannique attaqua le 12 octobre 1914 les positions allemandes sur la colline. Le monastère fut pris ; le prince allemand Maximilian Friedrich Wilhelm Georg de Hesse y fut mortellement blessé et mourut la nuit même à l’abbaye."
+    },
+    {
+      "year": "2011",
+      "title": "Une bière selon la recette de Chimay",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 7,
+      "text": "L’abbaye ne possède pas de brasserie propre. En 2011, les moines présentèrent leur propre bière, brassée selon leur recette à l’abbaye de Scourmont (Chimay) ; elle ne porte donc pas le label « Authentic Trappist Product », qui suppose un brassage à l’intérieur des murs du monastère."
+    }
+  ]
+}

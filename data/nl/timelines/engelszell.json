@@ -1,0 +1,124 @@
+{
+  "brewery": "Engelszell",
+  "glossary": "data/timelines/engelszell-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Engelszell_Abbey",
+    "https://de.wikipedia.org/wiki/Stift_Engelszell",
+    "https://en.wikipedia.org/wiki/Oelenberg_Abbey",
+    "https://structurae.net/de/bauwerke/stift-engelszell",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange",
+    "http://www.mediterranee-antique.fr/Auteurs/Fichiers/GHI/Gaillardin/Trappistes/T2/Trappe_2_180.htm"
+  ],
+  "stations": [
+    {
+      "year": "1293",
+      "title": "Gesticht door bisschop Bernhard",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Bisschop Bernhard van Prambach stichtte in 1293 een cisterciënzerklooster; in 1295 werd het bevolkt door monniken uit het moederklooster Wilhering."
+    },
+    {
+      "year": "1786",
+      "title": "Opgeheven door keizer Jozef II",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Keizer Jozef II hief het klooster in 1786 op in het kader van zijn kloosterhervormingen. De gebouwen dienden nadien onder meer als fabriek en woonhuis."
+    },
+    {
+      "year": "Februari 1798",
+      "title": "Vertrek uit Zwitserland",
+      "coordinates": [
+        7.188653,
+        46.649278
+      ],
+      "zoom": 7,
+      "text": "Franse troepen vielen Zwitserland binnen. Augustin de Lestrange trok met meer dan 200 monniken, nonnen en kinderen weg uit het kartuizerklooster Val-Sainte bij Fribourg – het begin van een tweejarige vlucht dwars door Europa."
+    },
+    {
+      "year": "1798",
+      "title": "Rustplaats in Engelszell",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "De leegstaande gebouwen van de in 1786 opgeheven abdij dienden in 1798 onverwacht nog eens voor kloosterleven: 254 trappistenmonniken, -nonnen en -kinderen rustten hier uit op hun tocht door Duitsland, Oostenrijk, Bohemen en Polen verder naar het oosten."
+    },
+    {
+      "year": "1798–1800",
+      "title": "Vestiging in Wolynië",
+      "coordinates": [
+        25.32,
+        50.80472
+      ],
+      "zoom": 7,
+      "text": "Tsaar Paulus I. stond de gemeenschap toe zich te vestigen in het klooster van Zydyczyn (Wolynië, nu in Oekraïne). De eerste winter, bij ongeveer −30 °C, was nauwelijks te harden. In maart 1800 beval de tsaar de uitwijzing van alle Franse emigranten; met Pasen van dat jaar, op 13 april, moesten de trappisten ook Rusland verlaten."
+    },
+    {
+      "year": "13 april 1800",
+      "title": "Terug over de Oostzee",
+      "coordinates": [
+        10.687,
+        53.869
+      ],
+      "zoom": 6,
+      "text": "Uit Rusland uitgewezen reisde de gemeenschap over de Oostzee naar Lübeck. In 1801/1802 ontmoetten de terugkeerders uit Rusland de overige verspreide trappisten weer; in 1814, na de nederlaag van Napoleon, kon uiteindelijk La Trappe zelf opnieuw bevolkt worden."
+    },
+    {
+      "year": "1925",
+      "title": "Heroprichting door verdreven monniken",
+      "coordinates": [
+        7.21337,
+        47.74603
+      ],
+      "zoom": 7,
+      "text": "Duitse monniken, na de Eerste Wereldoorlog verdreven uit de abdij van Oelenberg in de Elzas, vonden eerst onderdak in klooster Banz en stichtten in 1925 Engelszell opnieuw – dit keer als trappistenklooster. In 1931 werd het priorij tot abdij verheven, met Gregorius Eisvogel als eerste abt."
+    },
+    {
+      "year": "2 december 1939",
+      "title": "Verdreven door de Gestapo",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "De Gestapo nam de abdij op 2 december 1939 in beslag en verdreef de gemeenschap van 73 leden. Vier monniken kwamen in het concentratiekamp Dachau terecht, anderen werden opgesloten of opgeroepen voor de Wehrmacht."
+    },
+    {
+      "year": "1945",
+      "title": "Terugkeer na de oorlog",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Ongeveer een derde van de gemeenschap keerde in 1945 terug, versterkt door Duitse trappisten die verdreven waren uit de abdij Mariastern in Banja Luka (nu in Bosnië)."
+    },
+    {
+      "year": "Mei 2012",
+      "title": "Negende trappistenbrouwerij",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 9,
+      "text": "Met nog maar zeven monniken in de gemeenschap erkende de Internationale Trappistenvereniging Engelszell in mei 2012 als negende trappistenbrouwerij – pas de tweede buiten België."
+    },
+    {
+      "year": "15 mei 2023",
+      "title": "Het einde van de gemeenschap",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "De orde ontbond de gemeenschap op 15 mei 2023. De laatste vier overgebleven monniken verklaarden dat ze een trappistenleven in het klooster niet langer konden volhouden. De brouwerij bestaat voort onder nieuwe, wereldlijke leiding – zonder trappistenlabel."
+    }
+  ]
+}
