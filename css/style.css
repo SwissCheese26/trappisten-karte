@@ -723,6 +723,9 @@ body {
   color: var(--color-parchment);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
   white-space: nowrap;
+  background: rgba(28, 31, 26, 0.72);
+  padding: 1px 6px;
+  border-radius: 3px;
 }
 
 .timeline-panel {
@@ -930,8 +933,13 @@ body {
     width: 92vw;
   }
 
+  /* Auf schmalen Bildschirmen überlappen sich die Jahres-Labels: nur das aktive zeigen. */
   .timeline-axis__point span {
-    font-size: 0.65rem;
+    display: none;
+    font-size: 0.8rem;
+  }
+  .timeline-axis__point.is-active span {
+    display: block;
   }
 
   .timeline-panel {
