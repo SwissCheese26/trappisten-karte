@@ -1,0 +1,124 @@
+{
+  "brewery": "Engelszell",
+  "glossary": "data/timelines/engelszell-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Engelszell_Abbey",
+    "https://de.wikipedia.org/wiki/Stift_Engelszell",
+    "https://en.wikipedia.org/wiki/Oelenberg_Abbey",
+    "https://structurae.net/de/bauwerke/stift-engelszell",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange",
+    "http://www.mediterranee-antique.fr/Auteurs/Fichiers/GHI/Gaillardin/Trappistes/T2/Trappe_2_180.htm"
+  ],
+  "stations": [
+    {
+      "year": "1293",
+      "title": "Fondée par l'évêque Bernhard",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "L'évêque Bernhard de Prambach fonda en 1293 un monastère cistercien ; en 1295, il fut peuplé de moines venus de l'abbaye mère de Wilhering."
+    },
+    {
+      "year": "1786",
+      "title": "Supprimée par l'empereur Joseph II",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "L'empereur Joseph II supprima le monastère en 1786 dans le cadre de ses réformes ecclésiastiques. Les bâtiments servirent ensuite, entre autres, de fabrique et d'habitation."
+    },
+    {
+      "year": "Février 1798",
+      "title": "Départ de Suisse",
+      "coordinates": [
+        7.188653,
+        46.649278
+      ],
+      "zoom": 7,
+      "text": "Les troupes françaises envahirent la Suisse. Augustin de Lestrange quitta la chartreuse de la Valsainte, près de Fribourg, avec plus de 200 moines, moniales et enfants : ce fut le début d'une fuite de deux ans à travers l'Europe."
+    },
+    {
+      "year": "1798",
+      "title": "Une halte à Engelszell",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "En 1798, les bâtiments vides de l'abbaye supprimée en 1786 accueillirent à nouveau, sans que cela eût été prévu, une vie monastique : 254 moines, moniales et enfants trappistes y firent halte, en route vers l'est à travers l'Allemagne, l'Autriche, la Bohême et la Pologne."
+    },
+    {
+      "year": "1798–1800",
+      "title": "Installation en Volhynie",
+      "coordinates": [
+        25.32,
+        50.80472
+      ],
+      "zoom": 7,
+      "text": "Le tsar Paul Ier permit à la communauté de s'établir dans le monastère de Zydyczyn (Volhynie, aujourd'hui en Ukraine). Le premier hiver, par environ −30 °C, fut à peine supportable. En mars 1800, le tsar ordonna l'expulsion de tous les émigrés français ; à Pâques de la même année, le 13 avril, les trappistes durent aussi quitter la Russie."
+    },
+    {
+      "year": "13 avril 1800",
+      "title": "Retour par la Baltique",
+      "coordinates": [
+        10.687,
+        53.869
+      ],
+      "zoom": 6,
+      "text": "Expulsée de Russie, la communauté gagna Lübeck par la mer Baltique. En 1801-1802, les rescapés de Russie retrouvèrent les autres trappistes dispersés ; en 1814, après la défaite de Napoléon, La Trappe elle-même put enfin être repeuplée."
+    },
+    {
+      "year": "1925",
+      "title": "Refondation par des moines chassés",
+      "coordinates": [
+        7.21337,
+        47.74603
+      ],
+      "zoom": 7,
+      "text": "Des moines allemands, chassés de l'abbaye d'Oelenberg, en Alsace, après la Première Guerre mondiale, trouvèrent d'abord refuge au monastère de Banz, puis refondèrent Engelszell en 1925, cette fois comme monastère trappiste. En 1931, le prieuré fut élevé au rang d'abbaye, avec Gregorius Eisvogel pour premier abbé."
+    },
+    {
+      "year": "2 décembre 1939",
+      "title": "Chassés par la Gestapo",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "La Gestapo confisqua l'abbaye le 2 décembre 1939 et expulsa la communauté de 73 membres. Quatre moines furent envoyés au camp de concentration de Dachau ; d'autres furent emprisonnés ou enrôlés dans la Wehrmacht."
+    },
+    {
+      "year": "1945",
+      "title": "Retour après la guerre",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "Environ un tiers de la communauté revint en 1945, renforcé par des trappistes allemands chassés de l'abbaye de Mariastern, à Banja Luka (aujourd'hui en Bosnie)."
+    },
+    {
+      "year": "Mai 2012",
+      "title": "Neuvième brasserie trappiste",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 9,
+      "text": "Alors que la communauté ne comptait plus que sept moines, l'Association internationale trappiste reconnut Engelszell en mai 2012 comme neuvième brasserie trappiste, seulement la deuxième en dehors de la Belgique."
+    },
+    {
+      "year": "15 mai 2023",
+      "title": "La fin de la communauté",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ],
+      "zoom": 8,
+      "text": "L'Ordre dissout la communauté le 15 mai 2023. Les quatre derniers moines déclarèrent ne plus pouvoir maintenir une vie trappiste au monastère. La brasserie continue sous une nouvelle direction laïque, sans le label trappiste."
+    }
+  ]
+}

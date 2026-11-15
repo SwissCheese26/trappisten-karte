@@ -1,0 +1,90 @@
+{
+  "brewery": "Achel",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://brusselstimes.com/358914/belgium-loses-trappist-beer-following-brewery-purchase",
+    "https://www.vrt.be/vrtnws/en/2023/01/25/belgium-loses-trappist-beer/"
+  ],
+  "stations": [
+    {
+      "year": "1648",
+      "title": "A chapel on the border",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "Dutch monks built a chapel in Achel in 1648, close to the border with the Northern Netherlands – the origin of what later became the Achelse Kluis."
+    },
+    {
+      "year": "1686",
+      "title": "Abbey – and destruction",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1686 the chapel was raised to the status of an abbey. During the French Revolution it was destroyed and then lay in ruins for a long time."
+    },
+    {
+      "year": "1844",
+      "title": "Rebuilt by Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "Monks from Westmalle rebuilt the ruins in 1844 and began farming – the same Westmalle that had itself been founded only fifty years earlier by refugees of the Lestrange movement."
+    },
+    {
+      "year": "1852",
+      "title": "The first beer: Patersvaatje",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1852 the monks brewed their first beer of their own, the “Patersvaatje”. In 1871 Achel officially became a Trappist monastery, and brewing became a regular task."
+    },
+    {
+      "year": "1914–1917",
+      "title": "War and copper",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1914 the monks had to leave the abbey because of the German occupation. In 1917 the occupiers dismantled the brewery completely to obtain around 700 kilograms of copper for the war industry."
+    },
+    {
+      "year": "1998",
+      "title": "A new start with help from Westmalle and Rochefort",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1998 the few remaining monks decided to brew again. Monks from Westmalle and Rochefort helped to set up the new brewery; “Achel 8°” came onto the market in 2001."
+    },
+    {
+      "year": "January 2021",
+      "title": "The end as a Trappist brewery",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "When the last brewing monks left, Achel lost its Trappist status in January 2021 – having ended up as the smallest Trappist brewery in Belgium. An entrepreneur bought the buildings; brewing continues there, but no longer as Trappist beer."
+    },
+    {
+      "year": "2021",
+      "title": "Back to Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "The last two monks moved back to Westmalle, where everything had begun 227 years earlier – the same place from which, in 1844, the monks had come who first rebuilt Achel. The circle is closed."
+    }
+  ]
+}

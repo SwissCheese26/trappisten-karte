@@ -1032,4 +1032,4 @@ body {
   font: 700 0.85rem "Cinzel", serif; cursor: pointer;
 }
 .has-selection .brewery-marker:not(.is-selected),
-.has-selection .brewery-cluster { opacity: 0; pointer-events: none; }
+.has-selection .brewery-cluster { visibility: hidden; pointer-events: none; }

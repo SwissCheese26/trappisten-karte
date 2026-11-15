@@ -1,0 +1,82 @@
+{
+  "brewery": "Spencer",
+  "sources": [
+    "https://en.wikipedia.org/wiki/St._Joseph%27s_Abbey_(Massachusetts)",
+    "https://fr.wikipedia.org/wiki/Abbaye_Saint-Joseph_de_Spencer",
+    "https://en.wikipedia.org/wiki/Our_Lady_of_the_Valley_(Cumberland,_Rhode_Island)",
+    "https://en.wikipedia.org/wiki/Tracadie,_Nova_Scotia",
+    "https://en.wikipedia.org/wiki/Trappist_beer"
+  ],
+  "stations": [
+    {
+      "year": "1825",
+      "title": "Monniken in Nova Scotia",
+      "coordinates": [
+        -61.6702,
+        45.6221
+      ],
+      "zoom": 6,
+      "text": "De gemeenschap werd in 1825 gesticht in Nova Scotia (Vincent de Paul Merle); haar klooster Petit Clairvaux lag in Tracadie. In 1892 verwoestte een zware brand de abdij, waarna de verhuizing naar Rhode Island volgde."
+    },
+    {
+      "year": "1900",
+      "title": "Nieuwe start in Rhode Island",
+      "coordinates": [
+        -71.4034,
+        41.9343
+      ],
+      "zoom": 8,
+      "text": "Op 1 maart 1900 kwamen de monniken van Petit Clairvaux aan in Cumberland, Rhode Island, waar ze een granieten klooster bouwden, „Our Lady of the Valley”. Het domein groeide tot 525 acres."
+    },
+    {
+      "year": "21 maart 1950",
+      "title": "Het klooster brandt",
+      "coordinates": [
+        -71.4034,
+        41.9343
+      ],
+      "zoom": 9,
+      "text": "Op 21 maart 1950 verwoestte een brand de hoofdvleugel en maakte de kloosterkerk onbruikbaar; zowat 140 monniken, novicen en broeders stonden zonder onderdak. De brand versnelde een reeds geplande verhuizing naar een meer afgelegen plek."
+    },
+    {
+      "year": "1950",
+      "title": "St. Joseph's Abbey in Spencer",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "De gemeenschap verhuisde in 1950 naar Spencer, Massachusetts, en bouwde St. Joseph's Abbey op het terrein van de vroegere Alta Crest Farms; eerste abt was Edmund Futterer. Ongeveer tachtig monniken betrokken de nieuwe abdij."
+    },
+    {
+      "year": "2010–2013",
+      "title": "Weg naar een trappistenbrouwerij",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "In 2010 onderzocht de abdij het brouwen en vroeg ze raad aan brouwers in Boston en Europese trappistenbrouwerijen. In december 2013 kreeg ze het recht het logo „Authentic Trappist Product” te voeren (samen met Zundert); Spencer was daarmee het eerste gecertificeerde trappistenbier van de VS."
+    },
+    {
+      "year": "2013",
+      "title": "Spencer Trappist Ale",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "De Spencer Brewery brouwde van 2013 tot 2022. Het eerste bier was de Spencer Trappist Ale, een blonde ale met 6,5 % alcohol."
+    },
+    {
+      "year": "Mei 2022",
+      "title": "Het einde van de brouwerij",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "In mei 2022 stopte de abdij met de bierproductie en sloot ze de Spencer Brewery. Als redenen noemt Wikipedia de economische gevolgen van de coronapandemie en meer dan 600 ambachtelijke brouwerijen in New England; de Franse Wikipedia noemt te sterke concurrentie. De monniken blijven in de abdij wonen."
+    }
+  ]
+}

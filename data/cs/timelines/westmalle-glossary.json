@@ -1,0 +1,33 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Novicmistr opatství La Trappe, v roce 1791 uprchl před Velkou francouzskou revolucí do Švýcarska a založil tam ještě přísnější trapistickou komunitu. Později vyslal mnichy do všech směrů Evropy – jedna z těchto skupin založila Westmalle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Pamětní deska, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "rance",
+    "term": "Armand de Rancé",
+    "description": "1626–1700. V roce 1664 reformoval opatství La Trappe v Normandii: mlčení, ruční práce, přísné pokání. Jeho pravidla dala vzniknout trapistickému hnutí a výslovně mnichům povolovala pivo k jídlu.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Portrait_d%27Armand-Jean_Le_Bouthillier_de_Ranc%C3%A9%2C_abb%C3%A9_de_la_Trappe_-_Mus%C3%A9e_Cond%C3%A9.jpg",
+    "credit": "Portrét, Musée Condé · Wikimedia Commons, volné dílo"
+  },
+  {
+    "id": "dom",
+    "term": "Martinus Dom",
+    "description": "1791–1873. Narozen jako Frans Daniël Dom v Kontichu. Roku 1817 vstoupil do Westmalle, v roce 1826 se stal prvním převorem a v roce 1836 prvním opatem. Navrhl, aby se pivo místo nákupu vařilo vlastními silami – 1. srpna 1836 se poprvé vařilo.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Martinus-dom.jpg",
+    "credit": "Portrét Martinuse Doma · Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "id": "novizenmeister",
+    "term": "novicmistr",
+    "description": "Mnich, který pečuje o novice a vychovává je – budoucí mnichy v několikaleté zkušební době před konečným slibem."
+  },
+  {
+    "id": "priorat",
+    "term": "převorství",
+    "description": "Klášterní komunita, která ještě není samostatným opatstvím. Vede ji převor místo opata, bývá menší nebo mladší než opatství."
+  }
+]

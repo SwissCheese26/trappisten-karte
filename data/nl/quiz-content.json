@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Waarvoor staat de afkorting „OCSO“, de officiële ordenaam van de trappisten?",
+    "options": [
+      "Orde van de Cluniacenzers van strengere gewoonte",
+      "Orde van de Cisterciënzers van de Strikte Observantie",
+      "Orde van de Kartuizers van strengere stilte",
+      "Orde van de Benedictijnen van het Heilig Kruis"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In welk jaar hervormde Armand de Rancé de abdij van La Trappe grondig?",
+    "options": [
+      "1598",
+      "1664",
+      "1789",
+      "1892"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welke kloosterregel volgen de trappisten?",
+    "options": [
+      "Regel van de heilige Franciscus",
+      "Regel van de heilige Benedictus",
+      "Regel van de heilige Augustinus",
+      "Regel van de heilige Dominicus"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Wat betekent de benedictijnse belofte „Stabilitas“?",
+    "options": [
+      "Levenslange verbondenheid met één enkele kloostergemeenschap",
+      "Een gelofte van volledige stilte",
+      "Dagelijks volledig vasten",
+      "Afstand van alle persoonlijk bezit"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Waarheen week een deel van de trappisten tijdens de Franse Revolutie uit, uitgenodigd door tsaar Paulus I?",
+    "options": [
+      "Naar Spanje",
+      "Naar Rusland",
+      "Naar Portugal",
+      "Naar Egypte"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Welk vlees is trappisten volgens de hervorming van 1664 toegestaan?",
+    "options": [
+      "Rund",
+      "Varken",
+      "Vis en gevogelte",
+      "Lam"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Wat zegt hoofdstuk 48 van de Regel van Benedictus over handarbeid?",
+    "options": [
+      "Handarbeid is enkel voorgeschreven voor novicen",
+      "Nietsdoen is de vijand van de ziel",
+      "Handarbeid vervangt het gebed",
+      "Handarbeid is enkel in de zomer toegestaan"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Vanaf welk jaar brouwde de abdij van Orval bier om de heropbouw te financieren?",
+    "options": [
+      "1836",
+      "1931",
+      "1664",
+      "1892"
+    ],
+    "correct": 1
+  }
+]

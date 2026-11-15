@@ -1,4 +1,4 @@
-import { fetchJson, uiReady } from "./i18n.js";
+import { fetchJson } from "./i18n.js";
 
 // Bewusst nur eine Hürde, kein Schutz: Wer die Entwicklerwerkzeuge wirklich
 // öffnen will, schafft das immer (Quelltext ist im Browser ohnehin lesbar).
@@ -19,7 +19,10 @@ function showCross() {
   cross.hidden = false;
 }
 
-const hideCross = () => (cross.hidden = true);
+let holdUntil = 0;
+const hideCross = () => {
+  if (Date.now() >= holdUntil) cross.hidden = true;
+};
 
 document.addEventListener("contextmenu", (e) => e.preventDefault());
 document.addEventListener("keydown", (e) => {
@@ -27,8 +30,9 @@ document.addEventListener("keydown", (e) => {
   const mod = e.ctrlKey || e.metaKey;
   if (e.key === "F12" || (mod && e.shiftKey && ["i", "j", "c"].includes(k)) || (mod && !e.shiftKey && k === "u") || (e.metaKey && e.altKey && ["i", "j", "u"].includes(k))) {
     e.preventDefault();
+    holdUntil = Date.now() + 4000;
     showCross();
-    setTimeout(hideCross, 4000);
+    setTimeout(hideCross, 4100);
   }
 });
 
@@ -40,4 +44,3 @@ if (matchMedia("(pointer: fine)").matches) {
     docked ? showCross() : hideCross();
   }, 1000);
 }
-uiReady.then(() => {});

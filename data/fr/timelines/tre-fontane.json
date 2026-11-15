@@ -1,0 +1,92 @@
+{
+  "brewery": "Tre Fontane",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tre_Fontane_Abbey",
+    "https://it.wikipedia.org/wiki/Abbazia_delle_Tre_Fontane",
+    "https://it.wikipedia.org/wiki/Tre_Fontane_(birra)",
+    "https://en.wikipedia.org/wiki/Trappist_beer",
+    "https://www.trappist.be/en/products/beers/tre-fontane/"
+  ],
+  "stations": [
+    {
+      "year": "626",
+      "title": "Un monastère sur le lieu du martyre de Paul",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 8,
+      "text": "Le pape Honorius Ier fit construire en 626 l'église et le monastère des saints Vincent et Anastase et les confia à des bénédictins. Ceux-ci devaient aussi desservir les deux sanctuaires plus anciens du lieu, dont l'église érigée à l'endroit où, selon la légende, Paul fut décapité, et dont les trois sources (« tre fontane ») donnent son nom au site."
+    },
+    {
+      "year": "1140",
+      "title": "Des cisterciens de Clairvaux",
+      "coordinates": [
+        4.7869,
+        48.1522
+      ],
+      "zoom": 6,
+      "text": "Le pape Innocent II retira l'abbaye aux clunisiens en 1140 et la confia à Bernard de Clairvaux. Celui-ci y envoya des cisterciens de Clairvaux sous la conduite de l'abbé Pierre Bernard de Paganelli, qui devint pape cinq ans plus tard sous le nom d'Eugène III."
+    },
+    {
+      "year": "1221",
+      "title": "Consécration de l'église abbatiale",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Le pape Honorius III fit restaurer l'église des saints Vincent et Anastase et la consacra en personne en 1221 ; sept cardinaux consacrèrent en même temps les sept autels. L'abbaye était alors richement dotée et exerçait, sur de vastes territoires de la côte toscane, les droits d'une abbaye territoriale."
+    },
+    {
+      "year": "1812",
+      "title": "Suppression sous Napoléon",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "L'abbaye fut supprimée avec l'occupation napoléonienne, en 1812 selon la version anglaise (Wikipédia en italien indique 1808). Le monastère tomba en ruine et les environs étaient infestés par le paludisme."
+    },
+    {
+      "year": "1826",
+      "title": "Franciscains et paludisme",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Le pape Léon XII retira les sanctuaires aux cisterciens en 1826 et les confia aux frères mineurs de l'étroite observance. Son projet échoua, car la région était si infestée par le paludisme qu'aucune communauté ne pouvait y vivre durablement."
+    },
+    {
+      "year": "1868",
+      "title": "Trappistes de La Grande Trappe",
+      "coordinates": [
+        0.5478,
+        48.6258
+      ],
+      "zoom": 6,
+      "text": "Dans le cadre de sa renaissance, Pie IX confia l'abbaye aux cisterciens ; en 1868, une communauté de La Grande Trappe arriva à Rome. Les moines devaient reconstruire la vie monastique et assécher les terres ; ils y plantèrent plus tard des eucalyptus."
+    },
+    {
+      "year": "2014",
+      "title": "Les moines se mettent à brasser",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "Selon Wikipédia en italien, l'abbaye commença en 2014 à produire sa bière. La tripel (8,5 %) doit son parfum balsamique à l'ajout d'eucalyptus."
+    },
+    {
+      "year": "Mai 2015",
+      "title": "Brasserie trappiste reconnue",
+      "coordinates": [
+        12.48333,
+        41.83444
+      ],
+      "zoom": 9,
+      "text": "En mai 2015, Tre Fontane devint la onzième brasserie trappiste et reçut le label « Authentic Trappist Product ». Aujourd'hui, l'Association internationale trappiste recense trois bières : Tripel (8,5 %), Scala Coeli (6,7 %) et Tertia (5 %)."
+    }
+  ]
+}

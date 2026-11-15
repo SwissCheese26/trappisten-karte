@@ -1,0 +1,83 @@
+{
+  "brewery": "Zundert",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zundert_Trappist",
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://abdijmariatoevlucht.nl/geschiedenis/",
+    "https://zunderttrappist.nl/en/",
+    "https://nltimes.nl/2025/05/14/trappist-brewery-zundert-set-close-citing-lack-occupancy",
+    "https://www.omroepbrabant.nl/nieuws/4742362/na-125-jaar-sluit-trappistenabdij-laatste-monniken-vertrokken"
+  ],
+  "stations": [
+    {
+      "year": "1881",
+      "title": "Des trappistes du nord de la France",
+      "coordinates": [
+        2.6431,
+        50.785
+      ],
+      "zoom": 6,
+      "text": "Les racines remontent à l'abbaye trappiste française du Mont des Cats. De là, des moines s'établirent en 1881 près de Tilburg, aux Pays-Bas, et fondèrent Koningshoeven."
+    },
+    {
+      "year": "1899",
+      "title": "Deux moines partent pour Zundert",
+      "coordinates": [
+        5.1195,
+        51.56
+      ],
+      "zoom": 8,
+      "text": "La communauté de Koningshoeven grandit au point de pouvoir envisager une fondation fille. À l'automne 1899, le père Nivardus Muis et le frère Dorotheüs de Vries partirent de Tilburg pour Zundert."
+    },
+    {
+      "year": "24 mai 1900",
+      "title": "Inauguration de Maria Toevlucht",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Le 24 mai 1900, l'abbé de Tilburg consacra l'église et le monastère. Avec douze moines, la communauté débuta comme prieuré de Koningshoeven ; le nom « Maria Toevlucht » (Marie Refuge) rappelle le refuge offert aux religieux au temps de la politique anticléricale française."
+    },
+    {
+      "year": "1938",
+      "title": "Élevé au rang d'abbaye",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Le 14 septembre 1938, le prieuré fut élevé au rang d'abbaye autonome. Le 19 octobre de la même année, les frères élurent le père Nivardus Muis premier abbé."
+    },
+    {
+      "year": "Décembre 2013",
+      "title": "La bière trappiste propre",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "L'agriculture devenant trop exigeante en travail, les moines construisirent la brasserie De Kievit (bâtie en 2011). En décembre 2013, « Zundert Trappist » fut mise en vente, deuxième bière néerlandaise portant le label « Authentic Trappist Product »."
+    },
+    {
+      "year": "13 mai 2025",
+      "title": "Fermeture annoncée",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Faute de moines, les frères demandèrent le 13 mai 2025 au chapitre général de leur Ordre l'autorisation de fermer l'abbaye. La bière trappiste était dès lors elle aussi menacée, car elle ne peut être brassée qu'au sein d'une communauté monastique vivante."
+    },
+    {
+      "year": "2025",
+      "title": "Fin après 125 ans",
+      "coordinates": [
+        4.607,
+        51.496
+      ],
+      "zoom": 9,
+      "text": "Les derniers moines quittèrent le monastère fin août 2025 ; en septembre 2025, le chapitre général donna son accord et la vie monastique prit fin. La brasserie cessa la production de Zundert Trappist et le label « Authentic Trappist Product » fut perdu."
+    }
+  ]
+}

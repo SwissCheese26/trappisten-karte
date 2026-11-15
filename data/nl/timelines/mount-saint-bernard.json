@@ -1,0 +1,82 @@
+{
+  "brewery": "Mount Saint Bernard",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mount_St_Bernard_Abbey",
+    "https://www.british-history.ac.uk/vch/leics/vol2/pp53-54",
+    "https://en.wikipedia.org/wiki/Tynt_Meadow",
+    "https://msbtrappist.co.uk/the-story/",
+    "https://protzonbeer.co.uk/news/2018/06/27/monks-restore-historic-brewing-tradition"
+  ],
+  "stations": [
+    {
+      "year": "1833",
+      "title": "Mount Melleray in Ierland",
+      "coordinates": [
+        -7.87,
+        52.15
+      ],
+      "zoom": 6,
+      "text": "Na de Julirevolutie van 1830 kwamen de monniken van Melleray opnieuw in het nauw en stichtten ze in 1833 de abdij Mount Melleray in Ierland. Van daaruit zou kort nadien de stichting in Engeland uitgaan."
+    },
+    {
+      "year": "1835",
+      "title": "Zes monniken in Leicestershire",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 8,
+      "text": "Op land van de katholieke bekeerling Ambrose Phillipps de Lisle vestigden zich nog in 1835 zes monniken uit Mount Melleray onder pater Odilo Woolfrey. Het was de eerste blijvende kloosterstichting in Engeland sinds de Reformatie."
+    },
+    {
+      "year": "Michaelmas 1835",
+      "title": "De cottage op Tynt Meadow",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "De gemeenschap betrok eerst een halfvervallen cottage op het perceel Tynt Meadow. Later verhuisde ze naar de huidige plaats van de abdij, zowat 400 meter verderop."
+    },
+    {
+      "year": "1844",
+      "title": "Het nieuwe klooster naar Pugin",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "In 1844 werd het nieuwe kloostergebouw op de huidige plaats geopend. De architect Augustus Welby Pugin had zijn diensten daarvoor kosteloos aangeboden."
+    },
+    {
+      "year": "1848",
+      "title": "Verheffing tot abdij",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "In 1848 verhief paus Pius IX het klooster tot abdij. Bernard Palmer werd op 18 februari 1849 gewijd als eerste Engelse abt sinds de Reformatie."
+    },
+    {
+      "year": "2017–2018",
+      "title": "Een brouwerij in het klooster",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "Toen de landbouw de abdij niet langer kon dragen, kozen de monniken voor het brouwen. Tussen 2017 en 2018 ontstond de brouwerij binnen de kloostermuren."
+    },
+    {
+      "year": "2018",
+      "title": "Tynt Meadow, het eerste Britse trappistenbier",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "In de zomer van 2018 kwam Tynt Meadow op de markt, een donker bier van hoge gisting met 7,4 % alcohol. Het werd het twaalfde trappistenbier met het label „Authentic Trappist Product” en het eerste uit het Verenigd Koninkrijk. De naam herinnert aan het perceel waar het kloosterleven in de Midlands begon."
+    }
+  ]
+}

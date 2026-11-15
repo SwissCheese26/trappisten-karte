@@ -1,0 +1,82 @@
+{
+  "brewery": "Mount Saint Bernard",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mount_St_Bernard_Abbey",
+    "https://www.british-history.ac.uk/vch/leics/vol2/pp53-54",
+    "https://en.wikipedia.org/wiki/Tynt_Meadow",
+    "https://msbtrappist.co.uk/the-story/",
+    "https://protzonbeer.co.uk/news/2018/06/27/monks-restore-historic-brewing-tradition"
+  ],
+  "stations": [
+    {
+      "year": "1833",
+      "title": "Mount Melleray v Irsku",
+      "coordinates": [
+        -7.87,
+        52.15
+      ],
+      "zoom": 6,
+      "text": "Po červencové revoluci roku 1830 byli mniši z Melleray znovu pronásledováni a v roce 1833 založili opatství Mount Melleray v Irsku. Odtud mělo krátce poté vzejít založení v Anglii."
+    },
+    {
+      "year": "1835",
+      "title": "Šest mnichů v Leicestershiru",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 8,
+      "text": "Na pozemku katolického konvertity Ambrose Phillippse de Lisle se ještě v roce 1835 usadilo šest mnichů z Mount Melleray pod vedením otce Odilo Woolfreye. Bylo to první trvalé založení kláštera v Anglii od reformace."
+    },
+    {
+      "year": "Michaelmas 1835",
+      "title": "Chalupa na Tynt Meadow",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "Společenství nejprve obydlelo napůl zchátralou chalupu na pozemku Tynt Meadow. Později se přestěhovalo na dnešní místo opatství, asi 400 metrů vzdálené."
+    },
+    {
+      "year": "1844",
+      "title": "Nový klášter podle Pugina",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "V roce 1844 byla otevřena nová klášterní budova na dnešním místě. Architekt Augustus Welby Pugin nabídl své služby bezplatně."
+    },
+    {
+      "year": "1848",
+      "title": "Povýšení na opatství",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "V roce 1848 povýšil papež Pius IX. klášter na opatství. Bernard Palmer byl 18. února 1849 vysvěcen jako první anglický opat od reformace."
+    },
+    {
+      "year": "2017–2018",
+      "title": "Pivovar v klášteře",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "Když zemědělství opatství už neuživilo, rozhodli se mniši pro vaření piva. V letech 2017 až 2018 vznikl pivovar uvnitř klášterních zdí."
+    },
+    {
+      "year": "2018",
+      "title": "Tynt Meadow, první britské trapistické pivo",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "V létě 2018 přišlo na trh Tynt Meadow, tmavé silné pivo s 7,4 % alkoholu. Stalo se dvanáctým trapistickým pivem s označením „Authentic Trappist Product“ a prvním z Velké Británie. Jméno připomíná pozemek, na němž začal klášterní život v Midlands."
+    }
+  ]
+}

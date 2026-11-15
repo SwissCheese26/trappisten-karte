@@ -1,0 +1,80 @@
+{
+  "brewery": "Westvleteren",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Westvleteren_Brewery",
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "1814",
+      "title": "Poustevník v lese",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Dlouho předtím, než zde bylo opatství, žil na tomto místě jen poustevník: Jan-Baptist Victoor se roku 1814 uchýlil do lesů Westvleterenu."
+    },
+    {
+      "year": "1831",
+      "title": "Vzniká komunita",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "V roce 1831 se k Victoorovi připojili převor a několik mnichů – počátek pozdější trapistické komunity. Žádné založení s velkým plánem, ale postupné srůstání."
+    },
+    {
+      "year": "1838",
+      "title": "Vzniká pivovar",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "V roce 1838 vznikl uvnitř klášterních zdí pivovar – od počátku určený pro vlastní potřebu, nikoli k obchodování."
+    },
+    {
+      "year": "25. července 1850",
+      "title": "Dcera v Chimay",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 8,
+      "text": "Malá skupina mnichů z Westvleterenu odešla na pustou plošinu Scourmont a založila tam nové převorství – pozdější opatství Chimay."
+    },
+    {
+      "year": "24. února 1871",
+      "title": "Opatství z vůle papeže Pia IX.",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Teprve roku 1871 povýšil papež Pius IX. převorství oficiálně na opatství – čtyřicet let po prvních mniších v lese."
+    },
+    {
+      "year": "první světová válka",
+      "title": "Útočiště pro vojáky",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Za první světové války leželo opatství poblíž fronty ve Flandrách a dočasně poskytovalo útočiště uprchlíkům a vojákům – celkem prý žilo v klášteře a jeho okolí téměř 400 000 spojeneckých vojáků."
+    },
+    {
+      "year": "1945",
+      "title": "Záměrně malé",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "V roce 1945 opat záměrně omezil roční produkci na 4 800 hektolitrů. Stejný postoj platí dodnes: Westvleteren prodává pivo jen v malých množstvích přímo v opatství, nikdy běžným obchodem."
+    }
+  ]
+}

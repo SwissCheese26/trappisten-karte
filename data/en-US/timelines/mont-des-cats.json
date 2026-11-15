@@ -1,0 +1,69 @@
+{
+  "brewery": "Mont des Cats",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mont_des_Cats",
+    "https://ocso.org/monastery/mont-des-cats"
+  ],
+  "stations": [
+    {
+      "year": "1650",
+      "title": "A hermitage on the hill",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "Antonine hospital brothers settled on the hill of “Mont des Cats” in 1650. The French Revolution dissolved this community in 1792, and the buildings fell into ruin."
+    },
+    {
+      "year": "1819–1821",
+      "title": "A painter buys the ruins",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "The painter Nicolas Ruyssen of Hazebrouck bought the ruins in 1819 in order to found a school there; in 1821 he opened a boarding school with the Brothers of the Christian Schools from Saint-Omer."
+    },
+    {
+      "year": "January 26, 1826",
+      "title": "Eight monks from Gard Abbey",
+      "coordinates": [
+        2.2958,
+        49.8941
+      ],
+      "zoom": 7,
+      "text": "In 1825 Ruyssen turned to the Trappist abbey of Notre-Dame du Gard near Amiens. On January 26, 1826, eight Trappists arrived and founded Mont des Cats Abbey—still run by this community today."
+    },
+    {
+      "year": "1847",
+      "title": "Abbey status",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 8,
+      "text": "In 1847 the priory was raised to an independent abbey."
+    },
+    {
+      "year": "October 12, 1914",
+      "title": "Battlefield in the First World War",
+      "coordinates": [
+        2.667,
+        50.783
+      ],
+      "zoom": 9,
+      "text": "On October 12, 1914, the British 3rd Cavalry Brigade attacked German positions on the hill. The monastery was taken; the German Prince Maximilian Friedrich Wilhelm Georg of Hesse was mortally wounded and died in the abbey that same night."
+    },
+    {
+      "year": "2011",
+      "title": "Beer to Chimay's recipe",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 7,
+      "text": "The abbey has no brewery of its own. In 2011 the monks presented a beer of their own, brewed to their recipe at Scourmont Abbey (Chimay)—and therefore without the “Authentic Trappist Product” seal, which requires brewing within the monastery's own walls."
+    }
+  ]
+}

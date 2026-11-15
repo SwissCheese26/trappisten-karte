@@ -1,0 +1,81 @@
+{
+  "brewery": "Rochefort",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rochefort_Abbey",
+    "https://en.wikipedia.org/wiki/Rochefort_Brewery",
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://en.wikipedia.org/wiki/C%C3%AEteaux_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "c. 1230",
+      "title": "Founded for Cistercian nuns",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "Count Gilles de Walcourt of Rochefort founded a convent for Cistercian nuns around 1230, called “Secours de Notre-Dame”."
+    },
+    {
+      "year": "1464",
+      "title": "Monks instead of nuns",
+      "coordinates": [
+        5.09333,
+        47.12806
+      ],
+      "zoom": 7,
+      "text": "The convent had fallen into decline by then. In 1464 Louis de la Marck had the nuns replaced by monks—as the youngest daughter house of the mother abbey of Cîteaux in Burgundy, from where the new community came."
+    },
+    {
+      "year": "1568 / 1577",
+      "title": "Devastated in the Eighty Years’ War",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "The abbey was devastated twice in the Eighty Years’ War: in 1568 by Protestant troops, and in 1577 by the forces of John of Austria."
+    },
+    {
+      "year": "c. 1595",
+      "title": "The first brewery",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Around 1595 the first brewery was established within the monastery walls—at first only for the monks’ own use."
+    },
+    {
+      "year": "1797",
+      "title": "Closed and sold",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 8,
+      "text": "During the French Revolution the abbey was closed and sold in 1797. Around 1805 the new owner had the buildings demolished; the stones were reused elsewhere in Rochefort."
+    },
+    {
+      "year": "October 11, 1887",
+      "title": "Return with help from Achel",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 7,
+      "text": "Father Anselmus Judong from the Trappist abbey of Achel came to the ruins on October 11, 1887; in December monks from Achel bought the site and began the rebuilding."
+    },
+    {
+      "year": "1952",
+      "title": "At last enough to sell",
+      "coordinates": [
+        5.22036,
+        50.17803
+      ],
+      "zoom": 9,
+      "text": "Only after the brewery was renewed in 1952 did Rochefort produce enough beer to sell it as well—more than 350 years after the first brewery on the site."
+    }
+  ]
+}

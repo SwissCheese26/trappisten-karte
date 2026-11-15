@@ -1,0 +1,80 @@
+{
+  "brewery": "Orval",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Orval_Abbey",
+    "https://en.wikipedia.org/wiki/Trois-Fontaines_Abbey",
+    "https://en.wikipedia.org/wiki/Orval_Brewery"
+  ],
+  "stations": [
+    {
+      "year": "vers 1070",
+      "title": "Les premiers moines",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 7,
+      "text": "Des moines bénédictins de Calabre, dans le sud de l'Italie, s'installèrent ici et commencèrent à construire l'église et le monastère. Après une quarantaine d'années, ils quittèrent les lieux, avant que des chanoines n'achèvent l'ouvrage."
+    },
+    {
+      "year": "1132",
+      "title": "Des cisterciens de Champagne",
+      "coordinates": [
+        4.949186,
+        48.717496
+      ],
+      "zoom": 7,
+      "text": "Un groupe de moines cisterciens de l'abbaye de Trois-Fontaines, en Champagne, arriva à Orval en 1132 et fusionna avec la communauté existante sous la direction du premier abbé, Constantin."
+    },
+    {
+      "year": "1637",
+      "title": "Dévastée pendant la guerre de Trente Ans",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "En 1637, des troupes de mercenaires français pillèrent et incendièrent l'abbaye pendant la guerre de Trente Ans."
+    },
+    {
+      "year": "1793",
+      "title": "Incendiée pendant la Révolution",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "En 1793, les troupes révolutionnaires françaises réduisirent entièrement l'abbaye en cendres – en représailles de l'abri qu'elle avait offert à des troupes autrichiennes. La communauté fut dispersée par la force."
+    },
+    {
+      "year": "1926",
+      "title": "Les ruines sont rendues",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "Pendant plus d'un siècle, Orval resta en ruines, jusqu'à ce que la famille Harenne fasse don du terrain à l'ordre cistercien en 1926, afin que la vie monastique puisse y renaître."
+    },
+    {
+      "year": "1931",
+      "title": "De la bière pour la reconstruction",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "Sous la direction du trappiste Marie-Albert van der Cruyssen, la nouvelle abbaye s'éleva à partir de 1926. En 1931, les moines firent revivre l'art brassicole médiéval – non par tradition, mais pour financer la reconstruction."
+    },
+    {
+      "year": "8 septembre 1948",
+      "title": "La nouvelle église",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "Avec la consécration de la nouvelle église abbatiale le 8 septembre 1948, la reconstruction était pour l'essentiel achevée. Aujourd'hui encore, Orval ne brasse que cette unique bière."
+    }
+  ]
+}

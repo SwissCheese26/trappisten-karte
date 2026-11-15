@@ -1,0 +1,70 @@
+{
+  "brewery": "Westmalle",
+  "glossary": "data/timelines/westmalle-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Westmalle_Abbey",
+    "https://en.wikipedia.org/wiki/Augustin_de_Lestrange"
+  ],
+  "stations": [
+    {
+      "year": "before 1791",
+      "title": "La Trappe, Normandy",
+      "coordinates": [
+        0.57333,
+        48.63722
+      ],
+      "zoom": 6,
+      "text": "The story does not begin in Westmalle, but at La Trappe Abbey in Normandy. There Augustin de Lestrange was novice master—until the French Revolution made monastic life in France impossible."
+    },
+    {
+      "year": "1791",
+      "title": "Flight to Switzerland: Val-Sainte",
+      "coordinates": [
+        7.188653,
+        46.649278
+      ],
+      "zoom": 7,
+      "text": "In 1791 Lestrange fled with a group of monks to Val-Sainte near Fribourg and founded an even stricter community there. But the Fribourg senate limited the number of monks to 21—while new refugees kept arriving from France. Lestrange sent groups onward: to Spain, to Italy, and a third toward Canada."
+    },
+    {
+      "year": "June 6, 1794",
+      "title": "Foundation in Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "The Canada group came through Flanders. The Bishop of Antwerp invited them to stay and offered, instead, to found a Trappist monastery in his diocese. Eight monks stayed—together with two novices, ten monks founded the priory of Westmalle on June 6, 1794, on a small farm called “Nooit Rust”."
+    },
+    {
+      "year": "July 17, 1794",
+      "title": "Expelled again: Darfeld",
+      "coordinates": [
+        7.23444,
+        52.02667
+      ],
+      "zoom": 7,
+      "text": "Only six weeks later the monks had to flee once more: French troops invaded the Austrian Netherlands. The community fled to Münster in Westphalia and founded a monastery in Darfeld."
+    },
+    {
+      "year": "February 1802",
+      "title": "Return to Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "In February 1802 twelve monks returned to Westmalle. The community still did not find complete peace: in 1811 Napoleon had all Trappist monasteries in France closed, and only after his defeat could the monks return to Westmalle for good on August 21, 1814."
+    },
+    {
+      "year": "1836",
+      "title": "Abbey and first beer",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 9,
+      "text": "On April 22, 1836, Westmalle was raised to the status of an abbey and Martinus Dom was elected its first abbot. Because Armand de Rancé’s rules allowed the monks beer with their meals, Abbot Dom began building a small brewery in the same year. On December 10, 1836, the first Trappist beer was served at lunch."
+    }
+  ]
+}

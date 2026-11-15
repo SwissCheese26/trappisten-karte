@@ -1,0 +1,74 @@
+{
+  "brewery": "Chimay",
+  "glossary": "data/timelines/chimay-glossary.json",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey",
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Chimay_Brewery",
+    "https://en.wikipedia.org/wiki/Joseph_de_Riquet_de_Caraman_(1808%E2%80%931886)"
+  ],
+  "stations": [
+    {
+      "year": "1844",
+      "title": "Myšlenka na klášter na Scourmontu",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 8,
+      "text": "Vesnický farář z Virelles Jean-Baptiste Jourdain navrhl pustou náhorní plošinu Scourmont jako místo pro klášter – dřívější pokusy půdu obdělávat selhaly. Joseph de Riquet de Caraman, kníže z Chimay, podpořil založení vlastní půdou; záměr podporovali i opati z Westmalle a Westvleterenu."
+    },
+    {
+      "year": "25. července 1850",
+      "title": "Mniši z Westvleterenu",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 7,
+      "text": "Malá skupina mnichů z Westvleterenu se usadila na plošině Scourmont a založila převorství. Neúrodná půda přiměla komunitu soustředit se od začátku na vlastní soběstačnost."
+    },
+    {
+      "year": "padesátá léta 19. století",
+      "title": "Škola a vzorový statek",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Mniši zřídili kolem kláštera vzorové zemědělské hospodářství a založili školu – mimo jiné pro sirotky a opuštěné děti z okolí."
+    },
+    {
+      "year": "1859–1861",
+      "title": "Temná kapitola",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "sensitive": true,
+      "trigger_warning": "sexuální zneužívání, násilí",
+      "text": "Mladá komunita měla i své propasti: v roce 1859 odsoudil soud prvního převora opatství, Modesta Decroixe, za opakované sexuální zneužívání k dvaceti letům nucených prací; další člen dostal deset let. Podle soudních spisů oba zneužívali také žáky klášterní školy. V říjnu 1860 založil mnich bratr Hugo (François Robyn), krátce předtím pokárán za porušení slibu mlčení, požár v kostele, knihovně a nově postavené ložnici. V únoru 1861 byl v Monsu odsouzen k smrti."
+    },
+    {
+      "year": "1862",
+      "title": "Sýrárna a pivovar",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Kolem klášterního statku vznikly sýrárna a pivovar – oba měly sloužit hospodářské soběstačnosti. Dodnes opatství prodává své pivo i sýr pod jménem Chimay."
+    },
+    {
+      "year": "24. února / 7. července 1871",
+      "title": "Opatství z vůle papeže Pia IX.",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 9,
+      "text": "Papež Pius IX. povýšil převorství 24. února 1871 na opatství; slavnostní vysvěcení následovalo 7. července téhož roku."
+    }
+  ]
+}

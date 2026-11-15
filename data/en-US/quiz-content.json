@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What does the abbreviation “OCSO”, the official name of the Trappist order, stand for?",
+    "options": [
+      "Order of Cluniacs of Stricter Custom",
+      "Order of Cistercians of the Strict Observance",
+      "Order of Carthusians of Stricter Silence",
+      "Order of Benedictines of the Holy Cross"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In which year did Armand de Rancé fundamentally reform the abbey of La Trappe?",
+    "options": [
+      "1598",
+      "1664",
+      "1789",
+      "1892"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which monastic rule do the Trappists follow?",
+    "options": [
+      "Rule of Saint Francis",
+      "Rule of Saint Benedict",
+      "Rule of Saint Augustine",
+      "Rule of Saint Dominic"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the Benedictine promise of “stabilitas” mean?",
+    "options": [
+      "Lifelong commitment to a single monastic community",
+      "A vow of complete silence",
+      "Complete fasting every day",
+      "Renouncing all personal property"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Where did some of the Trappists flee during the French Revolution, invited by Tsar Paul I?",
+    "options": [
+      "To Spain",
+      "To Russia",
+      "To Portugal",
+      "To Egypt"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which meat are Trappists permitted to eat under the reform of 1664?",
+    "options": [
+      "Beef",
+      "Pork",
+      "Fish and poultry",
+      "Lamb"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does chapter 48 of the Rule of Benedict say about manual labor?",
+    "options": [
+      "Manual labor is prescribed only for novices",
+      "Idleness is the enemy of the soul",
+      "Manual labor replaces prayer",
+      "Manual labor is permitted only in summer"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "From which year did Orval Abbey brew beer to finance its rebuilding?",
+    "options": [
+      "1836",
+      "1931",
+      "1664",
+      "1892"
+    ],
+    "correct": 1
+  }
+]

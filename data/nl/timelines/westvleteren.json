@@ -1,0 +1,80 @@
+{
+  "brewery": "Westvleteren",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Sixtus_Abbey",
+    "https://en.wikipedia.org/wiki/Westvleteren_Brewery",
+    "https://en.wikipedia.org/wiki/Scourmont_Abbey"
+  ],
+  "stations": [
+    {
+      "year": "1814",
+      "title": "De kluizenaar in het bos",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Lang voor er een abdij was, leefde hier slechts een kluizenaar: Jan-Baptist Victoor trok zich in 1814 terug in de bossen van Westvleteren."
+    },
+    {
+      "year": "1831",
+      "title": "Een gemeenschap ontstaat",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "In 1831 voegden een prior en enkele monniken zich bij Victoor – het begin van de latere trappistengemeenschap. Geen stichting met een groot plan, maar een geleidelijk samengroeien."
+    },
+    {
+      "year": "1838",
+      "title": "De brouwerij ontstaat",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "In 1838 ontstond binnen de kloostermuren de brouwerij – van meet af aan bedoeld voor eigen gebruik, niet voor de handel."
+    },
+    {
+      "year": "25 juli 1850",
+      "title": "Een dochter in Chimay",
+      "coordinates": [
+        4.33611,
+        49.98222
+      ],
+      "zoom": 8,
+      "text": "Een kleine groep monniken uit Westvleteren trok verder naar het schrale plateau van Scourmont en stichtte daar een nieuwe priorij – de latere abdij van Chimay."
+    },
+    {
+      "year": "24 februari 1871",
+      "title": "Abdij door paus Pius IX",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Pas in 1871 verhief paus Pius IX de priorij officieel tot abdij – veertig jaar na de eerste monniken in het bos."
+    },
+    {
+      "year": "Eerste Wereldoorlog",
+      "title": "Toevluchtsoord voor soldaten",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "Tijdens de Eerste Wereldoorlog lag de abdij dicht bij het front in Vlaanderen en bood ze tijdelijk onderdak aan vluchtelingen en soldaten – in totaal zouden bijna 400.000 geallieerde soldaten in en rond het klooster hebben verbleven."
+    },
+    {
+      "year": "1945",
+      "title": "Bewust klein blijven",
+      "coordinates": [
+        2.721262,
+        50.895942
+      ],
+      "zoom": 9,
+      "text": "In 1945 beperkte de abt de jaarproductie bewust tot 4.800 hectoliter. Dezelfde houding geldt tot vandaag: Westvleteren verkoopt zijn bier enkel in kleine hoeveelheden rechtstreeks aan de abdij, nooit via de gewone handel."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ]
+    },
+    "properties": {
+      "name": "Achel",
+      "abbey": "Abdij Sint-Benedictus (Achelse Kluis)",
+      "country": "Belgium",
+      "founded_abbey": 1686,
+      "brewing_since": 1852,
+      "status": "closed",
+      "closed_since": 2021,
+      "beers": [
+        {
+          "name": "Achel 8° Blond",
+          "style": "Tripel",
+          "abv": 8.0
+        },
+        {
+          "name": "Achel 8° Bruin",
+          "style": "Dubbel",
+          "abv": 8.0
+        }
+      ],
+      "history": "Raised to abbey status in 1686, destroyed during the French Revolution, rebuilt from Westmalle in 1844. First beer in 1852; in 1917 German occupying forces dismantled the brewery for its copper. Rebuilt in 1998 with the help of Westmalle and Rochefort, and “Achel 8°” came onto the market in 2001—latterly the smallest Trappist brewery in Belgium. In January 2021 the brewery lost its Trappist status when the last brewing monks departed; the last two monks moved to Westmalle. An entrepreneur bought the buildings; beer is still brewed there, but may no longer be called “Trappist”.",
+      "visit": null,
+      "ita_status": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Achel_Brewery",
+        "https://brusselstimes.com/358914/belgium-loses-trappist-beer-following-brewery-purchase",
+        "https://www.vrt.be/vrtnws/en/2023/01/25/belgium-loses-trappist-beer/"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.7342,
+        48.4989
+      ]
+    },
+    "properties": {
+      "name": "Engelszell",
+      "abbey": "Stift Engelszell",
+      "country": "Austria",
+      "founded_abbey": 1293,
+      "brewing_since": 2012,
+      "status": "closed",
+      "closed_since": 2023,
+      "beers": [
+        {
+          "name": "Gregorius",
+          "style": "Dark strong ale",
+          "abv": 9.7
+        },
+        {
+          "name": "Benno",
+          "style": "Amber",
+          "abv": 6.9
+        },
+        {
+          "name": "Nivard",
+          "style": "Blond",
+          "abv": 5.5
+        }
+      ],
+      "history": "Originally founded in 1293 as a Cistercian abbey, resettled in 1925 by Trappists from Switzerland after several dissolutions. From 2012 the small community brewed its own beer. On May 10, 2023, the Abbot General announced the dissolution—too few and too elderly monks. The brewery, liqueur production and guesthouse passed into a limited company (GmbH) in 2025 and have been run by a private couple since July 2025. The beer is still brewed but no longer bears the Trappist seal. On November 30, 2025, the abbey was officially dissolved after 100 years of Trappist presence and handed over to the Diocese of Linz.",
+      "visit": null,
+      "ita_status": false,
+      "sources": [
+        "https://de.wikipedia.org/wiki/Stift_Engelszell",
+        "https://structurae.net/de/bauwerke/stift-engelszell",
+        "https://brusselstimes.com/502017/austrian-trappist-abbey-closes-leading-to-uncertainty-over-brewery"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ]
+    },
+    "properties": {
+      "name": "Spencer",
+      "abbey": "St. Joseph's Abbey",
+      "country": "USA",
+      "founded_abbey": 1950,
+      "brewing_since": 2013,
+      "status": "closed",
+      "closed_since": 2022,
+      "beers": [
+        {
+          "name": "Spencer Trappist Ale",
+          "style": "Blond Ale",
+          "abv": 6.5
+        }
+      ],
+      "history": "The community goes back to a foundation of 1825 in Tracadie, Nova Scotia, Canada, moved to Rhode Island in 1900 and, after a fire there, settled in Spencer, Massachusetts in 1950 under Abbot Dom Edmund Futterer. From 2010 the monks prepared for a brewery of their own with the help of European Trappist breweries and brewers from Boston; from 2013 they brewed Spencer Trappist Ale, the first certified Trappist beer in the USA. In May 2022 the abbey ceased brewing, as a result of the economic effects of the coronavirus pandemic and growing competition from more than 600 craft breweries in New England. The monks continue to live in the abbey and make jams and liturgical vestments, among other things.",
+      "visit": "Guesthouse with retreat days available.",
+      "ita_status": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/St._Joseph%27s_Abbey_(Spencer,_Massachusetts)",
+        "https://www.bostonglobe.com/2022/05/24/lifestyle/monks-st-josephs-abbey-are-getting-out-beer-business-closing-spencer-brewery",
+        "https://www.trappists.org/st-joseph-abbey/"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.607,
+        51.496
+      ]
+    },
+    "properties": {
+      "name": "Zundert",
+      "abbey": "Abdij Maria Toevlucht",
+      "country": "Netherlands",
+      "founded_abbey": 1900,
+      "brewing_since": 2013,
+      "status": "closed",
+      "closed_since": 2025,
+      "beers": [
+        {
+          "name": "Zundert 8",
+          "style": "Dubbel",
+          "abv": 8.0
+        },
+        {
+          "name": "Zundert 10",
+          "style": "Quadrupel",
+          "abv": 10.0
+        }
+      ],
+      "history": "Begun as a priory in 1900, raised to abbey status in 1938. In 2013 the community put its own brewery into operation. On May 13, 2025, the closure of the abbey was announced owing to a lack of monks; in summer 2025 the last monks left the abbey—and beer production ended with them.",
+      "visit": null,
+      "ita_status": false,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zundert_Trappist",
+        "https://www.dutchnews.nl/2025/05/too-few-monks-spoil-the-brew-the-dutch-lose-a-trappist-beer",
+        "https://www.omroepbrabant.nl/nieuws/4742362/na-125-jaar-sluit-trappistenabdij-laatste-monniken-vertrokken",
+        "https://nl.wikipedia.org/wiki/Maria_Toevlucht"
+      ]
+    }
+  }
+]

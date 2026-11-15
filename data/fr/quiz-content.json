@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Que signifie l’abréviation « OCSO », nom officiel de l’ordre des trappistes ?",
+    "options": [
+      "Ordre des clunisiens de stricte coutume",
+      "Ordre des cisterciens de la stricte observance",
+      "Ordre des chartreux de stricte quiétude",
+      "Ordre des bénédictins de la Sainte-Croix"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En quelle année Armand de Rancé a-t-il réformé en profondeur l’abbaye de La Trappe ?",
+    "options": [
+      "1598",
+      "1664",
+      "1789",
+      "1892"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Quelle règle monastique les trappistes suivent-ils ?",
+    "options": [
+      "Règle de saint François",
+      "Règle de saint Benoît",
+      "Règle de saint Augustin",
+      "Règle de saint Dominique"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Que signifie la promesse bénédictine de « Stabilitas » ?",
+    "options": [
+      "Attachement à vie à une seule communauté monastique",
+      "Un vœu de silence total",
+      "Un jeûne complet chaque jour",
+      "Le renoncement à toute possession personnelle"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Où une partie des trappistes s’est-elle réfugiée pendant la Révolution française, invitée par le tsar Paul Ier ?",
+    "options": [
+      "En Espagne",
+      "En Russie",
+      "Au Portugal",
+      "En Égypte"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Quelle viande est permise aux trappistes selon la réforme de 1664 ?",
+    "options": [
+      "Bœuf",
+      "Porc",
+      "Poisson et volaille",
+      "Agneau"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Que dit le chapitre 48 de la Règle de saint Benoît sur le travail manuel ?",
+    "options": [
+      "Le travail manuel n’est prescrit qu’aux novices",
+      "L’oisiveté est l’ennemie de l’âme",
+      "Le travail manuel remplace la prière",
+      "Le travail manuel n’est permis qu’en été"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "À partir de quelle année l’abbaye d’Orval a-t-elle brassé de la bière pour financer sa reconstruction ?",
+    "options": [
+      "1836",
+      "1931",
+      "1664",
+      "1892"
+    ],
+    "correct": 1
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "lestrange",
+    "term": "Augustin de Lestrange",
+    "description": "1754–1827. Maître des novices de l'abbaye de La Trappe, il s'enfuit en 1791 en Suisse devant la Révolution française et y fonda une communauté trappiste plus austère encore. Il envoya ensuite des moines dans toutes les directions d'Europe – l'un de ces groupes fonda Westmalle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Rue_des_Deux_Amants_%28Lyon%29_-_plaque_Dom_Augustin_de_L%27estrange.JPG",
+    "credit": "Plaque commémorative, Lyon · Wikimedia Commons, CC0"
+  },
+  {
+    "id": "rance",
+    "term": "Armand de Rancé",
+    "description": "1626–1700. Il réforma en 1664 l'abbaye de La Trappe, en Normandie : silence, travail manuel, pénitence stricte. Ses règles fondèrent le mouvement trappiste et autorisaient expressément les moines à boire de la bière aux repas.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Portrait_d%27Armand-Jean_Le_Bouthillier_de_Ranc%C3%A9%2C_abb%C3%A9_de_la_Trappe_-_Mus%C3%A9e_Cond%C3%A9.jpg",
+    "credit": "Portrait, Musée Condé · Wikimedia Commons, domaine public"
+  },
+  {
+    "id": "dom",
+    "term": "Martinus Dom",
+    "description": "1791–1873. Né Frans Daniël Dom à Kontich. Entré à Westmalle en 1817, il devint premier prieur en 1826 et premier abbé en 1836. Il proposa de brasser lui-même plutôt que d'acheter de la bière – le 1er août 1836, on brassa pour la première fois.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Martinus-dom.jpg",
+    "credit": "Portrait de Martinus Dom · Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+    "id": "novizenmeister",
+    "term": "maître des novices",
+    "description": "Le moine qui encadre et forme les novices – les futurs moines pendant la période probatoire de plusieurs années précédant les vœux définitifs."
+  },
+  {
+    "id": "priorat",
+    "term": "prieuré",
+    "description": "Une communauté monastique qui n'est pas encore une abbaye autonome. Dirigée par un prieur plutôt que par un abbé, généralement plus petite ou plus jeune qu'une abbaye."
+  }
+]

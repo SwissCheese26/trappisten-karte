@@ -1,0 +1,82 @@
+{
+  "brewery": "Spencer",
+  "sources": [
+    "https://en.wikipedia.org/wiki/St._Joseph%27s_Abbey_(Massachusetts)",
+    "https://fr.wikipedia.org/wiki/Abbaye_Saint-Joseph_de_Spencer",
+    "https://en.wikipedia.org/wiki/Our_Lady_of_the_Valley_(Cumberland,_Rhode_Island)",
+    "https://en.wikipedia.org/wiki/Tracadie,_Nova_Scotia",
+    "https://en.wikipedia.org/wiki/Trappist_beer"
+  ],
+  "stations": [
+    {
+      "year": "1825",
+      "title": "Mniši v Novém Skotsku",
+      "coordinates": [
+        -61.6702,
+        45.6221
+      ],
+      "zoom": 6,
+      "text": "Společenství bylo založeno v roce 1825 v Novém Skotsku (Vincent de Paul Merle); jeho klášter Petit Clairvaux stál v Tracadie. V roce 1892 těžký požár opatství zničil a poté následovalo přesídlení na Rhode Island."
+    },
+    {
+      "year": "1900",
+      "title": "Nový začátek na Rhode Islandu",
+      "coordinates": [
+        -71.4034,
+        41.9343
+      ],
+      "zoom": 8,
+      "text": "Dne 1. března 1900 dorazili mniši z Petit Clairvaux do Cumberlandu na Rhode Islandu, kde vybudovali žulový klášter „Our Lady of the Valley“. Pozemek se rozrostl až na 525 akrů."
+    },
+    {
+      "year": "21. března 1950",
+      "title": "Klášter hoří",
+      "coordinates": [
+        -71.4034,
+        41.9343
+      ],
+      "zoom": 9,
+      "text": "Dne 21. března 1950 zničil požár hlavní trakt a učinil klášterní kostel nepoužitelným; asi 140 mnichů, noviců a bratří zůstalo bez přístřeší. Požár urychlil již plánované přestěhování na odlehlejší místo."
+    },
+    {
+      "year": "1950",
+      "title": "St. Joseph's Abbey ve Spenceru",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "Společenství se v roce 1950 přestěhovalo do Spenceru v Massachusetts a vybudovalo St. Joseph's Abbey na pozemku bývalých Alta Crest Farms; prvním opatem byl Edmund Futterer. Do nového opatství se nastěhovalo asi osmdesát mnichů."
+    },
+    {
+      "year": "2010–2013",
+      "title": "Cesta k trapistickému pivovaru",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "V roce 2010 opatství zvažovalo vaření piva a hledalo radu u pivovarníků v Bostonu a v evropských trapistických pivovarech. V prosinci 2013 získalo právo užívat logo „Authentic Trappist Product“ (spolu se Zundertem); Spencer byl tak prvním certifikovaným trapistickým pivem v USA."
+    },
+    {
+      "year": "2013",
+      "title": "Spencer Trappist Ale",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "Spencer Brewery vařila od roku 2013 do roku 2022. Prvním pivem bylo Spencer Trappist Ale, blonde ale s 6,5 % alkoholu."
+    },
+    {
+      "year": "květen 2022",
+      "title": "Konec pivovaru",
+      "coordinates": [
+        -72.014475,
+        42.297664
+      ],
+      "zoom": 9,
+      "text": "V květnu 2022 opatství ukončilo výrobu piva a zavřelo Spencer Brewery. Jako důvody Wikipedie uvádí ekonomické následky pandemie covidu a více než 600 řemeslných pivovarů v Nové Anglii; francouzská Wikipedie uvádí příliš silnou konkurenci. Mniši v opatství žijí dál."
+    }
+  ]
+}

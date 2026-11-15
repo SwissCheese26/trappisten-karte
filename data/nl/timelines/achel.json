@@ -1,0 +1,90 @@
+{
+  "brewery": "Achel",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Achel_Brewery",
+    "https://brusselstimes.com/358914/belgium-loses-trappist-beer-following-brewery-purchase",
+    "https://www.vrt.be/vrtnws/en/2023/01/25/belgium-loses-trappist-beer/"
+  ],
+  "stations": [
+    {
+      "year": "1648",
+      "title": "Een kapel in het grensland",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "Nederlandse monniken richtten in 1648 in Achel een kapel op, dicht bij de grens met de Noordelijke Nederlanden – de oorsprong van de latere Achelse Kluis."
+    },
+    {
+      "year": "1686",
+      "title": "Abdij – en vernietiging",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1686 werd de kapel tot abdij verheven. Tijdens de Franse Revolutie werd ze verwoest en ze lag daarna lange tijd in puin."
+    },
+    {
+      "year": "1844",
+      "title": "Heropbouw door Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "Monniken uit Westmalle bouwden de ruïnes in 1844 weer op en begonnen met landbouw – hetzelfde Westmalle dat zelf pas vijftig jaar eerder was gesticht door vluchtelingen van de beweging van Lestrange."
+    },
+    {
+      "year": "1852",
+      "title": "Het eerste bier: Patersvaatje",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1852 brouwden de monniken hun eerste eigen bier, het „Patersvaatje”. In 1871 werd Achel officieel een trappistenklooster, waarbij het brouwen een vaste taak werd."
+    },
+    {
+      "year": "1914–1917",
+      "title": "Oorlog en koper",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1914 moesten de monniken de abdij verlaten wegens de Duitse bezetting. In 1917 demonteerden de bezetters de brouwerij volledig om ongeveer 700 kilogram koper voor de oorlogsindustrie te winnen."
+    },
+    {
+      "year": "1998",
+      "title": "Nieuwe start met hulp van Westmalle en Rochefort",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "In 1998 besloten de weinige overgebleven monniken opnieuw te brouwen. Monniken uit Westmalle en Rochefort hielpen bij de opbouw van de nieuwe brouwerij; in 2001 kwam „Achel 8°” op de markt."
+    },
+    {
+      "year": "januari 2021",
+      "title": "Het einde als trappistenbrouwerij",
+      "coordinates": [
+        5.488572,
+        51.298778
+      ],
+      "zoom": 9,
+      "text": "Toen de laatste brouwende monniken vertrokken, verloor Achel in januari 2021 zijn trappistenstatus – na een laatste periode als de kleinste trappistenbrouwerij van België. Een ondernemer kocht de gebouwen; er wordt daar nog steeds gebrouwen, alleen niet meer als trappistenbier."
+    },
+    {
+      "year": "2021",
+      "title": "Terug naar Westmalle",
+      "coordinates": [
+        4.65667,
+        51.28472
+      ],
+      "zoom": 7,
+      "text": "De twee laatste monniken keerden terug naar Westmalle, waar 227 jaar eerder alles begonnen was – dezelfde plaats vanwaar in 1844 de monniken kwamen die Achel hadden heropgebouwd. De cirkel is rond."
+    }
+  ]
+}

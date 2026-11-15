@@ -1,0 +1,80 @@
+{
+  "brewery": "Orval",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Orval_Abbey",
+    "https://en.wikipedia.org/wiki/Trois-Fontaines_Abbey",
+    "https://en.wikipedia.org/wiki/Orval_Brewery"
+  ],
+  "stations": [
+    {
+      "year": "kolem 1070",
+      "title": "První mniši",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 7,
+      "text": "Benediktinští mniši z Kalábrie v jižní Itálii se zde usadili a začali budovat kostel a klášter. Po zhruba čtyřiceti letech místo opustili, než stavbu dokončili kanovníci."
+    },
+    {
+      "year": "1132",
+      "title": "Cisterciáci ze Champagne",
+      "coordinates": [
+        4.949186,
+        48.717496
+      ],
+      "zoom": 7,
+      "text": "Skupina cisterciáckých mnichů z opatství Trois-Fontaines v Champagni dorazila roku 1132 do Orvalu a splynula s dosavadní komunitou pod vedením prvního opata Constantina."
+    },
+    {
+      "year": "1637",
+      "title": "Zpustošeno za třicetileté války",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "V roce 1637 francouzská žoldnéřská vojska opatství během třicetileté války vyplenila a vypálila."
+    },
+    {
+      "year": "1793",
+      "title": "Vypáleno za revoluce",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "V roce 1793 francouzská revoluční vojska opatství úplně vypálila – jako odvetu za to, že poskytlo úkryt rakouským vojskům. Komunita byla násilně rozptýlena."
+    },
+    {
+      "year": "1926",
+      "title": "Zříceniny jsou vráceny",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 8,
+      "text": "Přes sto let zůstal Orval zříceninou, až rodina Harenne věnovala roku 1926 pozemky cisterciáckému řádu, aby zde byl opět možný klášterní život."
+    },
+    {
+      "year": "1931",
+      "title": "Pivo na obnovu",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "Pod vedením trapisty Marie-Alberta van der Cruyssena vznikalo od roku 1926 nové opatství. V roce 1931 mniši oživili středověké pivovarnictví – ne z tradice, ale aby financovali obnovu."
+    },
+    {
+      "year": "8. září 1948",
+      "title": "Nový kostel",
+      "coordinates": [
+        5.34889,
+        49.63972
+      ],
+      "zoom": 9,
+      "text": "Vysvěcením nového opatského kostela 8. září 1948 byla obnova v podstatě dokončena. Orval dodnes vaří jen toto jediné pivo."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "brewery": "Cardeña",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Monasterio_de_San_Pedro_de_Carde%C3%B1a",
+    "https://en.wikipedia.org/wiki/San_Pedro_de_Carde%C3%B1a",
+    "https://nl.wikipedia.org/wiki/Trappistenbier",
+    "https://es.wikipedia.org/wiki/Cerveza_trapense"
+  ],
+  "stations": [
+    {
+      "year": "Omstreeks 900",
+      "title": "Benedictijnen bij Burgos",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 7,
+      "text": "San Pedro de Cardeña ontstond als benedictijnenabdij bij Burgos. De stichting dateert van vóór 902: op 24 september 902 schonken graaf Gonzalo Téllez en zijn vrouw Flámula het klooster land en zoutwinningen als eerste gedocumenteerde schenking. Als begin van de bouw wordt ook 899 genoemd."
+    },
+    {
+      "year": "9e of 10e eeuw",
+      "title": "De martelaren van Cardeña",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Vermeldt het doden van monniken.",
+      "text": "Volgens de overlevering werden de monniken in de 9e of 10e eeuw door moslims gedood; ze werden in 1603 heilig verklaard en vereerd als „martelaren van Cardeña”. Een oorkondelijk bewijs hiervoor bestaat niet."
+    },
+    {
+      "year": "1102",
+      "title": "Het klooster van El Cid",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "El Cid stierf in 1099 en werd eerst in Valencia bijgezet. In 1102 liet zijn weduwe Jimena Díaz de stad ontruimen en kwamen zijn beenderen naar Cardeña. Daar bleven ze enkele jaren; het klooster blijft tot vandaag nauw met El Cid verbonden."
+    },
+    {
+      "year": "19e eeuw",
+      "title": "Opheffing van de kloosters",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "text": "Met de desamortización onder Mendizábal werd Cardeña opgeheven en doofde het kloosterleven uit. Een precies jaar noemt de geraadpleegde bron niet."
+    },
+    {
+      "year": "1936 tot 1939",
+      "title": "Kamp tijdens de burgeroorlog",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 8,
+      "sensitive": true,
+      "trigger_warning": "Vermeldt gevangenschap en mishandeling van krijgsgevangenen.",
+      "text": "In de Spaanse Burgeroorlog diende het lege klooster als concentratiekamp van de Franco-zijde voor republikeinse krijgsgevangenen, vooral internationale brigadisten. Er zaten meer dan 4000 gevangenen vast, ook Baskische soldaten en kapelaans, en het werd in november 1939 gesloten."
+    },
+    {
+      "year": "1 mei 1942",
+      "title": "Trappisten keren terug",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Op 1 mei 1942 werd het kloosterleven hersteld door trappisten uit het klooster San Isidro de Dueñas in de provincie Palencia."
+    },
+    {
+      "year": "1945 en 1948",
+      "title": "Verheven tot abdij",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "In 1945 werd de gemeenschap tot priorij verheven, in 1948 tot abdij; eerste abt was Jesús Álvarez Álvarez. Het klooster ligt bij Castrillo del Val, ten oosten van Burgos."
+    },
+    {
+      "year": "16 maart 2016",
+      "title": "Het eerste Spaanse trappistenbier",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Op 16 maart 2016 kwam de Cardeña Tripel (7 %) op de markt, het eerste Spaanse trappistenbier. Ze wordt niet in het klooster gebrouwen, maar bij MarPal in Madrid, en draagt daarom niet het logo „Authentic Trappist Product”."
+    },
+    {
+      "year": "2021 en 2022",
+      "title": "Meer bieren",
+      "coordinates": [
+        -3.607394,
+        42.304318
+      ],
+      "zoom": 9,
+      "text": "Volgens de Nederlandse Wikipedia volgden in 2021 de Cardeña Doble (6 %) en in 2022 de Cardeña Quadrupel (10 %). Ook zij voeren het ATP-logo niet."
+    }
+  ]
+}

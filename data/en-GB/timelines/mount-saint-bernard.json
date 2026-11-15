@@ -1,0 +1,82 @@
+{
+  "brewery": "Mount Saint Bernard",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mount_St_Bernard_Abbey",
+    "https://www.british-history.ac.uk/vch/leics/vol2/pp53-54",
+    "https://en.wikipedia.org/wiki/Tynt_Meadow",
+    "https://msbtrappist.co.uk/the-story/",
+    "https://protzonbeer.co.uk/news/2018/06/27/monks-restore-historic-brewing-tradition"
+  ],
+  "stations": [
+    {
+      "year": "1833",
+      "title": "Mount Melleray in Ireland",
+      "coordinates": [
+        -7.87,
+        52.15
+      ],
+      "zoom": 6,
+      "text": "After the July Revolution of 1830 the monks of Melleray were harassed once more and in 1833 founded Mount Melleray Abbey in Ireland. From there the foundation in England was to proceed a little later."
+    },
+    {
+      "year": "1835",
+      "title": "Six monks in Leicestershire",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 8,
+      "text": "In 1835, on land belonging to the Catholic convert Ambrose Phillipps de Lisle, six monks from Mount Melleray under Father Odilo Woolfrey settled. It was the first lasting monastic foundation in England since the Reformation."
+    },
+    {
+      "year": "Michaelmas 1835",
+      "title": "The cottage on Tynt Meadow",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "The community at first occupied a half-derelict cottage on the plot called Tynt Meadow. Later it moved to the present site of the abbey, about 400 metres away."
+    },
+    {
+      "year": "1844",
+      "title": "The new monastery after Pugin",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "In 1844 the new monastery building was opened on the present site. The architect Augustus Welby Pugin had offered his services free of charge."
+    },
+    {
+      "year": "1848",
+      "title": "Elevation to an abbey",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "In 1848 Pope Pius IX raised the monastery to an abbey. Bernard Palmer was consecrated on 18 February 1849 as the first English abbot since the Reformation."
+    },
+    {
+      "year": "2017–2018",
+      "title": "A brewery in the monastery",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "When farming could no longer support the abbey, the monks decided to brew. Between 2017 and 2018 the brewery was built within the monastery walls."
+    },
+    {
+      "year": "2018",
+      "title": "Tynt Meadow, the first British Trappist beer",
+      "coordinates": [
+        -1.323072,
+        52.741352
+      ],
+      "zoom": 9,
+      "text": "In summer 2018 Tynt Meadow came onto the market, a dark strong ale of 7.4% alcohol. It became the twelfth Trappist beer with the “Authentic Trappist Product” label and the first from Great Britain. The name recalls the plot on which monastic life in the Midlands began."
+    }
+  ]
+}

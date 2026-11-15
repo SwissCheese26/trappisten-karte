@@ -1,0 +1,40 @@
+{
+  "heading": "Regels van de trappisten",
+  "intro": "Trappisten volgen de Regel van de heilige Benedictus (6e eeuw), aangescherpt door de hervorming van Armand de Rancé in 1664. Deze zeven punten bepalen het leven in de abdij tot vandaag.",
+  "rules": [
+    {
+      "title": "Stabilitas – plaatsgebondenheid",
+      "text": "Een monnik verbindt zich voor het leven aan één enkele kloostergemeenschap, niet alleen aan één plaats. Benedictus van Nursia, Regel, hoofdstuk 58."
+    },
+    {
+      "title": "Conversatio morum – levensbekering",
+      "text": "De belofte van een voortdurende, dagelijkse hinwending tot een eenvoudiger leven dat op God gericht is – geen eenmalige daad, maar een blijvend proces."
+    },
+    {
+      "title": "Oboedientia – gehoorzaamheid",
+      "text": "Letterlijk „luisteren“: gehoorzaamheid aan de abt en de gemeenschap als oefening in luisteren, niet als louter ondergeschiktheid."
+    },
+    {
+      "title": "Stilte",
+      "text": "Geen strikte stiltegelofte, maar een beleefde terughoudendheid: er wordt enkel gesproken wanneer het nodig is. Maaltijden worden gezamenlijk en in stilte genuttigd, begeleid door een lezing."
+    },
+    {
+      "title": "Handarbeid",
+      "text": "„Nietsdoen is de vijand van de ziel“ (Regel, hoofdstuk 48). Lichamelijke arbeid zorgt voor het levensonderhoud van de gemeenschap en is tegelijk een geestelijke oefening – daaruit groeiden ambachten zoals het brouwen."
+    },
+    {
+      "title": "Eenvoud en boete",
+      "text": "De hervorming van De Rancé in 1664 scherpte de Regel aan: eenvoudige kost, afzien van vlees van viervoetige dieren (vis en gevogelte zijn toegestaan), teruggetrokkenheid uit de wereld."
+    },
+    {
+      "title": "Koorgebed",
+      "text": "De getijdenliturgie – meermaals per dag gezamenlijk gebed – vormt de ruggengraat van de dagindeling, waarrond arbeid en rust georganiseerd zijn."
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict",
+    "https://en.wikipedia.org/wiki/Trappists",
+    "https://westminsterabbey.ca/benedictine-monasticism/our-vowed-life/",
+    "https://mirfield.org.uk/?p=92"
+  ]
+}
