@@ -1,0 +1,62 @@
+{
+  "brewery": "Zundert",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zundert_Trappist",
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://abdijmariatoevlucht.nl/geschiedenis/",
+    "https://zunderttrappist.nl/en/",
+    "https://nltimes.nl/2025/05/14/trappist-brewery-zundert-set-close-citing-lack-occupancy",
+    "https://www.omroepbrabant.nl/nieuws/4742362/na-125-jaar-sluit-trappistenabdij-laatste-monniken-vertrokken"
+  ],
+  "stations": [
+    {
+      "year": "1881",
+      "title": "Trappisten aus Nordfrankreich",
+      "coordinates": [2.6431, 50.785],
+      "zoom": 6,
+      "text": "Die Wurzeln liegen in der französischen Trappistenabtei Mont des Cats. Von dort ließen sich 1881 Mönche bei Tilburg in den Niederlanden nieder und gründeten die Koningshoeven."
+    },
+    {
+      "year": "1899",
+      "title": "Zwei Mönche gehen nach Zundert",
+      "coordinates": [5.1195, 51.56],
+      "zoom": 8,
+      "text": "Die Gemeinschaft in Koningshoeven wuchs so stark, dass sie eine Tochtergründung wagen konnte. Im Herbst 1899 zogen Pater Nivardus Muis und Bruder Dorotheüs de Vries von Tilburg nach Zundert."
+    },
+    {
+      "year": "24. Mai 1900",
+      "title": "Einweihung von Maria Toevlucht",
+      "coordinates": [4.607, 51.496],
+      "zoom": 9,
+      "text": "Am 24. Mai 1900 weihte der Abt von Tilburg Kirche und Kloster ein. Mit zwölf Mönchen begann die Gemeinschaft als Priorat von Koningshoeven; der Name „Maria Toevlucht” (Maria Zuflucht) erinnert an die Zuflucht für Ordensleute in Zeiten der französischen Klosterpolitik."
+    },
+    {
+      "year": "1938",
+      "title": "Zur Abtei erhoben",
+      "coordinates": [4.607, 51.496],
+      "zoom": 9,
+      "text": "Am 14. September 1938 wurde das Priorat zur selbstständigen Abtei erhoben. Am 19. Oktober desselben Jahres wählten die Brüder Pater Nivardus Muis zum ersten Abt."
+    },
+    {
+      "year": "Dezember 2013",
+      "title": "Das eigene Trappistenbier",
+      "coordinates": [4.607, 51.496],
+      "zoom": 9,
+      "text": "Weil die Landwirtschaft zu arbeitsintensiv wurde, errichteten die Mönche die Brauerei De Kievit (2011 gebaut). Im Dezember 2013 kam „Zundert Trappist” auf den Markt, als zweites niederländisches Bier mit dem Label „Authentic Trappist Product”."
+    },
+    {
+      "year": "13. Mai 2025",
+      "title": "Schließung angekündigt",
+      "coordinates": [4.607, 51.496],
+      "zoom": 9,
+      "text": "Wegen Mönchsmangels baten die Brüder am 13. Mai 2025 den Generalkonvent ihres Ordens um Erlaubnis, die Abtei zu schließen. Damit stand auch das Trappistenbier vor dem Aus, denn es darf nur innerhalb einer lebendigen Klostergemeinschaft gebraut werden."
+    },
+    {
+      "year": "2025",
+      "title": "Ende nach 125 Jahren",
+      "coordinates": [4.607, 51.496],
+      "zoom": 9,
+      "text": "Die letzten Mönche verließen Ende August 2025 das Kloster; im September 2025 stimmte der Generalkonvent zu, das klösterliche Leben endete. Die Brauerei stellte die Produktion von Zundert Trappist ein, das Label „Authentic Trappist Product” entfiel."
+    }
+  ]
+}

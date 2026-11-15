@@ -947,3 +947,89 @@ body {
     font-size: 1rem;
   }
 }
+
+/* --- Sprachwahl ------------------------------------------------------ */
+.lang-select {
+  margin-left: auto;
+  font: inherit;
+  background: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.lang-picker {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  background: rgba(28, 31, 26, 0.92);
+  padding: 16px;
+}
+.lang-picker[hidden] { display: none; }
+.lang-picker__card {
+  background: #e9e4d4;
+  color: #1c1f1a;
+  border: 3px double #343a2e;
+  padding: 28px 24px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+.lang-picker__cross { position: relative; width: 28px; height: 44px; margin: 0 auto 14px; }
+.lang-picker__cross::before, .lang-picker__cross::after { content: ""; position: absolute; background: #1c1f1a; }
+.lang-picker__cross::before { left: 12px; top: 0; width: 4px; height: 44px; }
+.lang-picker__cross::after { left: 0; top: 12px; width: 28px; height: 4px; }
+.lang-picker__title { font-family: "Cinzel", serif; font-size: 1rem; letter-spacing: 0.04em; margin: 0 0 16px; }
+.lang-picker__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.lang-picker__list button {
+  width: 100%;
+  font: 600 1.1rem "Cormorant Garamond", serif;
+  padding: 12px;
+  background: transparent;
+  color: inherit;
+  border: 1px solid #343a2e;
+  cursor: pointer;
+}
+.lang-picker__list button:hover, .lang-picker__list button:focus-visible { background: #1c1f1a; color: #e9e4d4; }
+
+/* --- Entwicklerwerkzeuge-Hürde ---------------------------------------- */
+.devtools-cross {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 24px;
+  background: #1c1f1a;
+  color: #e9e4d4;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+.devtools-cross[hidden] { display: none; }
+.devtools-cross__symbol { position: relative; width: 120px; height: 180px; }
+.devtools-cross__symbol::before, .devtools-cross__symbol::after { content: ""; position: absolute; background: #e9e4d4; }
+.devtools-cross__symbol::before { left: 52px; top: 0; width: 16px; height: 180px; }
+.devtools-cross__symbol::after { left: 0; top: 52px; width: 120px; height: 16px; }
+.devtools-cross__quote { margin: 0; font-size: 1.5rem; max-width: 36ch; }
+.devtools-cross__source { margin: 0; font-size: 1rem; opacity: 0.7; }
+
+/* --- Popup-Seiten, Cluster, Auswahl (Issues #3, #5, #6) ---------------- */
+.popup-page__nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 8px; }
+.popup-page__nav button { font: inherit; padding: 2px 10px; border: 1px solid #343a2e; background: transparent; cursor: pointer; }
+.popup-page__nav button:disabled { opacity: 0.3; cursor: default; }
+.popup-page__count { font-size: 0.85rem; opacity: 0.7; }
+.popup-page[hidden] { display: none; }
+.popup-beers { margin: 0; padding-left: 18px; }
+.brewery-cluster {
+  width: 30px; height: 30px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #343a2e; color: #e9e4d4; border: 2px solid #a9712b;
+  font: 700 0.85rem "Cinzel", serif; cursor: pointer;
+}
+.has-selection .brewery-marker:not(.is-selected),
+.has-selection .brewery-cluster { opacity: 0; pointer-events: none; }

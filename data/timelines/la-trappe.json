@@ -1,0 +1,61 @@
+{
+  "brewery": "La Trappe",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Koningshoeven_Abbey",
+    "https://en.wikipedia.org/wiki/De_Koningshoeven_Brewery",
+    "https://ocso.org/monastery/tilburg/",
+    "https://ocso.org/monastery/mont-des-cats",
+    "https://wierookwijwaterenworstenbrood.nl/ontdekken/verhalen/abdij-koningshoeven-in-berkel-enschot"
+  ],
+  "stations": [
+    {
+      "year": "um 1880",
+      "title": "Zuflucht vor dem Exil",
+      "coordinates": [2.6528, 50.7869],
+      "zoom": 6,
+      "text": "Die Trappisten von Mont des Cats in Nordfrankreich fürchteten, aus Frankreich ausgewiesen zu werden, und suchten Zuflucht im Ausland. Abt Dominique Lacaes schickte den früheren Zuaven-Offizier Sébastien Wyart los, um in England oder den Niederlanden einen Ort zu finden."
+    },
+    {
+      "year": "1881",
+      "title": "Gründung in Berkel-Enschot",
+      "coordinates": [5.12972, 51.54361],
+      "zoom": 8,
+      "text": "Im März 1881 gründete Mont des Cats das Kloster Koningshoeven bei Tilburg. Der Ort war die Schaapskooi, eine Gruppe von Gehöften, die der niederländische Kronprinz Willem 1834 hatte errichten lassen."
+    },
+    {
+      "year": "1883",
+      "title": "Zum Priorat erhoben",
+      "coordinates": [5.12972, 51.54361],
+      "zoom": 9,
+      "text": "Laut dem Zisterzienserorden (OCSO) wurde die junge Gemeinschaft 1883 zum Priorat erhoben. Die Landwirtschaft allein trug das Kloster noch nicht."
+    },
+    {
+      "year": "1884",
+      "title": "Die Brauerei entsteht",
+      "coordinates": [5.12972, 51.54361],
+      "zoom": 9,
+      "text": "1884 richteten die Mönche innerhalb der Klostermauern eine Brauerei ein, um das Kloster und seine karitativen Aufgaben zu finanzieren. Das Bier wird bis heute unter dem Namen La Trappe verkauft."
+    },
+    {
+      "year": "1891",
+      "title": "Koningshoeven wird Abtei",
+      "coordinates": [5.12972, 51.54361],
+      "zoom": 9,
+      "text": "Laut OCSO wurde die Gemeinschaft 1891 zur Abtei erhoben. Dom Willibrord Verbruggen gilt als erster Abt."
+    },
+    {
+      "year": "1999",
+      "title": "Streit um das Trappisten-Siegel",
+      "coordinates": [5.12972, 51.54361],
+      "zoom": 9,
+      "text": "1999 schloss die Abtei einen Vertrag mit dem Brauereikonzern Bavaria, der den Brauereibetrieb übernahm. Daraufhin verlor Koningshoeven das Recht, sein Bier als Trappistenbier zu bezeichnen."
+    },
+    {
+      "year": "2005",
+      "title": "Das Siegel kehrt zurück",
+      "coordinates": [5.12972, 51.54361],
+      "zoom": 9,
+      "text": "Nach einem Antrag vom Februar 2005 erlaubte die International Trappist Association der Brauerei, das offizielle Trappisten-Logo wieder zu führen. Die Brauerei wird weiter von einer Bavaria-Tochter betrieben, während die Abtei Gebäude und Aufsicht behält."
+    }
+  ]
+}
