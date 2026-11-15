@@ -1,6 +1,6 @@
 [
   {
-    "question": "Que signifie l’abréviation « OCSO », nom officiel de l’ordre des trappistes ?",
+    "question": "Que signifie l’abréviation « OCSO », nom officiel de l’ordre des trappistes ?",
     "options": [
       "Ordre des clunisiens de stricte coutume",
       "Ordre des cisterciens de la stricte observance",
@@ -10,7 +10,7 @@
     "correct": 1
   },
   {
-    "question": "En quelle année Armand de Rancé a-t-il réformé en profondeur l’abbaye de La Trappe ?",
+    "question": "En quelle année Armand de Rancé a-t-il réformé en profondeur l’abbaye de La Trappe ?",
     "options": [
       "1598",
       "1664",
@@ -20,7 +20,7 @@
     "correct": 1
   },
   {
-    "question": "Quelle règle monastique les trappistes suivent-ils ?",
+    "question": "Quelle règle monastique les trappistes suivent-ils ?",
     "options": [
       "Règle de saint François",
       "Règle de saint Benoît",
@@ -30,7 +30,7 @@
     "correct": 1
   },
   {
-    "question": "Que signifie la promesse bénédictine de « Stabilitas » ?",
+    "question": "Que signifie la promesse bénédictine de « Stabilitas » ?",
     "options": [
       "Attachement à vie à une seule communauté monastique",
       "Un vœu de silence total",
@@ -40,7 +40,7 @@
     "correct": 0
   },
   {
-    "question": "Où une partie des trappistes s’est-elle réfugiée pendant la Révolution française, invitée par le tsar Paul Ier ?",
+    "question": "Où une partie des trappistes s’est-elle réfugiée pendant la Révolution française, invitée par le tsar Paul Ier ?",
     "options": [
       "En Espagne",
       "En Russie",
@@ -50,7 +50,7 @@
     "correct": 1
   },
   {
-    "question": "Quelle viande est permise aux trappistes selon la réforme de 1664 ?",
+    "question": "Quelle viande est permise aux trappistes selon la réforme de 1664 ?",
     "options": [
       "Bœuf",
       "Porc",
@@ -60,7 +60,7 @@
     "correct": 2
   },
   {
-    "question": "Que dit le chapitre 48 de la Règle de saint Benoît sur le travail manuel ?",
+    "question": "Que dit le chapitre 48 de la Règle de saint Benoît sur le travail manuel ?",
     "options": [
       "Le travail manuel n’est prescrit qu’aux novices",
       "L’oisiveté est l’ennemie de l’âme",
@@ -70,7 +70,7 @@
     "correct": 1
   },
   {
-    "question": "À partir de quelle année l’abbaye d’Orval a-t-elle brassé de la bière pour financer sa reconstruction ?",
+    "question": "À partir de quelle année l’abbaye d’Orval a-t-elle brassé de la bière pour financer sa reconstruction ?",
     "options": [
       "1836",
       "1931",

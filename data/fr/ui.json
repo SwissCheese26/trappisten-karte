@@ -16,7 +16,7 @@
   "cross_aria": "Revenir à la vue de la carte",
   "hidden_one": "+ 1 chapitre éprouvant masqué — réglage dans l’en-tête",
   "hidden_many": "+ {n} chapitres éprouvants masqués — réglage dans l’en-tête",
-  "trigger_prefix": "⚠ Avertissement de contenu : {text}",
+  "trigger_prefix": "⚠ Avertissement de contenu : {text}",
   "trigger_default": "contenus éprouvants",
   "popup_founded": "Abbaye fondée en {year}",
   "popup_brewing_since": "Bière depuis {year}",

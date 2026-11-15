@@ -8,13 +8,13 @@
   "stations": [
     {
       "year": "1814",
-      "title": "L'ermite dans la forêt",
+      "title": "L’ermite dans la forêt",
       "coordinates": [
         2.721262,
         50.895942
       ],
       "zoom": 9,
-      "text": "Bien avant qu'il y ait une abbaye, un seul ermite vivait ici : Jan-Baptist Victoor se retira en 1814 dans les bois de Westvleteren."
+      "text": "Bien avant qu’il y ait une abbaye, un seul ermite vivait ici : Jan-Baptist Victoor se retira en 1814 dans les bois de Westvleteren."
     },
     {
       "year": "1831",
@@ -34,7 +34,7 @@
         50.895942
       ],
       "zoom": 9,
-      "text": "En 1838 fut construite, à l'intérieur des murs du monastère, la brasserie – conçue dès le départ pour les besoins de la communauté, non pour le commerce."
+      "text": "En 1838 fut construite, à l’intérieur des murs du monastère, la brasserie – conçue dès le départ pour les besoins de la communauté, non pour le commerce."
     },
     {
       "year": "25 juillet 1850",
@@ -54,7 +54,7 @@
         50.895942
       ],
       "zoom": 9,
-      "text": "Ce n'est qu'en 1871 que le pape Pie IX éleva officiellement le prieuré au rang d'abbaye – quarante ans après les premiers moines dans la forêt."
+      "text": "Ce n’est qu’en 1871 que le pape Pie IX éleva officiellement le prieuré au rang d’abbaye – quarante ans après les premiers moines dans la forêt."
     },
     {
       "year": "Première Guerre mondiale",
@@ -64,7 +64,7 @@
         50.895942
       ],
       "zoom": 9,
-      "text": "Pendant la Première Guerre mondiale, l'abbaye se trouvait près du front en Flandre et offrit par moments refuge à des réfugiés et à des soldats – au total, près de 400 000 soldats alliés auraient séjourné dans le monastère et ses environs."
+      "text": "Pendant la Première Guerre mondiale, l’abbaye se trouvait près du front en Flandre et offrit par moments refuge à des réfugiés et à des soldats – au total, près de 400 000 soldats alliés auraient séjourné dans le monastère et ses environs."
     },
     {
       "year": "1945",
@@ -74,7 +74,7 @@
         50.895942
       ],
       "zoom": 9,
-      "text": "En 1945, l'abbé limita volontairement la production annuelle à 4 800 hectolitres. Cette attitude vaut encore aujourd'hui : Westvleteren ne vend sa bière qu'en petites quantités, directement à l'abbaye, jamais par le commerce ordinaire."
+      "text": "En 1945, l’abbé limita volontairement la production annuelle à 4 800 hectolitres. Cette attitude vaut encore aujourd’hui : Westvleteren ne vend sa bière qu’en petites quantités, directement à l’abbaye, jamais par le commerce ordinaire."
     }
   ]
 }
